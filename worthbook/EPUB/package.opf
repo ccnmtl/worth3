@@ -1,41 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="id">
-	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="id">http://www.gutenberg.org/ebooks/</dc:identifier>
-		<meta property="dcterms:modified">2017-03-17T00:00:00Z</meta>
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+        <dc:identifier id="id">http://www.gutenberg.org/ebooks/</dc:identifier>
+        <meta property="dcterms:modified">2017-03-17T00:00:00Z</meta>
 
-		<dc:title id="t1">WORTH</dc:title>
-		<meta refines="#t1" property="title-type">main</meta>
-		<meta refines="#t1" property="display-seq">1</meta>
+        <dc:title id="t1">WORTH</dc:title>
+        <meta refines="#t1" property="title-type">main</meta>
+        <meta refines="#t1" property="display-seq">1</meta>
 
-		<dc:title id="t2">Women on the Road to Health</dc:title>
-		<meta refines="#t2" property="title-type">subtitle</meta>
-		<meta refines="#t2" property="display-seq">2</meta>
+        <dc:title id="t2">Women on the Road to Health</dc:title>
+        <meta refines="#t2" property="title-type">subtitle</meta>
+        <meta refines="#t2" property="display-seq">2</meta>
 
-		<dc:creator id="curry">Columbia University CTL</dc:creator>
-		<meta property="file-as" refines="#curry">Curry, Charles Madison</meta>
+        <dc:creator id="curry">Columbia University CTL</dc:creator>
+        <meta property="file-as" refines="#curry">Curry, Charles Madison</meta>
 
-		<dc:creator id="clippinger">Erle Elsworth Clippinger</dc:creator>
-		<meta property="file-as" refines="#clippinger">Clippinger, Erle Elsworth</meta>
+        <dc:creator id="clippinger">Erle Elsworth Clippinger</dc:creator>
+        <meta property="file-as" refines="#clippinger">Clippinger, Erle Elsworth</meta>
 
-		<dc:language>en</dc:language>
+        <dc:language>en</dc:language>
 
-		<dc:date>2017-03-09</dc:date>
+        <dc:date>2017-03-09</dc:date>
 
-		<dc:rights>Public domain in the USA.</dc:rights>
-	</metadata>
-	<manifest>
-		<item href="css/epub.css" id="css01" media-type="text/css"/>
-		<item href="css/nav.css" id="css02" media-type="text/css"/>
-		<item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
-		<item href="s01.xhtml" id="s01" media-type="application/xhtml+xml"/>
-		<item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav scripted"/>
-		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
-	</manifest>
-	<spine toc="ncx">
-		<itemref idref="cover"/>
-		<itemref idref="nav"/>
-		<itemref idref="s01"/>
-	</spine>
+        <dc:rights>Public domain in the USA.</dc:rights>
+    </metadata>
+    <manifest>
+        <item href="css/bootstrap.min.css" id="css00" media-type="text/css"/>
+        <item href="css/epub.css" id="css01" media-type="text/css"/>
+        <item href="css/nav.css" id="css02" media-type="text/css"/>
+
+        <item href="js/jquery-3.2.0.min.js" id="jquery-3.2.0.min.js" media-type="text/javascript"/>
+        <item href="js/myth-fact.js" id="myth-fact.js" media-type="text/javascript"/>
+
+        <item href="video/mythfact01.mp4" id="mythfact01.mp4" media-type="video/mp4"/>
+
+        <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+        <item href="s01.xhtml" id="s01" media-type="application/xhtml+xml" properties="scripted"/>
+        <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav scripted"/>
+        <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    </manifest>
+    <spine toc="ncx">
+        <itemref idref="cover"/>
+        <itemref idref="nav"/>
+        <itemref idref="s01"/>
+    </spine>
 </package>
