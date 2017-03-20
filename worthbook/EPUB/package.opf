@@ -37,6 +37,8 @@
 
         <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
         <item href="s01.xhtml" id="s01" media-type="application/xhtml+xml" properties="scripted"/>
+        <item href="s02.xhtml" id="s02" media-type="application/xhtml+xml" properties="scripted"/>
+        <item href="s03.xhtml" id="s03" media-type="application/xhtml+xml" properties="scripted"/>
         <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav scripted"/>
         <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
     </manifest>
@@ -44,5 +46,7 @@
         <itemref idref="cover"/>
         <itemref idref="nav"/>
         <itemref idref="s01"/>
+        <itemref idref="s02"/>
+        <itemref idref="s03"/>
     </spine>
 </package>
