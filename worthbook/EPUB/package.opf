@@ -14,10 +14,6 @@
         <meta refines="#t2" property="display-seq">2</meta>
 
         <dc:creator id="curry">Columbia University CTL</dc:creator>
-        <meta property="file-as" refines="#curry">Curry, Charles Madison</meta>
-
-        <dc:creator id="clippinger">Erle Elsworth Clippinger</dc:creator>
-        <meta property="file-as" refines="#clippinger">Clippinger, Erle Elsworth</meta>
 
         <dc:language>en</dc:language>
 
@@ -34,6 +30,16 @@
         <item href="js/myth-fact.js" id="myth-fact.js" media-type="text/javascript"/>
 
         <item href="video/mythfact01.mp4" id="mythfact01.mp4" media-type="video/mp4"/>
+
+        <item href="img/emojione/1f600.png" id="f600.png" media-type="image/png"/>
+        <item href="img/emojione/1f602.png" id="f602.png" media-type="image/png"/>
+        <item href="img/emojione/1f610.png" id="f610.png" media-type="image/png"/>
+        <item href="img/emojione/1f644.png" id="f644.png" media-type="image/png"/>
+        <item href="img/emojione/1f61d.png" id="f61d.png" media-type="image/png"/>
+        <item href="img/emojione/1f643.png" id="f643.png" media-type="image/png"/>
+        <item href="img/emojione/1f621.png" id="f621.png" media-type="image/png"/>
+        <item href="img/emojione/1f607.png" id="f607.png" media-type="image/png"/>
+        <item href="img/emojione/1f912.png" id="f912.png" media-type="image/png"/>
 
         <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
         <item href="s01.xhtml" id="s01" media-type="application/xhtml+xml" properties="scripted"/>
