@@ -30,7 +30,7 @@
         <item href="css/epub.css" id="css01" media-type="text/css"/>
         <item href="css/nav.css" id="css02" media-type="text/css"/>
 
-        <item href="js/jquery-3.2.0.min.js" id="jquery-3.2.0.min.js" media-type="text/javascript"/>
+        <item href="js/jquery-3.2.0.slim.min.js" id="jquery-3.2.0.slim.min.js" media-type="text/javascript"/>
         <item href="js/myth-fact.js" id="myth-fact.js" media-type="text/javascript"/>
 
         <item href="video/mythfact01.mp4" id="mythfact01.mp4" media-type="video/mp4"/>
