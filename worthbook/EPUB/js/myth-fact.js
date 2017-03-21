@@ -27,6 +27,7 @@ $(document).ready(function() {
         $('button.s2-true,button.s2-false').addClass('disabled');
         $('button.s2-true,button.s2-false').attr('disabled', true);
         $('.alert.wrong-answer').removeClass('hidden');
+        updateProgressBar(40);
     });
     $('button.s2-false').click(function(e) {
         e.preventDefault();
@@ -34,6 +35,7 @@ $(document).ready(function() {
         $('button.s2-true,button.s2-false').addClass('disabled');
         $('button.s2-true,button.s2-false').attr('disabled', true);
         $('.alert.right-answer').removeClass('hidden');
+        updateProgressBar(40);
     });
     $('button.s2').click(function(e) {
         e.preventDefault();
