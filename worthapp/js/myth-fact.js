@@ -1,3 +1,5 @@
+/* global $, updateProgressBar */
+
 (function() {
     var resetActivity = function($container) {
         updateProgressBar($container, 0);

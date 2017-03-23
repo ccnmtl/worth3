@@ -1,0 +1,23 @@
+{
+  "name": "worth",
+  "version": "1.0.0",
+  "description": "Women on the Road to Health",
+  "main": "js/common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint js/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccnmtl/worth3.git"
+  },
+  "author": "Nik Nyby",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/ccnmtl/worth3/issues"
+  },
+  "homepage": "https://github.com/ccnmtl/worth3#readme",
+  "devDependencies": {
+    "eslint": "^3.18.0"
+  }
+}
