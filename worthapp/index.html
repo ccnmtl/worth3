@@ -12,7 +12,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
 
+        <script src="js/common.js"></script>
         <script src="js/myth-fact.js"></script>
+        <script src="js/feeling.js"></script>
 
         <link rel="stylesheet" href="css/worth.css">
     </head>
@@ -20,191 +22,228 @@
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    Welcome to WORTH
-                </div>
-                <div class="swiper-slide">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar"
-                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <div class="panel s0">
-                        <h1>Myth/Fact</h1>
-                        <p>Let's play the Myth/Fact Quiz game!</p>
-                        <button type="button" class="btn btn-primary btn-sm btn-block s1">
-                            Got it. Let's go!
-                        </button>
-                    </div>
-                    <div class="panel hidden s1">
-                        <h1>True of False?</h1>
-                        <p>
-                            You can get HIV by kissing someone who has it.
-                        </p>
-                        <button type="button" class="btn btn-secondary btn-sm btn-block s2-true">True</button>
-                        <button type="button" class="btn btn-secondary btn-sm btn-block s2-false">False</button>
-
-                        <div class="alert alert-danger hidden answer" role="alert">
-                            <div>
-                                <strong>False:</strong> You cannot get HIV by kissing someone who has it.
+                    <div class="container">
+                        <div class="jumbotron">
+                            <div class="display-3">
+                                Welcome to WORTH
                             </div>
                         </div>
-
-                        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-                            <p>Oops! You missed this one.</p>
-                            <button class="btn btn-primary btn-sm btn-block s2">
-                                Here's Why
+                    </div><!-- end .container -->
+                </div>
+                <div class="swiper-slide">
+                    <div class="container myth-fact">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar"
+                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="panel s0">
+                            <h1>Myth/Fact</h1>
+                            <p>Let's play the Myth/Fact Quiz game!</p>
+                            <button type="button" class="btn btn-primary btn-block s1">
+                                Got it. Let's go!
                             </button>
                         </div>
 
-                        <div class="alert alert-success text-center right-answer hidden" role="alert">
-                            <p>You got it right! Nice job.</p>
-                            <button class="btn btn-primary btn-sm btn-block s2">Learn More</button>
+                        <div class="panel hidden s1">
+                            <h1>True of False?</h1>
+                            <p>
+                                You can get HIV by kissing someone who has it.
+                            </p>
+                            <button type="button" class="btn btn-secondary btn-block s2-true">True</button>
+                            <button type="button" class="btn btn-secondary btn-block s2-false">False</button>
+
+                            <div class="alert alert-danger hidden answer" role="alert">
+                                <div>
+                                    <strong>False:</strong> You cannot get HIV by kissing someone who has it.
+                                </div>
+                            </div>
+
+                            <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
+                                <p>Oops! You missed this one.</p>
+                                <button class="btn btn-primary btn-block s2">
+                                    Here's Why
+                                </button>
+                            </div>
+
+                            <div class="alert alert-success text-center right-answer hidden" role="alert">
+                                <p>You got it right! Nice job.</p>
+                                <button class="btn btn-primary btn-block s2">Learn More</button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="panel hidden s2">
-                        <h1>HIV and Kissing</h1>
+                        <div class="panel hidden s2">
+                            <h1>HIV and Kissing</h1>
                             <video>
                                 <source src="video/mythfact01.mp4" type="video/mp4"></source>
                             </video>
-                        <p>
-                            You cannot get HIV by kissing someone who has
-                            it. Saliva may contain HIV but not in
-                            sufficient quantities to transmit the
-                            virus. HIV, the virus that causes AIDS, is
-                            spread through unsafe sex and needle or
-                            syringe sharing where blood is passed.
-                        </p>
-                        <button class="btn btn-primary btn-sm btn-block s3">
-                            Got it. Let's move on.
-                        </button>
-                    </div>
-                    <div class="panel hidden s3">
-                        <h1>Remember</h1>
-                        <p>It's up to you!</p>
-                        <div class="alert alert-info text-center" role="alert">
                             <p>
-                                <strong>You're done!</strong> Swipe to move on.
+                                You cannot get HIV by kissing someone who has
+                                it. Saliva may contain HIV but not in
+                                sufficient quantities to transmit the
+                                virus. HIV, the virus that causes AIDS, is
+                                spread through unsafe sex and needle or
+                                syringe sharing where blood is passed.
                             </p>
-                            <button class="btn btn-primary btn-sm btn-block s0">I want to try again.</button>
+                            <button class="btn btn-primary btn-block s3">
+                                Got it. Let's move on.
+                            </button>
                         </div>
-                    </div>
+                        <div class="panel hidden s3">
+                            <h1>Remember</h1>
+                            <p>It's up to you!</p>
+                            <div class="alert alert-info text-center" role="alert">
+                                <p>
+                                    <strong>You're done!</strong> Swipe to move on.
+                                </p>
+                                <button class="btn btn-primary btn-block s0">I want to try again.</button>
+                            </div>
+                        </div>
+                    </div><!-- end .container -->
                 </div>
                 <div class="swiper-slide">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar"
-                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h1>How are you feeling today?</h1>
-                    <div class="row">
-                        <div class="col">
-                            <figure class="figure">
-                                <img width="64" height="64" src="img/emojione/1f600.svg" />
-                            </figure>
+                    <div class="container feeling">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar"
+                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <div class="col">
-                            <figure class="figure">
-                                <img width="64" height="64" src="img/emojione/1f602.svg" />
-                            </figure>
+
+                        <div class="panel s0">
+                            <h1>How are you feeling today?</h1>
+                            <div class="row">
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img width="64" height="64" src="img/emojione/1f600.svg" />
+                                    </figure>
+                                </div>
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img width="64" height="64" src="img/emojione/1f602.svg" />
+                                    </figure>
+                                </div>
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img width="64" height="64" src="img/emojione/1f610.svg" />
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img width="64" height="64" src="img/emojione/1f644.svg" />
+                                    </figure>
+                                </div>
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img width="64" height="64" src="img/emojione/1f61d.svg" />
+                                    </figure>
+                                </div>
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img width="64" height="64" src="img/emojione/1f643.svg" />
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img width="64" height="64" src="img/emojione/1f621.svg" />
+                                    </figure>
+                                </div>
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img width="64" height="64" src="img/emojione/1f607.svg" />
+                                    </figure>
+                                </div>
+                                <div class="col">
+                                    <figure class="figure">
+                                        <img width="64" height="64" src="img/emojione/1f912.svg" />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div><!-- end .panel.s0 -->
+                        <div class="panel hidden s1">
+                            <div class="media">
+                                <img class="d-flex mr-3" width="64" height="64" src="img/emojione/1f600.svg" />
+                                <div class="media-body">
+                                    <h5 class="mt-0">You're feeling <strong>happy</strong>!</h5>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Proin posuere faucibus
+                                    risus, ullamcorper placerat enim ultrices
+                                    finibus. Quisque fermentum justo elit, eu
+                                    pharetra enim malesuada vitae. Proin
+                                    mattis congue bibendum. Vivamus id tempus
+                                    odio, a sollicitudin augue. Duis quis
+                                    porttitor lorem.
+                                </div>
+                            </div>
+                            <div class="alert alert-info text-center" role="alert">
+                                <p><strong>You're done!</strong> Swipe to move on.</p>
+                                <button type="button" class="btn btn-primary btn-block s0">
+                                    I want to try again.
+                                </button>
+                            </div>
                         </div>
-                        <div class="col">
-                            <figure class="figure">
-                                <img width="64" height="64" src="img/emojione/1f610.svg" />
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <figure class="figure">
-                                <img width="64" height="64" src="img/emojione/1f644.svg" />
-                            </figure>
-                        </div>
-                        <div class="col">
-                            <figure class="figure">
-                                <img width="64" height="64" src="img/emojione/1f61d.svg" />
-                            </figure>
-                        </div>
-                        <div class="col">
-                            <figure class="figure">
-                                <img width="64" height="64" src="img/emojione/1f643.svg" />
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <figure class="figure">
-                                <img width="64" height="64" src="img/emojione/1f621.svg" />
-                            </figure>
-                        </div>
-                        <div class="col">
-                            <figure class="figure">
-                                <img width="64" height="64" src="img/emojione/1f607.svg" />
-                            </figure>
-                        </div>
-                        <div class="col">
-                            <figure class="figure">
-                                <img width="64" height="64" src="img/emojione/1f912.svg" />
-                            </figure>
-                        </div>
-                    </div>
+                    </div><!-- end .container -->
                 </div>
                 <div class="swiper-slide">
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar"
-                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h1>Safety Plan</h1>
-                    <form>
-                        <div class="form-group row">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control form-control-sm" id="inputEmail3" placeholder="Email" />
-                            </div>
+                    <div class="container">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar"
+                                 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                            <div class="col-sm-10">
-                                <input type="password" class="form-control form-control-sm" id="inputPassword3" placeholder="Password" />
-                            </div>
-                        </div>
-                        <fieldset class="form-group row">
-                            <legend class="col-form-legend col-sm-2">Radios</legend>
-                            <div class="col-sm-10">
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked="" />
-                                        Option one is this and that—be sure to include why it's great
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
-                                        Option two can be something else and selecting it will deselect option one
-                                    </label>
-                                </div>
-                                <div class="form-check disabled">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled="" />
-                                        Option three is disabled
-                                    </label>
+                        <h1>Safety Plan</h1>
+                        <form>
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control form-control-sm" id="inputEmail3" placeholder="Email" />
                                 </div>
                             </div>
-                        </fieldset>
-                        <div class="form-group row">
-                            <label class="col-sm-2">Checkbox</label>
-                            <div class="col-sm-10">
-                                <div class="form-check">
-                                    <label class="form-check-label">
-                                        <input class="form-check-input" type="checkbox" />Check me out
-                                    </label>
+                            <div class="form-group row">
+                                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control form-control-sm" id="inputPassword3" placeholder="Password" />
                                 </div>
                             </div>
-                        </div>
-                        <div class="form-group row">
-                            <button type="submit" class="btn btn-primary btn-sm btn-block">I'm Done</button>
-                        </div>
-                    </form>
+                            <fieldset class="form-group row">
+                                <legend class="col-form-legend col-sm-2">Radios</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked="" />
+                                            Option one is this and that—be sure to include why it's great
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
+                                            Option two can be something else and selecting it will deselect option one
+                                        </label>
+                                    </div>
+                                    <div class="form-check disabled">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled="" />
+                                            Option three is disabled
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <div class="form-group row">
+                                <label class="col-sm-2">Checkbox</label>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox" /> Check me out
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <button type="button" class="btn btn-primary btn-block">I'm Done</button>
+                            </div>
+                        </form>
+                    </div><!-- end .container -->
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
 
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
@@ -213,11 +252,9 @@
         <script>
         $(document).ready(function () {
             new Swiper('.swiper-container', {
-                pagination: '.swiper-pagination',
-                paginationClickable: true,
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev'
-            })
+            });
         });
         </script>
     </body>

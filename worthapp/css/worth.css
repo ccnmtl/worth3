@@ -1,14 +1,16 @@
-html, body {
-    position: relative;
-    height: 100%;
-}
-.swiper-container {
-    width: 100%;
-    height: 100%;
-}
-.swiper-slide {
-    text-align: center;
-}
 .hidden {
     display: none;
+}
+
+/*
+ * Not sure why this is necessary, but bootstrap's .btn-block is
+ * displaying buttons wider than the .container. This is a workaround.
+ */
+.btn-block {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container.feeling .row {
+    text-align: center;
 }
