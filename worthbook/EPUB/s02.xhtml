@@ -1,71 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en"
-    xml:lang="en" epub:prefix="z3998: http://www.daisy.org/z3998/2012/vocab/structure/#">
+      xml:lang="en" epub:prefix="z3998: http://www.daisy.org/z3998/2012/vocab/structure/#">
     <head>
         <title>Section 1</title>
         <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
         <link href="css/epub.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
-        <section>
+        <section class="container feeling">
             <div class="progress">
                 <div class="progress-bar" role="progressbar"
                      aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-            <h1>How are you feeling today?</h1>
-            <div class="row">
-                <div class="col">
-                    <figure class="figure">
-                        <img width="64" height="64" src="img/emojione/1f600.svg" />
-                    </figure>
+            <div class="panel s0">
+                <h1>How are you feeling today?</h1>
+                <div class="row">
+                    <div class="col">
+                        <figure class="figure">
+                            <img width="64" height="64" src="img/emojione/1f600.svg" />
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure class="figure">
+                            <img width="64" height="64" src="img/emojione/1f602.svg" />
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure class="figure">
+                            <img width="64" height="64" src="img/emojione/1f610.svg" />
+                        </figure>
+                    </div>
                 </div>
-                <div class="col">
-                    <figure class="figure">
-                        <img width="64" height="64" src="img/emojione/1f602.svg" />
-                    </figure>
+                <div class="row">
+                    <div class="col">
+                        <figure class="figure">
+                            <img width="64" height="64" src="img/emojione/1f644.svg" />
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure class="figure">
+                            <img width="64" height="64" src="img/emojione/1f61d.svg" />
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure class="figure">
+                            <img width="64" height="64" src="img/emojione/1f643.svg" />
+                        </figure>
+                    </div>
                 </div>
-                <div class="col">
-                    <figure class="figure">
-                        <img width="64" height="64" src="img/emojione/1f610.svg" />
-                    </figure>
+                <div class="row">
+                    <div class="col">
+                        <figure class="figure">
+                            <img width="64" height="64" src="img/emojione/1f621.svg" />
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure class="figure">
+                            <img width="64" height="64" src="img/emojione/1f607.svg" />
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure class="figure">
+                            <img width="64" height="64" src="img/emojione/1f912.svg" />
+                        </figure>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <figure class="figure">
-                        <img width="64" height="64" src="img/emojione/1f644.svg" />
-                    </figure>
+            </div><!-- end .panel.s0 -->
+            <div class="panel hidden s1">
+                <div class="media">
+                    <img class="d-flex mr-3" width="64" height="64" src="img/emojione/1f600.svg" />
+                    <div class="media-body">
+                        <h5 class="mt-0">You're feeling <strong>happy</strong>!</h5>
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Proin posuere faucibus
+                        risus, ullamcorper placerat enim ultrices
+                        finibus. Quisque fermentum justo elit, eu
+                        pharetra enim malesuada vitae. Proin
+                        mattis congue bibendum. Vivamus id tempus
+                        odio, a sollicitudin augue. Duis quis
+                        porttitor lorem.
+                    </div>
                 </div>
-                <div class="col">
-                    <figure class="figure">
-                        <img width="64" height="64" src="img/emojione/1f61d.svg" />
-                    </figure>
-                </div>
-                <div class="col">
-                    <figure class="figure">
-                        <img width="64" height="64" src="img/emojione/1f643.svg" />
-                    </figure>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <figure class="figure">
-                        <img width="64" height="64" src="img/emojione/1f621.svg" />
-                    </figure>
-                </div>
-                <div class="col">
-                    <figure class="figure">
-                        <img width="64" height="64" src="img/emojione/1f607.svg" />
-                    </figure>
-                </div>
-                <div class="col">
-                    <figure class="figure">
-                        <img width="64" height="64" src="img/emojione/1f912.svg" />
-                    </figure>
+                <div class="alert alert-info text-center" role="alert">
+                    <p><strong>You're done!</strong> Swipe to move on.</p>
+                    <button type="button" class="btn btn-primary btn-block s0">
+                        I want to try again.
+                    </button>
                 </div>
             </div>
         </section>
-        <script src="js/jquery-3.2.0.slim.min.js"></script>
+        <script src="js/lib/jquery-3.2.0.slim.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/feeling.js"></script>
     </body>
 </html>

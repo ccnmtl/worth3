@@ -26,7 +26,9 @@
         <item href="css/epub.css" id="css01" media-type="text/css"/>
         <item href="css/nav.css" id="css02" media-type="text/css"/>
 
-        <item href="js/jquery-3.2.0.slim.min.js" id="jquery-3.2.0.slim.min.js" media-type="text/javascript"/>
+        <item href="js/lib/jquery-3.2.0.slim.min.js" id="jquery-3.2.0.slim.min.js" media-type="text/javascript"/>
+        <item href="js/common.js" id="common.js" media-type="text/javascript"/>
+        <item href="js/feeling.js" id="feeling.js" media-type="text/javascript"/>
         <item href="js/myth-fact.js" id="myth-fact.js" media-type="text/javascript"/>
 
         <item href="video/mythfact01.mp4" id="mythfact01.mp4" media-type="video/mp4"/>
@@ -44,7 +46,7 @@
         <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
         <item href="s01.xhtml" id="s01" media-type="application/xhtml+xml" properties="scripted"/>
         <item href="s02.xhtml" id="s02" media-type="application/xhtml+xml" properties="scripted"/>
-        <item href="s03.xhtml" id="s03" media-type="application/xhtml+xml" properties="scripted"/>
+        <item href="s03.xhtml" id="s03" media-type="application/xhtml+xml"/>
         <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav scripted"/>
         <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
     </manifest>
