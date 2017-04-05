@@ -1025,7 +1025,10 @@
         $(document).ready(function () {
             new Swiper('.swiper-container', {
                 nextButton: '.swiper-button-next',
-                prevButton: '.swiper-button-prev'
+                prevButton: '.swiper-button-prev',
+                onSlideNextStart: function() {
+                    $(document).scrollTop(0);
+                }
             });
         });
         </script>
