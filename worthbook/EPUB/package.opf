@@ -63,6 +63,36 @@
         <item href="s0114.xhtml" id="s0114" media-type="application/xhtml+xml" />
         <item href="s0115.xhtml" id="s0115" media-type="application/xhtml+xml" />
 
+        <item href="s0401.xhtml" id="s0401" media-type="application/xhtml+xml" />
+        <item href="s0402.xhtml" id="s0402" media-type="application/xhtml+xml" />
+        <item href="s0403.xhtml" id="s0403" media-type="application/xhtml+xml" />
+        <item href="s0404.xhtml" id="s0404" media-type="application/xhtml+xml" />
+        <item href="s0405.xhtml" id="s0405" media-type="application/xhtml+xml" />
+        <item href="s0406.xhtml" id="s0406" media-type="application/xhtml+xml" />
+        <item href="s0407.xhtml" id="s0407" media-type="application/xhtml+xml" />
+        <item href="s0408.xhtml" id="s0408" media-type="application/xhtml+xml" />
+        <item href="s0409.xhtml" id="s0409" media-type="application/xhtml+xml" />
+        <item href="s0410.xhtml" id="s0410" media-type="application/xhtml+xml" />
+        <item href="s0411.xhtml" id="s0411" media-type="application/xhtml+xml" properties="scripted"/>
+        <item href="s0412.xhtml" id="s0412" media-type="application/xhtml+xml" />
+        <item href="s0413.xhtml" id="s0413" media-type="application/xhtml+xml" />
+        <item href="s0414.xhtml" id="s0414" media-type="application/xhtml+xml" />
+        <item href="s0415.xhtml" id="s0415" media-type="application/xhtml+xml" />
+        <item href="s0416.xhtml" id="s0416" media-type="application/xhtml+xml" />
+        <item href="s0417.xhtml" id="s0417" media-type="application/xhtml+xml" />
+        <item href="s0418.xhtml" id="s0418" media-type="application/xhtml+xml" />
+        <item href="s0419.xhtml" id="s0419" media-type="application/xhtml+xml" />
+        <item href="s0420.xhtml" id="s0420" media-type="application/xhtml+xml" />
+        <item href="s0421.xhtml" id="s0421" media-type="application/xhtml+xml" />
+        <item href="s0422.xhtml" id="s0422" media-type="application/xhtml+xml" />
+        <item href="s0423.xhtml" id="s0423" media-type="application/xhtml+xml" />
+        <item href="s0424.xhtml" id="s0424" media-type="application/xhtml+xml" />
+        <item href="s0425.xhtml" id="s0425" media-type="application/xhtml+xml" />
+        <item href="s0426.xhtml" id="s0426" media-type="application/xhtml+xml" />
+        <item href="s0427.xhtml" id="s0427" media-type="application/xhtml+xml" />
+        <item href="s0428.xhtml" id="s0428" media-type="application/xhtml+xml" />
+        <item href="s0429.xhtml" id="s0429" media-type="application/xhtml+xml" />
+
         <item href="s01.xhtml" id="s01" media-type="application/xhtml+xml" properties="scripted"/>
         <item href="s02.xhtml" id="s02" media-type="application/xhtml+xml" properties="scripted"/>
         <item href="s03.xhtml" id="s03" media-type="application/xhtml+xml"/>
@@ -72,6 +102,7 @@
     </manifest>
     <spine toc="ncx">
         <itemref idref="cover" linear="no"/>
+
         <itemref idref="s0101"/>
         <itemref idref="s0102"/>
         <itemref idref="s0103"/>
@@ -87,5 +118,35 @@
         <itemref idref="s0113"/>
         <itemref idref="s0114"/>
         <itemref idref="s0115"/>
+
+        <itemref idref="s0401"/>
+        <itemref idref="s0402"/>
+        <itemref idref="s0403"/>
+        <itemref idref="s0404"/>
+        <itemref idref="s0405"/>
+        <itemref idref="s0406"/>
+        <itemref idref="s0407"/>
+        <itemref idref="s0408"/>
+        <itemref idref="s0409"/>
+        <itemref idref="s0410"/>
+        <itemref idref="s0411"/>
+        <itemref idref="s0412"/>
+        <itemref idref="s0413"/>
+        <itemref idref="s0414"/>
+        <itemref idref="s0415"/>
+        <itemref idref="s0416"/>
+        <itemref idref="s0417"/>
+        <itemref idref="s0418"/>
+        <itemref idref="s0419"/>
+        <itemref idref="s0420"/>
+        <itemref idref="s0421"/>
+        <itemref idref="s0422"/>
+        <itemref idref="s0423"/>
+        <itemref idref="s0424"/>
+        <itemref idref="s0425"/>
+        <itemref idref="s0426"/>
+        <itemref idref="s0427"/>
+        <itemref idref="s0428"/>
+        <itemref idref="s0429"/>
     </spine>
 </package>

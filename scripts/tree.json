@@ -9,7 +9,8 @@
                 "title": "HIV Testing"
             },
             {
-                "title": "OraQuick Info"
+                "title": "OraQuick Info",
+                "video": "s1.5"
             },
             {
                 "title": "Why WORTH?"
@@ -62,6 +63,96 @@
     {
         "title": "Session 4: Staying Safe and Strong",
         "pages": [
+            {
+                "title": "Welcome / Grounding"
+            },
+            {
+                "title": "Review of goals"
+            },
+            {
+                "title": "Take a moment to write down how you did"
+            },
+            {
+                "title": "Session 3 review"
+            },
+            {
+                "title": "Practicing POP"
+            },
+            {
+                "title": "Intro to Self Talk (Sophia)"
+            },
+            {
+                "title": "Self-Talk (Sophia)"
+            },
+            {
+                "title": "Intro to assessing relationships and safety"
+            },
+            {
+                "title": "IPV screener"
+            },
+            {
+                "title": "Intro to Safety Planning"
+            },
+            {
+                "title": "Safety Planning",
+                "interactive": "safety"
+            },
+            {
+                "title": "Negotiation"
+            },
+            {
+                "title": "Barriers to condom use"
+            },
+            {
+                "title": "Practicing negotiation"
+            },
+            {
+                "title": "Alternative to negotiation"
+            },
+            {
+                "title": "Intro to feelings check-in station"
+            },
+            {
+                "title": "Feelings check-in station"
+            },
+            {
+                "title": "Social support map intro"
+            },
+            {
+                "title": "Intro goal setting for social support"
+            },
+            {
+                "title": "Goal setting for social support"
+            },
+            {
+                "title": "Goal setting for risk reduction"
+            },
+            {
+                "title": "Goal setting for risk reduction"
+            },
+            {
+                "title": "Intro to service referrals"
+            },
+            {
+                "title": "Service referrals"
+            },
+            {
+                "title": "Goal setting service referrals"
+            },
+            {
+                "title": "Goal setting service referrals",
+                "video": "s4.22"
+            },
+            {
+                "title": "I am worth it!",
+                "video": "s4.22"
+            },
+            {
+                "title": "I am worth it!"
+            },
+            {
+                "title": "Congrats! You're done with session 4."
+            }
         ]
     },
     {
