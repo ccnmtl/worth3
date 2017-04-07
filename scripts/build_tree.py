@@ -58,13 +58,29 @@ def make_nav(tree):
                    method='xml')
 
 
+def render_page(page):
+    """Render page data with its template.
+
+    Returns a DOM string.
+    """
+    if page.get('interactive'):
+        name = page.get('interactive')
+        page_t = open('templates/{}.xhtml'.format(name)).read()
+    elif page.get('video'):
+        page_t = open('templates/video.xhtml').read()
+        page_t = page_t.replace('VIDFILE', page.get('video'))
+    else:
+        page_t = open('templates/page.xhtml').read()
+
+    return page_t.replace('TITLE', page['title'])
+
+
 def make_page(s_idx, p_idx, page):
     """Write the page file."""
-    page_t = open('templates/page.xhtml').read()
     page_path = join(BASEPATH, get_page_path(s_idx, p_idx))
     print('Creating {}...'.format(page_path))
     newpage = open(page_path, 'w')
-    newpage.write(page_t.replace('TITLE', page['title']))
+    newpage.write(render_page(page))
     newpage.close()
 
 
