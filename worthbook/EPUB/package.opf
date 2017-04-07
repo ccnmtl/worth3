@@ -30,6 +30,8 @@
         <item href="js/common.js" id="common.js" media-type="text/javascript"/>
         <item href="js/feeling.js" id="feeling.js" media-type="text/javascript"/>
         <item href="js/myth-fact.js" id="myth-fact.js" media-type="text/javascript"/>
+        <item href="js/social-support.js" id="social-support.js" media-type="text/javascript"/>
+        <item href="js/safety.js" id="safety.js" media-type="text/javascript"/>
 
         <item href="video/mythfact01.mp4" id="mythfact01.mp4" media-type="video/mp4"/>
 
@@ -44,17 +46,46 @@
         <item href="img/emojione/1f912.png" id="f912.png" media-type="image/png"/>
 
         <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+
+        <item href="s0101.xhtml" id="s0101" media-type="application/xhtml+xml" />
+        <item href="s0102.xhtml" id="s0102" media-type="application/xhtml+xml" />
+        <item href="s0103.xhtml" id="s0103" media-type="application/xhtml+xml" />
+        <item href="s0104.xhtml" id="s0104" media-type="application/xhtml+xml" />
+        <item href="s0105.xhtml" id="s0105" media-type="application/xhtml+xml" />
+        <item href="s0106.xhtml" id="s0106" media-type="application/xhtml+xml" />
+        <item href="s0107.xhtml" id="s0107" media-type="application/xhtml+xml" />
+        <item href="s0108.xhtml" id="s0108" media-type="application/xhtml+xml" />
+        <item href="s0109.xhtml" id="s0109" media-type="application/xhtml+xml" />
+        <item href="s0110.xhtml" id="s0110" media-type="application/xhtml+xml" />
+        <item href="s0111.xhtml" id="s0111" media-type="application/xhtml+xml" />
+        <item href="s0112.xhtml" id="s0112" media-type="application/xhtml+xml" />
+        <item href="s0113.xhtml" id="s0113" media-type="application/xhtml+xml" />
+        <item href="s0114.xhtml" id="s0114" media-type="application/xhtml+xml" />
+        <item href="s0115.xhtml" id="s0115" media-type="application/xhtml+xml" />
+
         <item href="s01.xhtml" id="s01" media-type="application/xhtml+xml" properties="scripted"/>
         <item href="s02.xhtml" id="s02" media-type="application/xhtml+xml" properties="scripted"/>
         <item href="s03.xhtml" id="s03" media-type="application/xhtml+xml"/>
-        <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav scripted"/>
+
+        <item href="nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
         <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
     </manifest>
     <spine toc="ncx">
-        <itemref idref="cover"/>
-        <itemref idref="nav"/>
-        <itemref idref="s01"/>
-        <itemref idref="s02"/>
-        <itemref idref="s03"/>
+        <itemref idref="cover" linear="no"/>
+        <itemref idref="s0101"/>
+        <itemref idref="s0102"/>
+        <itemref idref="s0103"/>
+        <itemref idref="s0104"/>
+        <itemref idref="s0105"/>
+        <itemref idref="s0106"/>
+        <itemref idref="s0107"/>
+        <itemref idref="s0108"/>
+        <itemref idref="s0109"/>
+        <itemref idref="s0110"/>
+        <itemref idref="s0111"/>
+        <itemref idref="s0112"/>
+        <itemref idref="s0113"/>
+        <itemref idref="s0114"/>
+        <itemref idref="s0115"/>
     </spine>
 </package>
