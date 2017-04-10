@@ -3,50 +3,59 @@
         "title": "Session 1: Let's Talk",
         "pages": [
             {
-                "title": "Introduction to WORTH"
+                "title": "Introduction to WORTH",
+                "video": "s1-intro"
             },
             {
-                "title": "HIV Testing"
+                "title": "HIV Testing",
+                "video": "s1-hiv-testing"
             },
             {
                 "title": "OraQuick Info",
-                "video": "s1.5"
+                "video": "s1-oraquick"
             },
             {
-                "title": "Why WORTH?"
+                "title": "Why WORTH?",
+                "video": "s1-why-worth"
             },
             {
-                "title": "Introduction to Rasheeda"
+                "title": "Introduction to Rasheeda",
+                "video": "s1-intro-to-rasheeda"
             },
             {
                 "title": "Reflect on Rasheeda"
             },
             {
-                "title": "Introduction to Mia"
+                "title": "Introduction to Mia",
+                "video": "s1-intro-to-mia"
             },
             {
                 "title": "Reflect on Mia"
             },
             {
-                "title": "Intro to feelings check-in station"
+                "title": "Intro to feelings check-in station",
+                "video": "s1-intro-to-feelings-checkin"
             },
             {
                 "title": "Feelings check-in station"
             },
             {
-                "title": "Intro to service referrals"
+                "title": "Intro to service referrals",
+                "video": "s1-intro-to-service-referrals"
             },
             {
                 "title": "Service referrals activity"
             },
             {
-                "title": "Intro to goal setting for service referrals"
+                "title": "Intro to goal setting for service referrals",
+                "video": "s1-intro-to-goal-setting"
             },
             {
                 "title": "Widget"
             },
             {
-                "title": "Congrats, you're done with Session 1!"
+                "title": "Congrats, you're done with Session 1!",
+                "video": "s1-congrats-youre-done"
             }
         ]
     },
@@ -140,12 +149,10 @@
                 "title": "Goal setting service referrals"
             },
             {
-                "title": "Goal setting service referrals",
-                "video": "s4.22"
+                "title": "Goal setting service referrals"
             },
             {
-                "title": "I am worth it!",
-                "video": "s4.22"
+                "title": "I am worth it!"
             },
             {
                 "title": "I am worth it!"
