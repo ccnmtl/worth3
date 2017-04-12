@@ -76,6 +76,7 @@ def main():
 
     f = open(join(BASEPATH, 'index.html'), 'w')
     f.write(soup.prettify())
+    print('Wrote to {}'.format(join(BASEPATH, 'index.html'), 'w'))
 
 
 if __name__ == '__main__':
