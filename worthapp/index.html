@@ -905,12 +905,31 @@
   </div>
   <script>
    $(document).ready(function () {
-            new Swiper('.swiper-container', {
+            var swiper = new Swiper('.swiper-container', {
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
                 onSlideNextStart: function() {
                     $(document).scrollTop(0);
                 }
+            });
+
+            var sessionLengths = [15, 0, 0, 29, 0];
+
+            $('.toc li>a').click(function(e) {
+                e.preventDefault();
+
+                var loc = e.target.href.substr(e.target.href.length - 4);
+
+                var session = parseInt(loc.substr(0, 2))
+                var slide = parseInt(loc.substr(2, 4))
+
+                var idx = 0;
+                for (var i = 1; i < session; i++) {
+                    idx += sessionLengths[i - 1];
+                }
+
+                idx += slide;
+                swiper.slideTo(idx + 1);
             });
         });
   </script>
