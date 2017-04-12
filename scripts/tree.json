@@ -62,6 +62,22 @@
     {
         "title": "Session 2: What's the 411?",
         "pages": [
+            {
+                "title": "Welcome to Session 2"
+            },
+            {
+                "title": "I am worth it"
+            },
+            {
+                "title": "Intro to Myth / Fact sequence"
+            },
+            {
+                "title": "Myth / Fact",
+                "interactive": "myth-fact"
+            },
+            {
+                "title": "Congrats you're done with session 2"
+            }
         ]
     },
     {
