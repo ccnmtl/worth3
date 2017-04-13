@@ -1,4 +1,4 @@
-/* global $, updateProgressBar */
+/* global $, updateProgressBar, advanceToPanel */
 
 (function() {
     var resetActivity = function($container) {
@@ -18,9 +18,7 @@
 
         $container.find('button.s1').click(function(e) {
             e.preventDefault();
-            $(this).closest('div.panel').addClass('hidden');
-            $container.find('div.s1').removeClass('hidden');
-            updateProgressBar($container, 20);
+            advanceToPanel($container, 1, 3);
         });
 
         $container.find('button.s2-true').click(function(e) {
@@ -30,7 +28,6 @@
             $container.find('button.s2-true,button.s2-false')
                 .attr('disabled', true);
             $container.find('.alert.wrong-answer').removeClass('hidden');
-            updateProgressBar($container, 40);
         });
         $container.find('button.s2-false').click(function(e) {
             e.preventDefault();
@@ -40,20 +37,15 @@
             $container.find('button.s2-true,button.s2-false')
                 .attr('disabled', true);
             $container.find('.alert.right-answer').removeClass('hidden');
-            updateProgressBar($container, 40);
         });
         $container.find('button.s2').click(function(e) {
             e.preventDefault();
-            $(this).closest('div.panel').addClass('hidden');
-            $container.find('div.s2').removeClass('hidden');
-            updateProgressBar($container, 80);
+            advanceToPanel($container, 2, 3);
         });
 
         $container.find('button.s3').click(function(e) {
             e.preventDefault();
-            $(this).closest('div.panel').addClass('hidden');
-            $container.find('div.s3').removeClass('hidden');
-            updateProgressBar($container, 100);
+            advanceToPanel($container, 3, 3);
         });
 
         $container.find('button.s0').click(function(e) {
