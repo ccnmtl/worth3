@@ -69,11 +69,80 @@
                 "title": "I am worth it"
             },
             {
+                "title": "I am worth it activity"
+            },
+            {
+                "title": "Note on format"
+            },
+            {
+                "title": "Grounding"
+            },
+            {
+                "title": "Intro to Amanda"
+            },
+            {
+                "title": "Reflect on Amanda"
+            },
+            {
+                "title": "Intro to Charlene"
+            },
+            {
+                "title": "Reflect on Charlene"
+            },
+            {
                 "title": "Intro to Myth / Fact sequence"
             },
             {
                 "title": "Myth / Fact",
                 "interactive": "myth-fact"
+            },
+            {
+                "title": "Intro to HIV / STIs"
+            },
+            {
+                "title": "Trauma"
+            },
+            {
+                "title": "Feelings Check-in Station"
+            },
+            {
+                "title": "Sofia"
+            },
+            {
+                "title": "ID Sophia's symptoms"
+            },
+            {
+                "title": "Sofia Outro"
+            },
+            {
+                "title": "Reflect on Sofia"
+            },
+            {
+                "title": "Intro to protective behaviors"
+            },
+            {
+                "title": "Protective behaviors activity"
+            },
+            {
+                "title": "Feelings check-in station (video)"
+            },
+            {
+                "title": "Feelings check-in station"
+            },
+            {
+                "title": "Intro to goal setting for risk reduction"
+            },
+            {
+                "title": "Goal setting for risk"
+            },
+            {
+                "title": "Re-intro to service referrals"
+            },
+            {
+                "title": "Service referrals"
+            },
+            {
+                "title": "Goal setting for service referrals"
             },
             {
                 "title": "Congrats you're done with session 2"
@@ -83,6 +152,75 @@
     {
         "title": "Session 3: Protecting Myself, Protecting My Community",
         "pages": [
+            {
+                "title": "welcome to session 3 and grounding"
+            },
+            {
+                "title": "review of goals"
+            },
+            {
+                "title": "review of session 2/preview of session 3"
+            },
+            {
+                "title": "POP (Mia)"
+            },
+            {
+                "title": "Practicing POP sequence "
+            },
+            {
+                "title": "Introduction to Self Talk"
+            },
+            {
+                "title": "Self Talk sequence"
+            },
+            {
+                "title": "Self talk and POP wrap up, social suppport map intro"
+            },
+            {
+                "title": "social support map"
+            },
+            {
+                "title": "Intro Goal setting for social support"
+            },
+            {
+                "title": "goal setting for social support"
+            },
+            {
+                "title": "feelings check in station (video)"
+            },
+            {
+                "title": "feelings check in station"
+            },
+            {
+                "title": "Male and female condoms"
+            },
+            {
+                "title": "Intro to fantasy menu"
+            },
+            {
+                "title": "buzz feed style quiz"
+            },
+            {
+                "title": "Goal setting intro"
+            },
+            {
+                "title": "goal setting (risk reduction)"
+            },
+            {
+                "title": "service referrals goal"
+            },
+            {
+                "title": "goal setting for service referrals"
+            },
+            {
+                "title": "I am worth it intro"
+            },
+            {
+                "title": "I am worth it "
+            },
+            {
+                "title": "Congrats you're done with S3"
+            }
         ]
     },
     {
@@ -181,6 +319,48 @@
     {
         "title": "Session 5: Because I am Worth It",
         "pages": [
+            {
+                "title": "welcome/grounding"
+            },
+            {
+                "title": "goal review"
+            },
+            {
+                "title": "page asking people to write down how they did"
+            },
+            {
+                "title": "review of 4 preview of 5"
+            },
+            {
+                "title": "quiz game intro"
+            },
+            {
+                "title": "quiz game"
+            },
+            {
+                "title": "goal setting intro"
+            },
+            {
+                "title": "goal setting for risk reduction"
+            },
+            {
+                "title": "message in a bottle intro"
+            },
+            {
+                "title": "message in a bottle"
+            },
+            {
+                "title": "I am worth it intro"
+            },
+            {
+                "title": "I am worth it!"
+            },
+            {
+                "title": "session 5 wrap up/I am proud intro"
+            },
+            {
+                "title": "I am proud"
+            }
         ]
     }
 ]
