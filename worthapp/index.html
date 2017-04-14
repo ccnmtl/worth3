@@ -982,11 +982,13 @@
    Be prepared when misfortune strikes with your
             new safety plan.
   </p>
-  <img alt="Safety plan paper" class="img-fluid" src="img/safety-plan.png">
-   <button class="btn btn-primary btn-block s1" type="button">
-    OK. Let's go!
-   </button>
-  </img>
+  <div class="text-center">
+   <img alt="Safety plan paper" class="img-fluid half-width" src="img/safety-plan.png">
+   </img>
+  </div>
+  <button class="btn btn-primary btn-block s1" type="button">
+   OK. Let's go!
+  </button>
  </div>
  <div class="panel hidden s2">
   <h1>
@@ -1048,7 +1050,7 @@
    <div>
     Swipe left to move on.
    </div>
-   <button class="btn btn-primary btn-block s1" type="button">
+   <button class="btn btn-primary btn-block s0" type="button">
     I want to try again
    </button>
   </div>
@@ -1214,7 +1216,7 @@
 
             var showing = false;
 
-            $('.toggle-toc-icon').click(function(e) {
+            $('.toggle-toc-icon>img').click(function(e) {
                 console.log(showing);
                 if (showing) {
                     $('.sidenav').width(0);
