@@ -18,27 +18,41 @@ def get_page_path(s_idx, p_idx):
 
 
 def make_nav(soup, tree):
-    """Make the ePub's nav.xhtml based on the tree."""
+    """Make the table of contents + nav table of contents."""
 
     toc = soup.find_all('ol', class_='toc')[0]
+    nav_toc = soup.find_all('ol', class_='nav-toc')[0]
 
     for s_idx, session in enumerate(tree):
 
         li = soup.new_tag('li')
         li.append('Session {}'.format(s_idx + 1))
 
+        nav_li = soup.new_tag('li')
+        nav_li.append('Session {}'.format(s_idx + 1))
+
         toc.append(li)
+        nav_toc.append(nav_li)
 
         session_ol = soup.new_tag('ol')
         li.append(session_ol)
 
+        nav_session_ol = soup.new_tag('ol')
+        nav_li.append(nav_session_ol)
+
         for p_idx, page in enumerate(session['pages']):
             page_li = soup.new_tag('li')
             session_ol.append(page_li)
+            nav_page_li = soup.new_tag('li')
+            nav_session_ol.append(nav_page_li)
 
             page_a = soup.new_tag('a', href=get_page_path(s_idx, p_idx))
             page_li.append(page_a)
             page_a.string = page['title']
+
+            nav_page_a = soup.new_tag('a', href=get_page_path(s_idx, p_idx))
+            nav_page_li.append(nav_page_a)
+            nav_page_a.string = page['title']
 
 
 def render_page(page):

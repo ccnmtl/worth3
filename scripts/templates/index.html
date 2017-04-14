@@ -21,6 +21,16 @@
         <link rel="stylesheet" href="css/worth.css">
     </head>
     <body>
+        <nav class="slide-out-menu transition">
+            <div class="toggle-toc-icon">
+                <img width="32" height="32"
+                     src="img/book-icon.png" alt="Navigation" />
+            </div>
+            <div class="pull-left sidenav">
+                <ol class="nav-toc"></ol>
+            </div>
+        </nav>
+
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -46,16 +56,14 @@
         <script>
         $(document).ready(function () {
             var swiper = new Swiper('.swiper-container', {
-                nextButton: '.swiper-button-next',
-                prevButton: '.swiper-button-prev',
                 onSlideNextStart: function() {
                     $(document).scrollTop(0);
                 }
             });
 
-            var sessionLengths = [15, 0, 0, 29, 0];
+            var sessionLengths = [15, 5, 0, 29, 0];
 
-            $('.toc li>a').click(function(e) {
+            $('.toc li>a,.nav-toc li>a').click(function(e) {
                 e.preventDefault();
 
                 var loc = e.target.href.substr(e.target.href.length - 4);
@@ -69,7 +77,21 @@
                 }
 
                 idx += slide;
+
+                $('.sidenav').width(0);
                 swiper.slideTo(idx + 1);
+            });
+
+            var showing = false;
+
+            $('.toggle-toc-icon').click(function(e) {
+                console.log(showing);
+                if (showing) {
+                    $('.sidenav').width(0);
+                } else {
+                    $('.sidenav').width('250px');
+                }
+                showing = !showing;
             });
         });
         </script>
