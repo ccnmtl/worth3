@@ -29,6 +29,9 @@
     left: 0;
     bottom: 10px;
     z-index: 9;
+}
+
+.toggle-toc-icon>img {
     cursor: pointer;
 }
 
@@ -86,4 +89,8 @@
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+img.half-width {
+    max-width: 50%;
 }
