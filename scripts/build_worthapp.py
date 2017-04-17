@@ -81,7 +81,9 @@ def main():
     make_nav(soup, tree)
 
     swiper_wrapper = soup.find_all('div', class_='swiper-wrapper')[0]
+    session_lengths = []
     for s_idx, session in enumerate(tree):
+        session_lengths.append(len(session['pages']))
         for p_idx, page in enumerate(session['pages']):
             slide = soup.new_tag('div')
             slide['class'] = 'swiper-slide'
@@ -89,7 +91,14 @@ def main():
             swiper_wrapper.append(slide)
 
     f = open(join(BASEPATH, 'index.html'), 'w')
-    f.write(soup.prettify())
+
+    rendered = soup.prettify()
+    for i in range(5):
+        rendered = rendered.replace(
+            'S{}LENGTH'.format(i + 1),
+            str(session_lengths[i]))
+
+    f.write(rendered)
     print('Wrote to {}'.format(join(BASEPATH, 'index.html'), 'w'))
 
 
