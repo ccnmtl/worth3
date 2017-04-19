@@ -99,7 +99,7 @@ def main():
             str(session_lengths[i]))
 
     f.write(rendered)
-    print('Wrote to {}'.format(join(BASEPATH, 'index.html'), 'w'))
+    print('Wrote to {}'.format(join(BASEPATH, 'index.html')))
 
 
 if __name__ == '__main__':
