@@ -66,6 +66,8 @@ def render_page(page):
     elif page.get('video'):
         page_t = open('templates/video.html').read()
         page_t = page_t.replace('VIDFILE', page.get('video'))
+        if page.get('poster'):
+            page_t = page_t.replace('lucia.png', page.get('poster'))
     else:
         page_t = open('templates/page.html').read()
 
