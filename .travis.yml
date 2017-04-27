@@ -5,3 +5,4 @@ script:
   - cd worthapp
   - npm install
   - npm run eslint
+  - npm run test
