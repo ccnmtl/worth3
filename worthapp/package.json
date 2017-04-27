@@ -4,8 +4,8 @@
   "description": "Women on the Road to Health",
   "main": "js/common.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint js/*.js"
+    "test": "mocha js/tests/",
+    "eslint": "eslint js/src/*.js js/tests/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ccnmtl/worth3#readme",
   "devDependencies": {
-    "eslint": "^3.18.0"
+    "eslint": "^3.18.0",
+    "mocha": "^3.3.0"
   }
 }

@@ -94,3 +94,7 @@
 img.half-width {
     max-width: 50%;
 }
+
+li.highlight {
+    font-weight: bold;
+}
