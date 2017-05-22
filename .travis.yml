@@ -2,7 +2,5 @@ language: node_js
 node_js:
   - "6"
 script:
-  - cd worthapp
-  - npm install
-  - npm run eslint
-  - npm run test
+  - make eslint
+  - make jstest
