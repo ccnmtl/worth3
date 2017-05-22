@@ -1,5 +1,7 @@
-check:
-	java -jar epubcheck-4.0.2/epubcheck.jar worthbook -mode exp
+JS_ROOT=worthapp
+JS_FILES=worthapp/js
+
+include *.mk
 
 build:
-	java -jar epubcheck-4.0.2/epubcheck.jar worthbook -mode exp -save
+	cd scripts && ./build_worthapp.py
