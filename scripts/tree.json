@@ -23,14 +23,16 @@
                 "video": "s1-intro-to-rasheeda"
             },
             {
-                "title": "Reflect on Rasheeda"
+                "title": "Reflect on Rasheeda",
+                "interactive": "reflect-rasheeda"
             },
             {
                 "title": "Introduction to Mia",
                 "video": "s1-intro-to-mia"
             },
             {
-                "title": "Reflect on Mia"
+                "title": "Reflect on Mia",
+                "interactive": "reflect-mia"
             },
             {
                 "title": "Intro to feelings check-in station",
@@ -81,13 +83,15 @@
                 "title": "Intro to Amanda"
             },
             {
-                "title": "Reflect on Amanda"
+                "title": "Reflect on Amanda",
+                "interactive": "reflect-amanda"
             },
             {
                 "title": "Intro to Charlene"
             },
             {
-                "title": "Reflect on Charlene"
+                "title": "Reflect on Charlene",
+                "interactive": "reflect-charlene"
             },
             {
                 "title": "Intro to Myth / Fact sequence"
@@ -115,7 +119,8 @@
                 "title": "Sofia Outro"
             },
             {
-                "title": "Reflect on Sofia"
+                "title": "Reflect on Sofia",
+                "interactive": "reflect-sofia"
             },
             {
                 "title": "Intro to protective behaviors"
