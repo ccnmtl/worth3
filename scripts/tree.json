@@ -171,7 +171,8 @@
                 "title": "Introduction to Self Talk"
             },
             {
-                "title": "Self Talk sequence"
+                "title": "Self Talk sequence",
+                "interactive": "self-talk"
             },
             {
                 "title": "Self talk and POP wrap up, social suppport map intro"
