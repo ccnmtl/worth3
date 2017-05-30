@@ -13,9 +13,18 @@
             });
         }
 
-        $container.find('button.s5').click(function(e) {
+        $container.find('.s2 button[type="submit"]').click(function(e) {
             e.preventDefault();
-            $container.find('.alert.hidden').removeClass('hidden');
+            var $panel = $(this).closest('.panel');
+            var correct = $container.find('input#optionsRadios3')
+                .is(':checked');
+            if (correct) {
+                $panel.find('.alert-info').removeClass('hidden');
+                $panel.find('.alert-danger').addClass('hidden');
+            } else {
+                $panel.find('.alert-info').addClass('hidden');
+                $panel.find('.alert-danger').removeClass('hidden');
+            }
         });
     });
 })();
