@@ -17,22 +17,23 @@
         var $container = $('.container.myth-fact');
         initActivityPanels($container);
 
-        $container.find('button.s1-true').click(function(e) {
+        $container.find('button.myth-fact-correct').click(function(e) {
             e.preventDefault();
-            $container.find('.alert.answer').removeClass('hidden');
-            $container.find('button.s1-true,button.s1-false').addClass('disabled');
-            $container.find('button.s1-true,button.s1-false')
-                .attr('disabled', true);
-            $container.find('.alert.wrong-answer').removeClass('hidden');
-        });
-        $container.find('button.s1-false').click(function(e) {
-            e.preventDefault();
-            $container.find('.alert.answer').removeClass('hidden');
-            $container.find('button.s1-true,button.s1-false')
+            var $panel = $(this).closest('.panel');
+            $panel.find('.alert.answer').removeClass('hidden');
+            $panel.find('button.myth-fact-correct,button.myth-fact-incorrect')
+                .attr('disabled', true)
                 .addClass('disabled');
-            $container.find('button.s1-true,button.s1-false')
-                .attr('disabled', true);
-            $container.find('.alert.right-answer').removeClass('hidden');
+            $panel.find('.alert.right-answer').removeClass('hidden');
+        });
+        $container.find('button.myth-fact-incorrect').click(function(e) {
+            e.preventDefault();
+            var $panel = $(this).closest('.panel');
+            $panel.find('.alert.answer').removeClass('hidden');
+            $panel.find('button.myth-fact-correct,button.myth-fact-incorrect')
+                .attr('disabled', true)
+                .addClass('disabled');
+            $panel.find('.alert.wrong-answer').removeClass('hidden');
         });
 
         $container.find('button.s0').click(function(e) {
