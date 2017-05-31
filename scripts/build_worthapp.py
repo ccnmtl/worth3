@@ -11,6 +11,13 @@ from os.path import join
 
 
 BASEPATH = '../worthapp/'
+SUBTITLES = [
+    'Beginning the Journey',
+    'Taking in the view while deciding direction ',
+    'Planning for my safety and the safety of others',
+    'Staying strong and focused',
+    'Keeping the journey going: I am WORTH it!',
+]
 
 
 def get_page_path(s_idx, p_idx):
@@ -26,7 +33,7 @@ def make_nav(soup, tree):
     for s_idx, session in enumerate(tree):
 
         li = soup.new_tag('li')
-        li.append('Session {}'.format(s_idx + 1))
+        li.append('Session {}: {}'.format(s_idx + 1, SUBTITLES[s_idx]))
 
         nav_li = soup.new_tag('li')
         nav_li.append('Session {}'.format(s_idx + 1))
@@ -72,8 +79,11 @@ def render_page(page):
     else:
         page_t = open('templates/page.html').read()
 
-    page = page_t.replace('TITLE', page['title'])
-    return BeautifulSoup(page, 'html.parser')
+    page_out = page_t.replace('{% TITLE %}', page.get('title'))
+    page_out = page_out.replace('{% SUBTITLE %}', page.get('subtitle') or '')
+    print(page_out)
+
+    return BeautifulSoup(page_out, 'html.parser')
 
 
 def main():

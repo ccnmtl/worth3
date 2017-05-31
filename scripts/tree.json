@@ -1,9 +1,10 @@
 [
     {
-        "title": "Session 1: Beginning the journey",
+        "title": "Session 1: Beginning the Journey",
         "pages": [
             {
                 "title": "Welcome to session 1!!",
+                "subtitle": "Beginning the Journey",
                 "video": "s1-intro"
             },
             {
@@ -68,7 +69,8 @@
         "title": "Session 2: Taking in the view while deciding the direction",
         "pages": [
             {
-                "title": "Welcome to session 2!!"
+                "title": "Welcome to session 2!!",
+                "subtitle": "Taking in the view while deciding the direction"
             },
             {
                 "title": "I am worth it"
@@ -164,7 +166,8 @@
         "title": "Session 3: Planning for my safety and the safety of others",
         "pages": [
             {
-                "title": "Welcome to session 3!!"
+                "title": "Welcome to session 3!!",
+                "subtitle": "Planning for my safety and the safety of others"
             },
             {
                 "title": "Focusing on my goals"
@@ -245,7 +248,8 @@
         "title": "Session 4: Staying strong and focused",
         "pages": [
             {
-                "title": "Welcome to session 4!!"
+                "title": "Welcome to session 4!!",
+                "subtitle": "Staying strong and focused"
             },
             {
                 "title": "Focusing on my goals"
@@ -346,7 +350,8 @@
         "title": "Session 5: Keeping the journey going: I am WORTH it!",
         "pages": [
             {
-                "title": "Welcome to session 5!!"
+                "title": "Welcome to session 5!!",
+                "subtitle": "Keeping the journey going: I am WORTH it!"
             },
             {
                 "title": "Focusing on my goals"
