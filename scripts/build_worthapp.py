@@ -52,7 +52,6 @@ def make_nav(soup, tree):
 
             nav_page_a = soup.new_tag('a', href=get_page_path(s_idx, p_idx))
             nav_page_li.append(nav_page_a)
-            print(p_idx)
             nav_page_a.string = '{}.{} {}'.format(
                 s_idx + 1, p_idx + 1, page['title'])
 

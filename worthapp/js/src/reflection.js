@@ -1,5 +1,5 @@
 /* eslint-env es6 */
-/* global $, advanceToPanel */
+/* global $, initActivityPanels */
 
 (function() {
     /**
@@ -32,16 +32,8 @@
 
     $(document).ready(function() {
         var $container = $('.container.reflection');
-        var total = $container.find('.panel').length - 1;
+        initActivityPanels($container);
         var reflections = [];
-
-        for (let i = 0; i <= total; i++) {
-            $container.find('button.s' + i).click(function(e) {
-                e.preventDefault();
-                var $myContainer = $(this).closest('.container.reflection');
-                advanceToPanel($myContainer, i, total);
-            });
-        }
 
         $container.find('input[type="checkbox"]').change(function(e) {
             e.preventDefault();

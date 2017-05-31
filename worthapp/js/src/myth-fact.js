@@ -1,4 +1,4 @@
-/* global $, updateProgressBar, advanceToPanel */
+/* global $, updateProgressBar, advanceToPanel, initActivityPanels */
 
 (function() {
     var resetActivity = function($container) {
@@ -15,37 +15,24 @@
 
     $(document).ready(function() {
         var $container = $('.container.myth-fact');
+        initActivityPanels($container);
 
-        $container.find('button.s1').click(function(e) {
-            e.preventDefault();
-            advanceToPanel($container, 1, 3);
-        });
-
-        $container.find('button.s2-true').click(function(e) {
+        $container.find('button.s1-true').click(function(e) {
             e.preventDefault();
             $container.find('.alert.answer').removeClass('hidden');
-            $container.find('button.s2-true,button.s2-false').addClass('disabled');
-            $container.find('button.s2-true,button.s2-false')
+            $container.find('button.s1-true,button.s1-false').addClass('disabled');
+            $container.find('button.s1-true,button.s1-false')
                 .attr('disabled', true);
             $container.find('.alert.wrong-answer').removeClass('hidden');
         });
-        $container.find('button.s2-false').click(function(e) {
+        $container.find('button.s1-false').click(function(e) {
             e.preventDefault();
             $container.find('.alert.answer').removeClass('hidden');
-            $container.find('button.s2-true,button.s2-false')
+            $container.find('button.s1-true,button.s1-false')
                 .addClass('disabled');
-            $container.find('button.s2-true,button.s2-false')
+            $container.find('button.s1-true,button.s1-false')
                 .attr('disabled', true);
             $container.find('.alert.right-answer').removeClass('hidden');
-        });
-        $container.find('button.s2').click(function(e) {
-            e.preventDefault();
-            advanceToPanel($container, 2, 3);
-        });
-
-        $container.find('button.s3').click(function(e) {
-            e.preventDefault();
-            advanceToPanel($container, 3, 3);
         });
 
         $container.find('button.s0').click(function(e) {
