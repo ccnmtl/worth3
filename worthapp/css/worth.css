@@ -5,6 +5,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
   body {
     font-size: 150%;
   }
+  body button.btn {
+    font-size: 150%;
+  }
 }
 
 .hidden {
