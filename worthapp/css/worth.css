@@ -1,112 +1,124 @@
 @media only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-  body {
-    font-size: 150%;
-  }
-  body button.btn {
-    font-size: 150%;
-  }
+only screen and (min-device-pixel-ratio: 1.5)
+{
+	body { font-size: 150%; }
+	body button.btn { font-size: 150%; }
 }
 
-.hidden {
-    display: none;
-}
-
-.safety .row  {
-    margin-bottom: 1em;
-}
-.safety .row .col.definition {
-    text-align: right;
-}
+.hidden { display: none; }
+.safety .row { margin-bottom: 1em; }
+.safety .row .col.definition { text-align: right; }
 
 /*
  * Not sure why this is necessary, but bootstrap's .btn-block is
  * displaying buttons wider than the .container. This is a workaround.
  */
-.btn-block {
-    width: 90%;
-    margin: 0 auto;
+
+.btn-block
+{
+	width: 90%;
+	margin: 0 auto;
 }
 
-.container.feeling .row {
-    text-align: center;
+.container.feeling .row { text-align: center; }
+
+.toggle-toc-icon
+{
+	position: fixed;
+	width: 100%;
+	left: 10px;
+	top: 50%;
+	z-index: 10;
 }
 
-.toggle-toc-icon {
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    left: 0;
-    bottom: 10px;
-    z-index: 10;
-}
-
-.toggle-toc-icon>img {
-    cursor: pointer;
-}
+.toggle-toc-icon>img { cursor: pointer; }
 
 /* The side navigation menu */
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 9; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #ddd;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 30px;
+.sidenav
+{
+	height: 100%;
+	/* 100% Full-height */
+	width: 0;
+	/* 0 width - change this with JavaScript */
+	position: fixed;
+	/* Stay in place */
+	z-index: 9;
+	/* Stay on top */
+	top: 0;
+	left: 0;
+	background-color: #F7ECF0;
+	overflow-x: hidden;
+	/* Disable horizontal scroll */
+	padding: 1.25em 0em 1.25em 2.75em;
 }
 
-.sidenav ol {
-    padding-left: 0;
-    margin-left: 1rem;
-    margin-right: 1rem;
+.sidenav ol.nav-toc
+{
+	padding-left: 1.25em;
 }
 
-.sidenav li {
-    list-style: none;
-    margin-bottom: 1rem;
+.sidenav ol.nav-toc li
+{
+	font-weight: bold;
+}
+
+.sidenav ol.nav-toc ol li
+{
+	font-weight: normal;
+}
+
+.sidenav ol.nav-toc ol
+{
+padding-left: 0em;
+}
+
+.sidenav li
+{
+	list-style: none;
+    margin-top: 1em!important;
+
 }
 
 /* The navigation menu links */
-.sidenav a {
-    text-decoration: none;
-    display: block;
+.sidenav a
+{
+	text-decoration: none;
+	display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover,
-.offcanvas a:focus {
-    color: #f1f1f1;
-}
+.offcanvas a:focus { color: #000; }
 
 /* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+.sidenav .closebtn
+{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-    padding: 20px;
-}
+#main { padding: 20px; }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+
+@media screen and (max-height: 450px)
+{
+	.sidenav { padding-top: 15px; }
+	.sidenav a { font-size: 18px; }
 }
 
-img.half-width {
-    max-width: 50%;
-}
+img.half-width { max-width: 50%; }
 
-li.highlight {
-    font-weight: bold;
+li.highlight {  background-color: #fff; }
+li.highlight  a { color: #000;  font-weight: bold; padding: .5em 0em .5em .5em;}
+
+
+.swiper-container {
+    margin: 5em;
 }

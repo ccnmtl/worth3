@@ -36,7 +36,7 @@
             if (showing) {
                 $('.sidenav').width(0);
             } else {
-                $('.sidenav').width('250px');
+                $('.sidenav').width('700px');
             }
             showing = !showing;
         });
