@@ -68,8 +68,8 @@ def render_page(page):
 
     Returns a BeautifulSoup object.
     """
-    if page.get('interactive'):
-        name = page.get('interactive')
+    if page.get('template'):
+        name = page.get('template')
         page_t = open('templates/{}.html'.format(name)).read()
     elif page.get('video'):
         page_t = open('templates/video.html').read()
