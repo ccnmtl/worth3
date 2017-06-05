@@ -25,7 +25,7 @@
             },
             {
                 "title": "Reflect on Rasheeda",
-                "interactive": "reflect-rasheeda"
+                "template": "reflect-rasheeda"
             },
             {
                 "title": "Meet the women of WORTH: Mia",
@@ -33,7 +33,7 @@
             },
             {
                 "title": "Reflect on Mia",
-                "interactive": "reflect-mia"
+                "template": "reflect-mia"
             },
             {
                 "title": "Pulling into the feelings check-in station",
@@ -57,7 +57,8 @@
                 "title": "Widget"
             },
             {
-                "title": "Summing it all up"
+                "title": "Summing it all up",
+                "template": "summing-it-up-1"
             },
             {
                 "title": "Congrats, you're done with Session 1!",
@@ -89,21 +90,21 @@
             },
             {
                 "title": "Reflect on Amanda",
-                "interactive": "reflect-amanda"
+                "template": "reflect-amanda"
             },
             {
                 "title": "Meet the women of WORTH: Charlene"
             },
             {
                 "title": "Reflect on Charlene",
-                "interactive": "reflect-charlene"
+                "template": "reflect-charlene"
             },
             {
                 "title": "HIV and STIs: What do we know"
             },
             {
                 "title": "Myth / Fact",
-                "interactive": "myth-fact"
+                "template": "myth-fact"
             },
             {
                 "title": "How trauma hurts"
@@ -122,7 +123,7 @@
             },
             {
                 "title": "Reflect on Sofia",
-                "interactive": "reflect-sofia"
+                "template": "reflect-sofia"
             },
             {
                 "title": "Protecting myself and those I care about"
@@ -155,7 +156,8 @@
                 "title": "What did we learn?"
             },
             {
-                "title": "Summing it all up"
+                "title": "Summing it all up",
+                "template": "summing-it-up-2"
             },
             {
                 "title": "Congratulations...you are WORTH it (session 2)!!"
@@ -186,7 +188,7 @@
             },
             {
                 "title": "Self Talk sequence",
-                "interactive": "self-talk"
+                "template": "self-talk"
             },
             {
                 "title": "Self talk and POP wrap up, social suppport map intro"
@@ -282,7 +284,7 @@
             },
             {
                 "title": "Safety Planning",
-                "interactive": "safety"
+                "template": "safety"
             },
             {
                 "title": "Negotiating condom use while keeping myself safe"
