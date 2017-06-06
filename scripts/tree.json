@@ -40,7 +40,8 @@
                 "video": "s1-intro-to-feelings-checkin"
             },
             {
-                "title": "Feelings check-in station"
+                "title": "Feelings check-in station",
+                "interactive": "feelings"
             },
             {
                 "title": "Making a commitment to me",
@@ -110,7 +111,8 @@
                 "title": "How trauma hurts"
             },
             {
-                "title": "Feelings Check-in Station"
+                "title": "Feelings Check-in Station",
+                "interactive": "feelings"
             },
             {
                 "title": "Meet the women of WORTH: Sofia"
@@ -135,7 +137,8 @@
                 "title": "Pulling into the feelings check-in station"
             },
             {
-                "title": "Feelings check-in station"
+                "title": "Feelings check-in station",
+                "interactive": "feelings"
             },
             {
                 "title": "Setting goals for me: reducing risks"
@@ -302,7 +305,8 @@
                 "title": "Pulling into the feelings check-in station"
             },
             {
-                "title": "Feelings check-in station"
+                "title": "Feelings check-in station",
+                "interactive": "feelings"
             },
             {
                 "title": "How I get support map"
