@@ -30,7 +30,7 @@ body *  {font-family: arial, helvetica, sans-serif!important;}
 {
     position: fixed;
     width: 100%;
-    left: 10px;
+    left: 15px;
     top: 50%;
     z-index: 10;
 }
@@ -61,26 +61,7 @@ body *  {font-family: arial, helvetica, sans-serif!important;}
     color: #fff;
 }
 
-.sidenav ol.nav-toc
-{
-    padding-left: 1.25em;
-}
-
-.sidenav ol.nav-toc li
-{
-    font-weight: bold;
-}
-
-.sidenav ol.nav-toc ol li
-{
-    font-weight: normal;
-}
-
-.sidenav ol.nav-toc ol
-{
-padding-left: 0em;
-}
-
+/* all list items */
 .sidenav li
 {
     list-style: none;
@@ -88,7 +69,7 @@ padding-left: 0em;
 
 }
 
-/* The navigation menu links */
+/* all navigation menu links */
 .sidenav a
 {
 	text-decoration: none;
@@ -96,9 +77,8 @@ padding-left: 0em;
 	color: #fff;
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover,
-.offcanvas a:focus { color: #f7ecf0; text-decoration: underline; }
+/* when you mouse over all navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus { color: #f7ecf0; text-decoration: underline; }
 
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn
@@ -109,6 +89,28 @@ padding-left: 0em;
     font-size: 36px;
     margin-left: 50px;
 }
+
+.sidenav ol.nav-toc
+{
+    padding-left: 1.25em;
+}
+
+.sidenav ol.nav-toc>li
+{
+    font-weight: bold; font-size: 1.5em; border-top: 1px solid #fff; padding-top: .5em; color: #f7ecf0;
+}
+
+.sidenav ol.nav-toc ol
+{
+padding-left: 0em;
+}
+
+.sidenav ol.nav-toc ol li
+{
+    font-weight: normal; font-size: .7em;
+}
+
+
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main { padding: 20px; }
@@ -131,4 +133,4 @@ li.highlight  a { color: #000;  font-weight: bold; padding: .5em 0em .5em .5em;}
     margin: 5em;
 }
 
-img#logo {width: 200px; margin: 0px 0px 20px 20px;}
+img#logo {width: 200px; margin-left: 20px;}
