@@ -7,19 +7,25 @@
     };
 
     $(document).ready(function() {
-        var $container = $('.container.feeling');
+        var $container = $('.container.feelings');
 
-        $container.find('figure').click(function(e) {
+        $container.on('click', 'figure', function(e) {
             e.preventDefault();
+            var $myContainer = $(this).closest('.container');
+            var feeling = $.trim($(this).attr('alt'));
+
+            $myContainer.find('.my-feeling').text(feeling);
+
             $(this).closest('div.panel').addClass('hidden');
-            $container.find('div.s1').removeClass('hidden');
-            updateProgressBar($container, 100);
+            $myContainer.find('div.s1').removeClass('hidden');
+            updateProgressBar($myContainer, 100);
         });
 
         $container.find('button.s0').click(function(e) {
             e.preventDefault();
+            var $myContainer = $(this).closest('.container');
             $(this).closest('div.panel').addClass('hidden');
-            resetActivity($container);
+            resetActivity($myContainer);
         });
     });
 })();

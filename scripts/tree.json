@@ -41,7 +41,7 @@
             },
             {
                 "title": "Feelings check-in station",
-                "interactive": "feelings"
+                "template": "feelings"
             },
             {
                 "title": "Making a commitment to me",
@@ -112,7 +112,7 @@
             },
             {
                 "title": "Feelings Check-in Station",
-                "interactive": "feelings"
+                "template": "feelings"
             },
             {
                 "title": "Meet the women of WORTH: Sofia"
@@ -138,7 +138,7 @@
             },
             {
                 "title": "Feelings check-in station",
-                "interactive": "feelings"
+                "template": "feelings"
             },
             {
                 "title": "Setting goals for me: reducing risks"
@@ -209,7 +209,8 @@
                 "title": "Pulling into the feelings check-in station"
             },
             {
-                "title": "feelings check in station"
+                "title": "feelings check in station",
+                "template": "feelings"
             },
             {
                 "title": "Protecting myself while having sex"
@@ -306,7 +307,7 @@
             },
             {
                 "title": "Feelings check-in station",
-                "interactive": "feelings"
+                "template": "feelings"
             },
             {
                 "title": "How I get support map"
