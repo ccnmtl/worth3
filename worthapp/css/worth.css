@@ -29,8 +29,7 @@ body *  {font-family: arial, helvetica, sans-serif!important;}
 .toggle-toc-icon
 {
     position: fixed;
-    width: 100%;
-    left: 15px;
+    left: 10px;
     top: 50%;
     z-index: 10;
 }
