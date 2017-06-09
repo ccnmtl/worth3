@@ -71,9 +71,9 @@ body *  {font-family: arial, helvetica, sans-serif!important;}
 /* all navigation menu links */
 .sidenav a
 {
-	text-decoration: none;
-	display: block;
-	color: #fff;
+    text-decoration: none;
+    display: block;
+    color: #fff;
 }
 
 /* when you mouse over all navigation links, change their color */
