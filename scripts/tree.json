@@ -75,10 +75,12 @@
                 "subtitle": "Taking in the view while deciding the direction"
             },
             {
-                "title": "I am worth it"
+                "title": "I am worth it",
+                "paragraph": "You certainly are. Let's find out why."
             },
             {
-                "title": "I am worth it activity"
+                "title": "I am worth it",
+                "template": "i-am-worth-it"
             },
             {
                 "title": "Note on format"

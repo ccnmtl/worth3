@@ -81,6 +81,7 @@ def render_page(page):
 
     page_out = page_t.replace('{% TITLE %}', page.get('title'))
     page_out = page_out.replace('{% SUBTITLE %}', page.get('subtitle') or '')
+    page_out = page_out.replace('{% PARAGRAPH %}', page.get('paragraph') or '')
 
     return BeautifulSoup(page_out, 'html.parser')
 
