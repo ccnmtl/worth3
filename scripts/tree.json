@@ -133,7 +133,8 @@
                 "title": "Protecting myself and those I care about"
             },
             {
-                "title": "Protective behaviors activity"
+                "title": "Protective behaviors activity",
+                "template": "protective-behaviors"
             },
             {
                 "title": "Pulling into the feelings check-in station"
@@ -379,7 +380,8 @@
                 "title": "Protecting myself and those I care about"
             },
             {
-                "title": "protective behaviors activity"
+                "title": "protective behaviors activity",
+                "template": "protective-behaviors"
             },
             {
                 "title": "quiz game"
