@@ -3,7 +3,7 @@
         "title": "Session 1: Beginning the Journey",
         "pages": [
             {
-                "title": "Welcome to session 1!!",
+                "title": "Welcome to session 1!",
                 "subtitle": "Beginning the Journey",
                 "video": "s1-intro"
             },
@@ -40,7 +40,7 @@
                 "video": "s1-intro-to-feelings-checkin"
             },
             {
-                "title": "Feelings check-in station",
+                "title": "Feelings Check-in station",
                 "template": "feelings"
             },
             {
@@ -48,21 +48,17 @@
                 "video": "s1-intro-to-service-referrals"
             },
             {
-                "title": "Service referrals activity"
+                "title": "My commitment to me"
             },
             {
-                "title": "Setting goals for me - general goals",
-                "video": "s1-intro-to-goal-setting"
-            },
-            {
-                "title": "Widget"
+                "title": "What did we learn?"
             },
             {
                 "title": "Summing it all up",
                 "template": "summing-it-up-1"
             },
             {
-                "title": "Congrats, you're done with Session 1!",
+                "title": "Congrats! You are WORTH it (session 1)!",
                 "video": "s1-congrats-youre-done"
             }
         ]
@@ -71,7 +67,7 @@
         "title": "Session 2: Taking in the view while deciding the direction",
         "pages": [
             {
-                "title": "Welcome to session 2!!",
+                "title": "Welcome to session 2!",
                 "subtitle": "Taking in the view while deciding the direction"
             },
             {
@@ -79,11 +75,8 @@
                 "paragraph": "You certainly are. Let's find out why."
             },
             {
-                "title": "I am worth it",
+                "title": "I am...",
                 "template": "i-am-worth-it"
-            },
-            {
-                "title": "Note on format"
             },
             {
                 "title": "Getting centered"
@@ -103,27 +96,30 @@
                 "template": "reflect-charlene"
             },
             {
-                "title": "HIV and STIs: What do we know"
+                "title": "HIV and STIs: What do we know?"
             },
             {
-                "title": "Myth / Fact",
+                "title": "Learning about myths and facts",
                 "template": "myth-fact"
+            },
+            {
+                "title": "Facts about staying safe"
             },
             {
                 "title": "How trauma hurts"
             },
             {
-                "title": "Feelings Check-in Station",
+                "title": "Feelings Check-in station",
                 "template": "feelings"
             },
             {
                 "title": "Meet the women of WORTH: Sofia"
             },
             {
-                "title": "ID Sophia's symptoms"
+                "title": "Sofia's traums"
             },
             {
-                "title": "Sofia Outro"
+                "title": "Sofia's story"
             },
             {
                 "title": "Reflect on Sofia",
@@ -133,30 +129,24 @@
                 "title": "Protecting myself and those I care about"
             },
             {
-                "title": "Protective behaviors activity",
+                "title": "Stuff I do",
                 "template": "protective-behaviors"
             },
             {
                 "title": "Pulling into the feelings check-in station"
             },
             {
-                "title": "Feelings check-in station",
+                "title": "Feelings Check-in station",
                 "template": "feelings"
             },
             {
                 "title": "Setting goals for me: reducing risks"
             },
             {
-                "title": "Goal setting for risk"
-            },
-            {
                 "title": "Setting goals for me: general goals"
             },
             {
-                "title": "Service referrals"
-            },
-            {
-                "title": "Goal setting for service referrals"
+                "title": "My Commitment to me"
             },
             {
                 "title": "What did we learn?"
@@ -174,7 +164,7 @@
         "title": "Session 3: Planning for my safety and the safety of others",
         "pages": [
             {
-                "title": "Welcome to session 3!!",
+                "title": "Welcome to session 3!",
                 "subtitle": "Planning for my safety and the safety of others"
             },
             {
@@ -191,60 +181,57 @@
                 "title": "A problem solving technique"
             },
             {
-                "title": "Practicing POP sequence "
+                "title": "POP-ing out our problems "
             },
             {
-                "title": "The power of self talk"
+                "title": "The power of self-talk"
             },
             {
-                "title": "Self Talk sequence",
+                "title": "Rasheeda's self-talk",
                 "template": "self-talk"
             },
             {
-                "title": "Self talk and POP wrap up, social suppport map intro"
+                "title": "How I get support"
             },
             {
-                "title": "How I get support map"
+                "title": "How I get support: my map"
+            },
+            {
+                "title": "Strengthening support"
             },
             {
                 "title": "Setting goals for me: strengthening support"
             },
             {
-                "title": "goal setting for social support"
-            },
-            {
-                "title": "Pulling into the feelings check-in station"
-            },
-            {
-                "title": "feelings check in station",
+                "title": "Feelings Check in Station",
                 "template": "feelings"
             },
             {
                 "title": "Protecting myself while having sex"
             },
             {
-                "title": "Fantasy Menu - great but safe sex"
+                "title": "Fantasy Menu: great but safe sex"
             },
             {
-                "title": "buzz feed style quiz"
+                "title": "How adventurous are you?"
             },
             {
-                "title": "Goal setting intro"
+                "title": "Reducing risks"
             },
             {
                 "title": "Setting goals for me: reducing risks"
             },
             {
-                "title": "service referrals goal"
+                "title": "General goals"
             },
             {
                 "title": "Setting goals for me - general goals"
             },
             {
-                "title": "I am worth it intro"
+                "title": "You are WORTH it!"
             },
             {
-                "title": "I am worth it "
+                "title": "I am WORTH it!"
             },
             {
                 "title": "What did we learn?"
@@ -253,7 +240,7 @@
                 "title": "Summing it all up"
             },
             {
-                "title": "Congratulations...you are WORTH it (session 3)!!"
+                "title": "Congratulations...you are WORTH it (session 3)!"
             }
         ]
     },
@@ -261,47 +248,47 @@
         "title": "Session 4: Staying strong and focused",
         "pages": [
             {
-                "title": "Welcome to session 4!!",
+                "title": "Welcome to session 4!",
                 "subtitle": "Staying strong and focused"
             },
             {
                 "title": "Focusing on my goals"
             },
             {
-                "title": "Take a moment to write down how you did"
+                "title": "My Goals"
             },
             {
                 "title": "Where we've been... where we're going"
             },
             {
-                "title": "Practicing POP"
+                "title": "Sofia Practices POP!"
             },
             {
                 "title": "The power of self-talk revisited"
             },
             {
-                "title": "Self-Talk (Sophia)"
+                "title": "Sofia's self-talk"
             },
             {
                 "title": "Safety first and always..."
             },
             {
-                "title": "IPV screener"
+                "title": "Assessing my relationships"
             },
             {
-                "title": "Intro to Safety Planning",
+                "title": "Planning for safety",
                 "video": "safety-intro",
                 "poster": "carol.png"
             },
             {
-                "title": "Safety Planning",
+                "title": "Writing down my safety plan",
                 "template": "safety"
             },
             {
                 "title": "Negotiating condom use while keeping myself safe"
             },
             {
-                "title": "Barriers to condom use"
+                "title": "Barriers to Condom Use and Practicing Negotiation"
             },
             {
                 "title": "Practicing negotiation"
@@ -320,34 +307,31 @@
                 "title": "How I get support map"
             },
             {
+                "title": "Review your map"
+            },
+            {
+                "title": "Strengthening support"
+            },
+            {
                 "title": "Setting goals for me - strengthening support"
             },
             {
-                "title": "Goal setting for social support"
+                "title": "Reducing risks"
             },
             {
                 "title": "Setting goals for me - reducing risks"
             },
             {
-                "title": "Goal setting for risk reduction"
+                "title": "General goals"
             },
             {
                 "title": "Setting goals for me - general goals"
             },
             {
-                "title": "Service referrals"
-            },
-            {
-                "title": "Goal setting service referrals"
-            },
-            {
-                "title": "Goal setting service referrals"
-            },
-            {
                 "title": "You are WORTH it!"
             },
             {
-                "title": "I am worth it!"
+                "title": "I am WORTH it!"
             },
             {
                 "title": "What did we learn?"
@@ -371,7 +355,7 @@
                 "title": "Focusing on my goals"
             },
             {
-                "title": "page asking people to write down how they did"
+                "title": "My goals"
             },
             {
                 "title": "Where we've been...where we're going"
@@ -380,14 +364,14 @@
                 "title": "Protecting myself and those I care about"
             },
             {
-                "title": "protective behaviors activity",
+                "title": "Stuff I do",
                 "template": "protective-behaviors"
             },
             {
-                "title": "quiz game"
+                "title": "Check out what you learned"
             },
             {
-                "title": "goal setting intro"
+                "title": "Reducing risks"
             },
             {
                 "title": "Setting goals for me - reducing risks"
@@ -396,13 +380,13 @@
                 "title": "Passing it along"
             },
             {
-                "title": "message in a bottle"
+                "title": "Message in a bottle"
             },
             {
                 "title": "You are WORTH it!"
             },
             {
-                "title": "I am worth it!"
+                "title": "I am WORTH it!"
             },
             {
                 "title": "What did we learn?"
