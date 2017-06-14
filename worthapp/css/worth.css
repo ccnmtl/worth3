@@ -7,10 +7,7 @@ only screen and (min-device-pixel-ratio: 1.5)
     body button.btn { font-size: 150%; }
 }
 
-body *  {font-family: arial, helvetica, sans-serif!important;}
-
 body {
-/*background-color: #f7ecf0;*/
 background-color: #932951;
     background-image: url("../img/floral-screen-025.png");
     background-repeat: no-repeat;
@@ -18,14 +15,14 @@ background-color: #932951;
     background-attachment: static;
 }
 
-h1, h2, h3, h4,h5 {color: #932951;}
+h1, h2, h3, h4,h5 {color: #932951; font-family: arial, helvetica, sans-serif!important}
 
-p, ol, ul, li {color: #000000;}
-
-section {border: 1px solid red;}
+p, ol, ul, li {color: #000000; font-family: arial, helvetica, sans-serif!important}
 
 .hidden { display: none; }
+
 .safety .row { margin-bottom: 1em; }
+
 .safety .row .col.definition { text-align: right; }
 
 /*
@@ -67,13 +64,6 @@ section {border: 1px solid red;}
     left: 0;
     overflow-x: hidden;
     /* Disable horizontal scroll */
-    /*
-    background-color: #932951;
-    background-image: url("../img/floral-screen-025.png");
-    background-repeat: no-repeat;
-    background-position: -450px top;
-    background-attachment: static;
-    */
     padding: 1.25em 0em 1.25em 2.75em;
     background-color: #000;
     color: #fff;
@@ -144,13 +134,28 @@ img.half-width { max-width: 50%; }
 li.highlight {  background-color: #932951; }
 li.highlight  a { color: #fff;  font-weight: bold; padding: .5em 0em .5em .5em;}
 
-img#logo {width: 200px; margin-left: 20px;}
+img#logo {width: 180px; margin-left: 20px;}
 
-.swiper-wrapper {margin-top: 3em;}
+.swiper-wrapper {margin-top: 3em; margin-left: 1.5em;}
+
 .swiper-slide .container {
-background-color: rgba(247,236,240,0.75); padding: 3em;
+background-color: rgba(247,236,240,0.75);
+padding: 3em;
 border-radius: 10px;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 }
 
+.progress {margin-bottom: 3em;}
+.panel button {margin-top: 2em;}
+.alert {margin-top: 2em;}
+.alert-info {background-color: #f7ecf0;}
+.btn-primary {background-color: #932951; border-color: #932951;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+background-color: #000; border-color: #000;
+}
+
+/* toc page */
+ol.toc li a {color: black;}
+ol.toc li {font-weight: bold;}
+ol.toc li li {font-weight: normal;}
