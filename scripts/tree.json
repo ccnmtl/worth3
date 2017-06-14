@@ -198,7 +198,8 @@
                 "title": "How I get support: my map"
             },
             {
-                "title": "Strengthening support"
+                "title": "Strengthening support",
+                "template": "strengthening-support"
             },
             {
                 "title": "Setting goals for me: strengthening support"
@@ -314,7 +315,8 @@
                 "paragraph": "Take a look at the map you made during session three. Are there any changes you want to make to your map?"
             },
             {
-                "title": "Strengthening support"
+                "title": "Strengthening support",
+                "template": "strengthening-support"
             },
             {
                 "title": "Setting goals for me - strengthening support"
