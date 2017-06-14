@@ -392,7 +392,8 @@
                 "title": "What did we learn?"
             },
             {
-                "title": "Summing it all up"
+                "title": "Summing it all up",
+                "template": "summing-it-up-5"
             },
             {
                 "title": "Congratulations! You completed WORTH!!"
