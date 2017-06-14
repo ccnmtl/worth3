@@ -237,7 +237,8 @@
                 "title": "What did we learn?"
             },
             {
-                "title": "Summing it all up"
+                "title": "Summing it all up",
+                "template": "summing-it-up-3"
             },
             {
                 "title": "Congratulations...you are WORTH it (session 3)!"
