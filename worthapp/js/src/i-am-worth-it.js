@@ -13,7 +13,6 @@
             e.preventDefault();
             var $myContainer = $(this).closest('.container');
             var attr = $.trim($(this).text());
-            console.log(attr);
 
             $myContainer.find('.worth-it-attr').text(attr + '.');
 

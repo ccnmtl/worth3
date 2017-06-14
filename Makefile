@@ -1,5 +1,5 @@
 JS_ROOT=worthapp
-JS_FILES="worthapp/js/src worthapp/js/tests"
+JS_FILES=worthapp/js/src/*.js worthapp/js/tests/*.js
 
 include *.mk
 
