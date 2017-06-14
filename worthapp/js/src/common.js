@@ -1,4 +1,5 @@
 /* global $ */
+/* eslint-env es6 */
 /* exported updateProgressBar, advanceToPanel, initActivityPanels */
 
 var updateProgressBar = function($container, percentage) {
