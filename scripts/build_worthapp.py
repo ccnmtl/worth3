@@ -11,7 +11,7 @@ from os.path import join
 
 
 BASEPATH = '../worthapp/'
-SUBTITLES = [
+SESSION_TITLES = [
     'Beginning the Journey',
     'Taking in the view while deciding direction ',
     'Planning for my safety and the safety of others',
@@ -33,7 +33,7 @@ def make_nav(soup, tree):
     for s_idx, session in enumerate(tree):
 
         li = soup.new_tag('li')
-        li.append('Session {}: {}'.format(s_idx + 1, SUBTITLES[s_idx]))
+        li.append('Session {}: {}'.format(s_idx + 1, SESSION_TITLES[s_idx]))
 
         nav_li = soup.new_tag('li')
         nav_li.append('Session {}'.format(s_idx + 1))
@@ -63,7 +63,7 @@ def make_nav(soup, tree):
                 s_idx + 1, p_idx + 1, page['title'])
 
 
-def render_page(page):
+def render_page(page, page_num, session_num, session_title, session_length):
     """Render page data with its template.
 
     Returns a BeautifulSoup object.
@@ -79,7 +79,12 @@ def render_page(page):
     else:
         page_t = open('templates/page.html').read()
 
-    page_out = page_t.replace('{% TITLE %}', page.get('title'))
+    long_session_title = 'Session {}: {}'.format(session_num, session_title)
+
+    page_out = page_t.replace('{% SESSIONTITLE %}', long_session_title)
+    page_out = page_out.replace('{% PAGENUM %}', str(page_num))
+    page_out = page_out.replace('{% SESSIONLENGTH %}', str(session_length))
+    page_out = page_out.replace('{% TITLE %}', page.get('title'))
     page_out = page_out.replace('{% SUBTITLE %}', page.get('subtitle') or '')
     page_out = page_out.replace('{% PARAGRAPH %}', page.get('paragraph') or '')
 
@@ -100,7 +105,10 @@ def main():
         for p_idx, page in enumerate(session['pages']):
             slide = soup.new_tag('div')
             slide['class'] = 'swiper-slide'
-            slide.append(render_page(page))
+            slide.append(
+                render_page(page, p_idx + 1, s_idx + 1,
+                            SESSION_TITLES[s_idx],
+                            session_lengths[s_idx]))
             swiper_wrapper.append(slide)
 
     f = open(join(BASEPATH, 'index.html'), 'w')
