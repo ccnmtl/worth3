@@ -215,7 +215,8 @@
                 "title": "Fantasy Menu: great but safe sex"
             },
             {
-                "title": "How adventurous are you?"
+                "title": "How adventurous are you?",
+                "template": "fantasy-menu"
             },
             {
                 "title": "Reducing risks"
