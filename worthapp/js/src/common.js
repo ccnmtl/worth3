@@ -2,6 +2,19 @@
 /* eslint-env es6 */
 /* exported updateProgressBar, advanceToPanel, initActivityPanels */
 
+/*
+ * Stop playback of any playing videos in the given container.
+ */
+var pauseVideos = function($container) {
+    if ($container) {
+        $.each($container.find('video'), function() {
+            if (!this.paused) {
+                this.pause();
+            }
+        });
+    }
+};
+
 var updateProgressBar = function($container, percentage) {
     var $bar = $container.find('.progress-bar');
     $bar.css('width', percentage + '%');
@@ -13,6 +26,8 @@ var advanceToPanel = function($container, i, total) {
     $container.find('div.s' + i).removeClass('hidden');
     updateProgressBar($container, (i / total) * 100);
     $(document).scrollTop(0);
+
+    pauseVideos($container);
 };
 
 /**

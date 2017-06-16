@@ -1,5 +1,5 @@
 /* eslint-env jquery */
-/* globals Swiper, sessionLengths, utils */
+/* globals Swiper, sessionLengths, utils, pauseVideos */
 
 (function() {
     var highlightTocItem = function($toc, id) {
@@ -11,6 +11,12 @@
 
     $(document).ready(function () {
         var swiper = new Swiper('.swiper-container', {
+            preloadImages: false,
+            onSlideChangeStart: function(s) {
+                pauseVideos($(s.slides[s.activeIndex]));
+                pauseVideos($(s.slides[s.activeIndex - 1]));
+                pauseVideos($(s.slides[s.activeIndex + 1]));
+            },
             onSlideChangeEnd: function(s) {
                 highlightTocItem(
                     $('ol.nav-toc'),
@@ -25,6 +31,8 @@
             e.preventDefault();
 
             var idx = utils.id2idx(e.target.href, sessionLengths);
+
+            pauseVideos($(swiper.slides[swiper.activeIndex]));
 
             $('.sidenav').width(0);
             swiper.slideTo(idx + 1);
