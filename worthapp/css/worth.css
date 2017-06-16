@@ -174,3 +174,8 @@ img#logo {width: 180px; margin-left: 20px;}
 ol.toc li a {color: black;}
 ol.toc li {font-weight: bold;}
 ol.toc li li {font-weight: normal;}
+
+.worth-icon {
+    width: 200px;
+    height: auto;
+}
