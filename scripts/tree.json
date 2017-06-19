@@ -195,7 +195,8 @@
                 "title": "How I get support"
             },
             {
-                "title": "How I get support: my map"
+                "title": "How I get support: my map",
+                "template": "ssnm"
             },
             {
                 "title": "Strengthening support",
