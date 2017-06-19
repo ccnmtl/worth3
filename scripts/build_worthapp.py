@@ -36,7 +36,8 @@ def make_nav(soup, tree):
         li.append('Session {}: {}'.format(s_idx + 1, SESSION_TITLES[s_idx]))
 
         nav_li = soup.new_tag('li')
-        nav_li.append('Session {}'.format(s_idx + 1))
+        nav_li.append(
+            'Session {}: {}'.format(s_idx + 1, SESSION_TITLES[s_idx]))
 
         toc.append(li)
         nav_toc.append(nav_li)
