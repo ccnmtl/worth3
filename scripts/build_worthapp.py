@@ -15,7 +15,7 @@ SESSION_TITLES = [
     'Beginning the Journey',
     'Taking in the view while deciding direction ',
     'Planning for my safety and the safety of others',
-    'Staying strong and focused',
+    'Staying Strong',
     'Keeping it Going',
 ]
 
