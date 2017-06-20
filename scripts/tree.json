@@ -271,10 +271,12 @@
         "pages": [
             {
                 "title": "Welcome to session 4!",
-                "subtitle": "Staying strong and focused"
+                "subtitle": "Staying strong and focused",
+                "video": "ks2hZjqg6Kg"
             },
             {
-                "title": "Focusing on my goals"
+                "title": "Focusing on my goals",
+                "video": "UmqBLQBbHeA"
             },
             {
                 "title": "My Goals",
@@ -282,19 +284,22 @@
                 "image": "writing.png"
             },
             {
-                "title": "Where we've been... where we're going"
+                "title": "Where we've been... where we're going",
+                "video": "y1uza2mCneg"
             },
             {
                 "title": "Sofia Practices POP!"
             },
             {
-                "title": "The power of self-talk revisited"
+                "title": "The power of self-talk revisited",
+                "video": "kzrqazMvKnk"
             },
             {
                 "title": "Sofia's self-talk"
             },
             {
-                "title": "Safety first and always..."
+                "title": "Safety first and always...",
+                "video": "pFaXf9s-MBI"
             },
             {
                 "title": "Assessing my relationships"
@@ -306,19 +311,23 @@
             },
             {
                 "title": "Writing down my safety plan",
-                "template": "safety"
+                "template": "safety",
+                "video": "px3QOlzL8nU"
             },
             {
-                "title": "Negotiating condom use while keeping myself safe"
+                "title": "Negotiating condom use while keeping myself safe",
+                "video": "qi5y2XXav0I"
             },
             {
-                "title": "Barriers to Condom Use and Practicing Negotiation"
+                "title": "Barriers to Condom Use and Practicing Negotiation",
+                "video": "ad3NIT7QeTA"
             },
             {
                 "title": "Practicing negotiation"
             },
             {
-                "title": "When negotiating is not possible"
+                "title": "When negotiating is not possible",
+                "video": "iM9ba9t-GPU"
             },
             {
                 "title": "Pulling into the feelings check-in station"
@@ -328,7 +337,8 @@
                 "template": "feelings"
             },
             {
-                "title": "How I get support map"
+                "title": "How I get support map",
+                "video": "vSYo0BhtzPU"
             },
             {
                 "title": "Review your map",
@@ -337,25 +347,29 @@
             },
             {
                 "title": "Strengthening support",
-                "template": "strengthening-support"
+                "template": "strengthening-support",
+                "video": "yGMKdV6n1MY"
             },
             {
                 "title": "Setting goals for me - strengthening support"
             },
             {
-                "title": "Reducing risks"
+                "title": "Reducing risks",
+                "video": "6nPq6b45p1E"
             },
             {
                 "title": "Setting goals for me - reducing risks"
             },
             {
-                "title": "General goals"
+                "title": "General goals",
+                "video": "tv9bz4UDCGs"
             },
             {
                 "title": "Setting goals for me - general goals"
             },
             {
-                "title": "You are WORTH it!"
+                "title": "You are WORTH it!",
+                "video": "lBNgg-K_PnA"
             },
             {
                 "title": "I am WORTH it!"
@@ -368,7 +382,8 @@
                 "template": "summing-it-up-4"
             },
             {
-                "title": "Congratulations...you are WORTH it (session 4)!!"
+                "title": "Congratulations...you are WORTH it (session 4)!!",
+                "video": "RCLTa68tVEM"
             }
         ]
     },
