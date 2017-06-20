@@ -4,13 +4,12 @@
     var resetActivity = function($container) {
         updateProgressBar($container, 0);
         $container.find('div.s0').removeClass('hidden');
-        $container.find('button.s2-true,button.s2-false')
-            .removeClass('disabled');
-        $container.find('button.s2-true,button.s2-false')
+        $container.find('.pb-buttons button').removeClass(
+            'btn-danger btn-warning btn-success');
+        $container.find('.pb-buttons-risk-rating button')
+            .removeClass('btn-danger btn-warning btn-success disabled')
             .removeAttr('disabled');
-        $container.find('.alert.wrong-answer,.alert.right-answer')
-            .addClass('hidden');
-        $container.find('.alert.answer').addClass('hidden');
+        $container.find('.pb-feedback').addClass('hidden');
     };
 
     var calculateRiskLevel = function($container) {
@@ -83,6 +82,26 @@
             var $myContainer = $(this).closest('.container');
             $(this).closest('div.panel').addClass('hidden');
             resetActivity($myContainer);
+        });
+
+        $container.find('.pb-buttons-risk-rating button').click(function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $panel = $this.closest('.panel');
+
+            if ($this.hasClass('pb-red')) {
+                $this.toggleClass('btn-danger');
+            } else if ($this.hasClass('pb-yellow')) {
+                $this.toggleClass('btn-warning');
+            } else if ($this.hasClass('pb-green')) {
+                $this.toggleClass('btn-success');
+            }
+
+            $panel.find('.pb-buttons-risk-rating button')
+                .addClass('disabled')
+                .attr('disabled', 'disabled');
+
+            $panel.find('p.hidden,button.hidden').removeClass('hidden');
         });
     });
 })();
