@@ -182,10 +182,12 @@
         "pages": [
             {
                 "title": "Welcome to session 3!",
-                "subtitle": "Planning for my safety and the safety of others"
+                "subtitle": "Planning for my safety and the safety of others",
+                "video": "wVC5E5_ezek"
             },
             {
-                "title": "Focusing on my goals"
+                "title": "Focusing on my goals",
+                "video": "b6chVFejE6w"
             },
             {
                 "title": "My Goals",
@@ -193,23 +195,27 @@
                 "image": "writing.png"
             },
             {
-                "title": "Where we have been / Where we are going"
+                "title": "Where we have been / Where we are going",
+                "video": "8pejHg7PKcc"
             },
             {
-                "title": "A problem solving technique"
+                "title": "A problem solving technique",
+                "video": "Mb6Mz9InyKE"
             },
             {
                 "title": "POP-ing out our problems "
             },
             {
-                "title": "The power of self-talk"
+                "title": "The power of self-talk",
+                "video": "XYTH8vhIBng"
             },
             {
                 "title": "Rasheeda's self-talk",
                 "template": "self-talk"
             },
             {
-                "title": "How I get support"
+                "title": "How I get support",
+                "video": "bHsAc4MNIeU"
             },
             {
                 "title": "How I get support: my map",
@@ -223,33 +229,42 @@
                 "title": "Setting goals for me: strengthening support"
             },
             {
+                "title": "Pulling into the feelings check-in station",
+                "video": "40wQVPx_wy4"
+            },
+            {
                 "title": "Feelings Check in Station",
                 "template": "feelings"
             },
             {
-                "title": "Protecting myself while having sex"
+                "title": "Protecting myself while having sex",
+                "video": "5NsLyoDBMaE"
             },
             {
-                "title": "Fantasy Menu: great but safe sex"
+                "title": "Fantasy Menu: great but safe sex",
+                "video": "oIHys4paYks"
             },
             {
                 "title": "How adventurous are you?",
                 "template": "fantasy-menu"
             },
             {
-                "title": "Reducing risks"
+                "title": "Reducing risks",
+                "video": "jHPX8kcqxMU"
             },
             {
                 "title": "Setting goals for me: reducing risks"
             },
             {
-                "title": "General goals"
+                "title": "General goals",
+                "video": "bYe6yF7YdLk"
             },
             {
                 "title": "Setting goals for me - general goals"
             },
             {
-                "title": "You are WORTH it!"
+                "title": "You are WORTH it!",
+                "video": "6Wz4Vs_EbEg"
             },
             {
                 "title": "I am WORTH it!"
@@ -262,7 +277,8 @@
                 "template": "summing-it-up-3"
             },
             {
-                "title": "Congratulations...you are WORTH it (session 3)!"
+                "title": "Congratulations...you are WORTH it (session 3)!",
+                "video": "sYXONfvlcjg"
             }
         ]
     },
