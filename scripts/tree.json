@@ -377,10 +377,12 @@
         "pages": [
             {
                 "title": "Welcome to session 5!!",
-                "subtitle": "Keeping the journey going: I am WORTH it!"
+                "subtitle": "Keeping the journey going: I am WORTH it!",
+                "video": "0mJi7_DsIbw"
             },
             {
-                "title": "Focusing on my goals"
+                "title": "Focusing on my goals",
+                "video": "sKX4pSIuG78"
             },
             {
                 "title": "My goals",
@@ -388,10 +390,12 @@
                 "image": "writing.png"
             },
             {
-                "title": "Where we've been...where we're going"
+                "title": "Where we've been...where we're going",
+                "video": "1njLOKZ0kbU"
             },
             {
-                "title": "Protecting myself and those I care about"
+                "title": "Protecting myself and those I care about",
+                "video": "sjafHsx1x9o"
             },
             {
                 "title": "Stuff I do",
@@ -401,20 +405,23 @@
                 "title": "Check out what you learned"
             },
             {
-                "title": "Reducing risks"
+                "title": "Reducing risks",
+                "video": "dp6Z1b3AYH8"
             },
             {
                 "title": "Setting goals for me - reducing risks"
             },
             {
-                "title": "Passing it along"
+                "title": "Passing it along",
+                "video": "QwBtpUVgfZ0"
             },
             {
                 "title": "Message in a bottle",
                 "paragraph": "We would also like you to share your experience in WORTH with someone you care about by writing a letter; we call it a \"message in a bottle\". Think about how you felt at the beginning of this journey and then consider what would you tell another person about how to protect herself. Now that you have developed this message, think about who you might share this with and how you might share it with them. If there is someone you know who really needs this information that might be a good place to begin."
             },
             {
-                "title": "You are WORTH it!"
+                "title": "You are WORTH it!",
+                "video": "QpLkbU_nKIk"
             },
             {
                 "title": "I am WORTH it!"
@@ -427,7 +434,8 @@
                 "template": "summing-it-up-5"
             },
             {
-                "title": "Congratulations! You completed WORTH!!"
+                "title": "Congratulations! You completed WORTH!!",
+                "video": "kwLBOrbnbuw"
             },
             {
                 "title": "Things I am proud of",
