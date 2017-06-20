@@ -5,23 +5,23 @@
             {
                 "title": "Welcome to session 1!",
                 "subtitle": "Beginning the Journey",
-                "video": "s1-intro"
+                "video": "#"
             },
             {
                 "title": "\"The only bad status is not knowing your status\"",
-                "video": "s1-p2"
+                "video": "EuFxhXJVh-Y"
             },
             {
                 "title": "HIV testing",
-                "video": "s1-p3"
+                "video": "QpTqFvjIVTI"
             },
             {
                 "title": "Why WORTH?",
-                "video": "s1-why-worth"
+                "video": "#"
             },
             {
                 "title": "Meet the women of WORTH: Rasheeda",
-                "video": "s1-p5"
+                "video": "Xw_yJRlWoFI"
             },
             {
                 "title": "Reflect on Rasheeda",
@@ -29,7 +29,7 @@
             },
             {
                 "title": "Meet the women of WORTH: Mia",
-                "video": "s1-p7"
+                "video": "xEDhoXANIiE"
             },
             {
                 "title": "Reflect on Mia",
@@ -37,7 +37,7 @@
             },
             {
                 "title": "Pulling into the feelings check-in station",
-                "video": "s1-p9"
+                "video": "hLktaEopMYk"
             },
             {
                 "title": "Feelings Check-in station",
@@ -45,7 +45,7 @@
             },
             {
                 "title": "Making a commitment to me",
-                "video": "s1-p11"
+                "video": "BGIsbHxbG8Y"
             },
             {
                 "title": "My commitment to me"
@@ -59,7 +59,7 @@
             },
             {
                 "title": "Congrats! You are WORTH it (session 1)!",
-                "video": "s1-p15"
+                "video": "_BmSXsu4iFs"
             }
         ]
     },
@@ -68,72 +68,85 @@
         "pages": [
             {
                 "title": "Welcome to session 2!",
-                "subtitle": "Taking in the view while deciding the direction"
+                "subtitle": "Taking in the view while deciding the direction",
+                "video": "OLH7XvnUqg4"
             },
             {
                 "title": "You are WORTH it!",
-                "paragraph": "You certainly are. Let's find out why."
+                "paragraph": "You certainly are. Let's find out why.",
+                "video": "09RctV0yYYk"
             },
             {
                 "title": "I am WORTH it!",
                 "template": "i-am-worth-it"
             },
             {
-                "title": "Getting centered"
+                "title": "Getting centered",
+                "video": "Kdv4gdThRZg"
             },
             {
-                "title": "Meet the women of WORTH: Amanda"
+                "title": "Meet the women of WORTH: Amanda",
+                "video": "pHb62EwGAAE"
             },
             {
                 "title": "Reflect on Amanda",
                 "template": "reflect-amanda"
             },
             {
-                "title": "Meet the women of WORTH: Charlene"
+                "title": "Meet the women of WORTH: Charlene",
+                "video": "MZ6jh2V8iFk"
             },
             {
                 "title": "Reflect on Charlene",
                 "template": "reflect-charlene"
             },
             {
-                "title": "HIV and STIs: What do we know?"
+                "title": "HIV and STIs: What do we know?",
+                "video": "-RK7r3KB7lk"
             },
             {
                 "title": "Learning about myths and facts",
                 "template": "myth-fact"
             },
             {
-                "title": "Facts about staying safe"
+                "title": "Facts about staying safe",
+                "video": "FWUqhTiOIjw"
             },
             {
-                "title": "How trauma hurts"
+                "title": "How trauma hurts",
+                "video": "VzlGK62l0uU"
             },
             {
                 "title": "Feelings Check-in station",
-                "template": "feelings"
+                "template": "feelings",
+                "video": "LgKdcvnTbN4"
             },
             {
-                "title": "Meet the women of WORTH: Sofia"
+                "title": "Meet the women of WORTH: Sofia",
+                "video": "Kk6LjlIOAOg"
             },
             {
-                "title": "Sofia's traums"
+                "title": "Sofia's trauma"
             },
             {
-                "title": "Sofia's story"
+                "title": "Sofia's story",
+                "video": "GCePF-471QM"
             },
             {
                 "title": "Reflect on Sofia",
                 "template": "reflect-sofia"
             },
             {
-                "title": "Protecting myself and those I care about"
+                "title": "Protecting myself and those I care about",
+                "video": "sjafHsx1x9o"
             },
             {
                 "title": "Stuff I do",
                 "template": "protective-behaviors"
             },
             {
-                "title": "Pulling into the feelings check-in station"
+                "title": "Pulling into the feelings check-in station",
+                "video": "sBzRqNO70yA"
             },
             {
                 "title": "Feelings Check-in station",
@@ -141,10 +154,12 @@
             },
             {
                 "title": "Setting goals for me: reducing risks",
-                "template": "reducing-risks-2"
+                "template": "reducing-risks-2",
+                "video": "Q3Q-BT_zjwA"
             },
             {
-                "title": "Setting goals for me: general goals"
+                "title": "Setting goals for me: general goals",
+                "video": "KlVEqmIIbxw"
             },
             {
                 "title": "My Commitment to me"
@@ -157,7 +172,8 @@
                 "template": "summing-it-up-2"
             },
             {
-                "title": "Congratulations...you are WORTH it (session 2)!!"
+                "title": "Congratulations...you are WORTH it (session 2)!!",
+                "video": "Rfx9bzq-J1E"
             }
         ]
     },
@@ -285,7 +301,7 @@
             },
             {
                 "title": "Planning for safety",
-                "video": "safety-intro",
+                "video": "px3QOlzL8nU",
                 "poster": "carol.png"
             },
             {
