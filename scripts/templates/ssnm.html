@@ -26,18 +26,16 @@
                 <img class="img-fluid" src="img/icon-person.png">
             </div>
             <div class="col-md-8">
-                <div class="row">
-                    <div class="col text-right">
-                        <strong>Name:</strong>
-                    </div>
-                    <div class="col">
-                        Special Person
+                <div class="form-group row">
+                    <label for="ssnm-special-person" class="col-2 col-form-label text-right">Name</label>
+                    <div class="col-4">
+                        <input class="form-control" name="ssnm-special-person" type="text" id="ssnm-special-person">
                     </div>
                 </div>
             </div>
         </div>
         <button type="button" class="btn btn-primary btn-block s2">
-            OK. Let's go.
+            OK
         </button>
     </div>
 
@@ -58,7 +56,7 @@
                     <div class="col text-right">
                         <strong>Name:</strong>
                     </div>
-                    <div class="col">
+                    <div class="col ssnm-special-person-choice">
                         Special Person
                     </div>
                 </div>
@@ -89,7 +87,7 @@
 
         </form>
         <button type="button" class="btn btn-primary btn-block s3">
-            OK. Let's go.
+            OK
         </button>
     </div>
 
@@ -107,22 +105,7 @@
                     <div class="col text-right">
                         <strong>Name:</strong>
                     </div>
-                    <div class="col">
-                        Special Person
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <img class="img-fluid" src="img/icon-person.png">
-            </div>
-            <div class="col-md-8">
-                <div class="row">
-                    <div class="col text-right">
-                        <strong>Name:</strong>
-                    </div>
-                    <div class="col">
+                    <div class="col ssnm-special-person-choice">
                         Special Person
                     </div>
                 </div>
@@ -168,7 +151,7 @@
         </div>
 
         <button type="button" class="btn btn-primary btn-block s4">
-            OK. Let's go.
+            OK.
         </button>
     </div>
 
@@ -186,7 +169,7 @@
                     <div class="col text-right">
                         <strong>Name:</strong>
                     </div>
-                    <div class="col">
+                    <div class="col ssnm-special-person-choice">
                         Special Person
                     </div>
                 </div>
@@ -194,8 +177,7 @@
                     <div class="col text-right">
                         <strong>Influence:</strong>
                     </div>
-                    <div class="col">
-                        Very Positive
+                    <div class="col ssnm-influence-choice">
                     </div>
                 </div>
             </div>
@@ -244,7 +226,7 @@
         </div>
 
         <button type="button" class="btn btn-primary btn-block s5">
-            OK. Let's go.
+            OK.
         </button>
     </div>
 
@@ -258,6 +240,9 @@
                 <img class="img-fluid" src="img/arc.png">
             </div>
         </div>
+        <div class="ssnm-closeness-container">
+            <strong><span class="ssnm-closeness-choice"></span></strong>
+        </div>
         <div class="row">
             <div class="col-md-3">
                 <img class="img-fluid" src="img/icon-person.png">
@@ -267,7 +252,7 @@
                     <div class="col text-right">
                         <strong>Name:</strong>
                     </div>
-                    <div class="col">
+                    <div class="col ssnm-special-person-choice">
                         Special Person
                     </div>
                 </div>
@@ -296,20 +281,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="col text-center">
-                <strong><span class="ssnm-closeness-choice"></span> (Emotionally)</strong>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-md-4 offset-md-4 text-center">
                 <img class="img-fluid rounded-circle" src="img/icon-person.png">
-                <br>
-                <strong>From Me</strong>
+                Me
             </div>
         </div>
 
         <button type="button" class="btn btn-primary btn-block s6">
-            OK. Let's go.
+            OK.
         </button>
     </div>
 
@@ -330,7 +309,7 @@
             </div>
         </div>
         <button type="button" class="btn btn-primary btn-block s0">
-            OK. Let's go.
+            I want to try again.
         </button>
     </div>
 </section>
