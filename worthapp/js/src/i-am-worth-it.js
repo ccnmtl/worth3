@@ -12,7 +12,7 @@
         $container.on('click', '.d-flex button', function(e) {
             e.preventDefault();
             var $myContainer = $(this).closest('.container');
-            var attr = $.trim($(this).text());
+            var attr = $.trim($(this).text()).toLowerCase();
 
             $myContainer.find('.worth-it-attr').text(attr + '.');
 
