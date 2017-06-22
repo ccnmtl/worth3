@@ -13,7 +13,7 @@ from os.path import join
 BASEPATH = '../worthapp/'
 SESSION_TITLES = [
     'Beginning the Journey',
-    'Taking in the view while deciding direction ',
+    'Taking in the View',
     'Planning for my safety and the safety of others',
     'Staying Strong',
     'Keeping it Going',
