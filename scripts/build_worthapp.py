@@ -14,7 +14,7 @@ BASEPATH = '../worthapp/'
 SESSION_TITLES = [
     'Beginning the Journey',
     'Taking in the View',
-    'Planning for my safety and the safety of others',
+    'Planning for Safety',
     'Staying Strong',
     'Keeping it Going',
 ]
