@@ -9,7 +9,8 @@
             },
             {
                 "title": "\"The only bad status is not knowing your status\"",
-                "video": "EuFxhXJVh-Y"
+                "video": "EuFxhXJVh-Y",
+                "poster": "carol"
             },
             {
                 "title": "HIV testing",
@@ -17,11 +18,13 @@
             },
             {
                 "title": "Why WORTH?",
-                "video": "#"
+                "video": "#",
+                "poster": "lucia"
             },
             {
                 "title": "Meet the women of WORTH: Rasheeda",
-                "video": "Xw_yJRlWoFI"
+                "video": "Xw_yJRlWoFI",
+                "poster": "carol"
             },
             {
                 "title": "Reflect on Rasheeda",
@@ -29,7 +32,8 @@
             },
             {
                 "title": "Meet the women of WORTH: Mia",
-                "video": "xEDhoXANIiE"
+                "video": "xEDhoXANIiE",
+                "poster": "carol"
             },
             {
                 "title": "Reflect on Mia",
@@ -37,7 +41,8 @@
             },
             {
                 "title": "Pulling into the feelings check-in station",
-                "video": "hLktaEopMYk"
+                "video": "hLktaEopMYk",
+                "poster": "lucia"
             },
             {
                 "title": "Feelings Check-in station",
@@ -45,7 +50,8 @@
             },
             {
                 "title": "Making a commitment to me",
-                "video": "BGIsbHxbG8Y"
+                "video": "BGIsbHxbG8Y",
+                "poster": "carol"
             },
             {
                 "title": "My commitment to me"
@@ -59,7 +65,8 @@
             },
             {
                 "title": "Congrats! You are WORTH it (session 1)!",
-                "video": "_BmSXsu4iFs"
+                "video": "_BmSXsu4iFs",
+                "poster": "lucia"
             }
         ]
     },
@@ -69,12 +76,14 @@
             {
                 "title": "Welcome to session 2!",
                 "subtitle": "Taking in the view while deciding the direction",
-                "video": "OLH7XvnUqg4"
+                "video": "OLH7XvnUqg4",
+                "poster": "lucia"
             },
             {
                 "title": "You are WORTH it!",
                 "paragraph": "You certainly are. Let's find out why.",
-                "video": "09RctV0yYYk"
+                "video": "09RctV0yYYk",
+                "poster": "lucia"
             },
             {
                 "title": "I am WORTH it!",
@@ -82,11 +91,13 @@
             },
             {
                 "title": "Getting centered",
-                "video": "Kdv4gdThRZg"
+                "video": "Kdv4gdThRZg",
+                "poster": "carol"
             },
             {
                 "title": "Meet the women of WORTH: Amanda",
-                "video": "pHb62EwGAAE"
+                "video": "pHb62EwGAAE",
+                "poster": "lucia"
             },
             {
                 "title": "Reflect on Amanda",
@@ -94,7 +105,8 @@
             },
             {
                 "title": "Meet the women of WORTH: Charlene",
-                "video": "MZ6jh2V8iFk"
+                "video": "MZ6jh2V8iFk",
+                "poster": "carol"
             },
             {
                 "title": "Reflect on Charlene",
@@ -102,7 +114,8 @@
             },
             {
                 "title": "HIV and STIs: What do we know?",
-                "video": "-RK7r3KB7lk"
+                "video": "-RK7r3KB7lk",
+                "poster": "lucia"
             },
             {
                 "title": "Learning about myths and facts",
@@ -110,27 +123,32 @@
             },
             {
                 "title": "Facts about staying safe",
-                "video": "FWUqhTiOIjw"
+                "video": "FWUqhTiOIjw",
+                "poster": "carol"
             },
             {
                 "title": "How trauma hurts",
-                "video": "VzlGK62l0uU"
+                "video": "VzlGK62l0uU",
+                "poster": "lucia"
             },
             {
                 "title": "Feelings Check-in station",
                 "template": "feelings",
-                "video": "LgKdcvnTbN4"
+                "video": "LgKdcvnTbN4",
+                "poster": "lucia"
             },
             {
                 "title": "Meet the women of WORTH: Sofia",
-                "video": "Kk6LjlIOAOg"
+                "video": "Kk6LjlIOAOg",
+                "poster": "lucia"
             },
             {
                 "title": "Sofia's trauma"
             },
             {
                 "title": "Sofia's story",
-                "video": "GCePF-471QM"
+                "video": "GCePF-471QM",
+                "poster": "lucia"
             },
             {
                 "title": "Reflect on Sofia",
@@ -138,15 +156,18 @@
             },
             {
                 "title": "Protecting myself and those I care about",
-                "video": "sjafHsx1x9o"
+                "video": "sjafHsx1x9o",
+                "poster": "lucia"
             },
             {
                 "title": "Stuff I do",
-                "template": "protective-behaviors"
+                "template": "protective-behaviors",
+                "poster": "lucia"
             },
             {
                 "title": "Pulling into the feelings check-in station",
-                "video": "sBzRqNO70yA"
+                "video": "sBzRqNO70yA",
+                "poster": "lucia"
             },
             {
                 "title": "Feelings Check-in station",
@@ -155,11 +176,13 @@
             {
                 "title": "Setting goals for me: reducing risks",
                 "template": "reducing-risks-2",
-                "video": "Q3Q-BT_zjwA"
+                "video": "Q3Q-BT_zjwA",
+                "poster": "carol"
             },
             {
                 "title": "Setting goals for me: general goals",
-                "video": "KlVEqmIIbxw"
+                "video": "KlVEqmIIbxw",
+                "poster": "carol"
             },
             {
                 "title": "My Commitment to me"
@@ -173,7 +196,8 @@
             },
             {
                 "title": "Congratulations...you are WORTH it (session 2)!!",
-                "video": "Rfx9bzq-J1E"
+                "video": "Rfx9bzq-J1E",
+                "poster": "lucia"
             }
         ]
     },
@@ -183,11 +207,13 @@
             {
                 "title": "Welcome to session 3!",
                 "subtitle": "Planning for my safety and the safety of others",
-                "video": "wVC5E5_ezek"
+                "video": "wVC5E5_ezek",
+                "poster": "lucia"
             },
             {
                 "title": "Focusing on my goals",
-                "video": "b6chVFejE6w"
+                "video": "b6chVFejE6w",
+                "poster": "lucia"
             },
             {
                 "title": "My Goals",
@@ -196,26 +222,32 @@
             },
             {
                 "title": "Where we have been / Where we are going",
-                "video": "8pejHg7PKcc"
+                "video": "8pejHg7PKcc",
+                "poster": "lucia"
             },
             {
                 "title": "A problem solving technique",
-                "video": "Mb6Mz9InyKE"
+                "video": "Mb6Mz9InyKE",
+                "poster": "lucia"
             },
             {
-                "title": "POP-ing out our problems "
+                "title": "POP-ing out our problems ",
+                "poster": "mia"
             },
             {
                 "title": "The power of self-talk",
-                "video": "XYTH8vhIBng"
+                "video": "XYTH8vhIBng",
+                "poster": "carol"
             },
             {
                 "title": "Rasheeda's self-talk",
-                "template": "self-talk"
+                "template": "self-talk",
+                "poster": "lucia"
             },
             {
                 "title": "How I get support",
-                "video": "bHsAc4MNIeU"
+                "video": "bHsAc4MNIeU",
+                "poster": "lucia"
             },
             {
                 "title": "How I get support: my map",
@@ -223,14 +255,16 @@
             },
             {
                 "title": "Strengthening support",
-                "template": "strengthening-support"
+                "template": "strengthening-support",
+                "poster": "carol"
             },
             {
                 "title": "Setting goals for me: strengthening support"
             },
             {
                 "title": "Pulling into the feelings check-in station",
-                "video": "40wQVPx_wy4"
+                "video": "40wQVPx_wy4",
+                "poster": "lucia"
             },
             {
                 "title": "Feelings Check in Station",
@@ -238,11 +272,13 @@
             },
             {
                 "title": "Protecting myself while having sex",
-                "video": "5NsLyoDBMaE"
+                "video": "5NsLyoDBMaE",
+                "poster": "carol"
             },
             {
                 "title": "Fantasy Menu: great but safe sex",
-                "video": "oIHys4paYks"
+                "video": "oIHys4paYks",
+                "poster": "carol"
             },
             {
                 "title": "How adventurous are you?",
@@ -250,21 +286,24 @@
             },
             {
                 "title": "Reducing risks",
-                "video": "jHPX8kcqxMU"
+                "video": "jHPX8kcqxMU",
+                "poster": "carol"
             },
             {
                 "title": "Setting goals for me: reducing risks"
             },
             {
                 "title": "General goals",
-                "video": "bYe6yF7YdLk"
+                "video": "bYe6yF7YdLk",
+                "poster": "lucia"
             },
             {
                 "title": "Setting goals for me - general goals"
             },
             {
                 "title": "You are WORTH it!",
-                "video": "6Wz4Vs_EbEg"
+                "video": "6Wz4Vs_EbEg",
+                "poster": "lucia"
             },
             {
                 "title": "I am WORTH it!",
@@ -279,7 +318,8 @@
             },
             {
                 "title": "Congratulations...you are WORTH it (session 3)!",
-                "video": "sYXONfvlcjg"
+                "video": "sYXONfvlcjg",
+                "poster": "lucia"
             }
         ]
     },
@@ -289,11 +329,13 @@
             {
                 "title": "Welcome to session 4!",
                 "subtitle": "Staying strong and focused",
-                "video": "ks2hZjqg6Kg"
+                "video": "ks2hZjqg6Kg",
+                "poster": "lucia"
             },
             {
                 "title": "Focusing on my goals",
-                "video": "UmqBLQBbHeA"
+                "video": "UmqBLQBbHeA",
+                "poster": "lucia"
             },
             {
                 "title": "My Goals",
@@ -302,52 +344,63 @@
             },
             {
                 "title": "Where we've been... where we're going",
-                "video": "y1uza2mCneg"
+                "video": "y1uza2mCneg",
+                "poster": "carol"
             },
             {
-                "title": "Sofia Practices POP!"
+                "title": "Sofia Practices POP!",
+                "poster": "sofia"
             },
             {
                 "title": "The power of self-talk revisited",
-                "video": "kzrqazMvKnk"
+                "video": "kzrqazMvKnk",
+                "poster": "lucia"
             },
             {
-                "title": "Sofia's self-talk"
+                "title": "Sofia's self-talk",
+                "poster": "sofia"
             },
             {
                 "title": "Safety first and always...",
-                "video": "pFaXf9s-MBI"
+                "video": "pFaXf9s-MBI",
+                "poster": "carol"
             },
             {
-                "title": "Assessing my relationships"
+                "title": "Assessing my relationships",
+                "poster": "carol"
             },
             {
                 "title": "Planning for safety",
                 "video": "px3QOlzL8nU",
-                "poster": "carol.png"
+                "poster": "lucia"
             },
             {
                 "title": "Writing down my safety plan",
                 "template": "safety",
-                "video": "px3QOlzL8nU"
+                "video": "px3QOlzL8nU",
+                "poster": "carol"
             },
             {
                 "title": "Negotiating condom use while keeping myself safe",
-                "video": "qi5y2XXav0I"
+                "video": "qi5y2XXav0I",
+                "poster": "carol"
             },
             {
                 "title": "Barriers to Condom Use and Practicing Negotiation",
-                "video": "ad3NIT7QeTA"
+                "video": "ad3NIT7QeTA",
+                "poster": "lucia"
             },
             {
                 "title": "Practicing negotiation"
             },
             {
                 "title": "When negotiating is not possible",
-                "video": "iM9ba9t-GPU"
+                "video": "iM9ba9t-GPU",
+                "poster": "carol"
             },
             {
-                "title": "Pulling into the feelings check-in station"
+                "title": "Pulling into the feelings check-in station",
+                "poster": "lucia"
             },
             {
                 "title": "Feelings check-in station",
@@ -355,7 +408,8 @@
             },
             {
                 "title": "How I get support map",
-                "video": "vSYo0BhtzPU"
+                "video": "vSYo0BhtzPU",
+                "poster": "carol"
             },
             {
                 "title": "Review your map",
@@ -365,28 +419,32 @@
             {
                 "title": "Strengthening support",
                 "template": "strengthening-support",
-                "video": "yGMKdV6n1MY"
+                "video": "yGMKdV6n1MY",
+                "poster": "carol"
             },
             {
                 "title": "Setting goals for me - strengthening support"
             },
             {
                 "title": "Reducing risks",
-                "video": "6nPq6b45p1E"
+                "video": "6nPq6b45p1E",
+                "poster": "carol"
             },
             {
                 "title": "Setting goals for me - reducing risks"
             },
             {
                 "title": "General goals",
-                "video": "tv9bz4UDCGs"
+                "video": "tv9bz4UDCGs",
+                "poster": "carol"
             },
             {
                 "title": "Setting goals for me - general goals"
             },
             {
                 "title": "You are WORTH it!",
-                "video": "lBNgg-K_PnA"
+                "video": "lBNgg-K_PnA",
+                "poster": "carol"
             },
             {
                 "title": "I am WORTH it!",
@@ -401,7 +459,8 @@
             },
             {
                 "title": "Congratulations...you are WORTH it (session 4)!!",
-                "video": "RCLTa68tVEM"
+                "video": "RCLTa68tVEM",
+                "poster": "carol"
             }
         ]
     },
@@ -411,11 +470,13 @@
             {
                 "title": "Welcome to session 5!!",
                 "subtitle": "Keeping the journey going: I am WORTH it!",
-                "video": "0mJi7_DsIbw"
+                "video": "0mJi7_DsIbw",
+                "poster": "lucia"
             },
             {
                 "title": "Focusing on my goals",
-                "video": "sKX4pSIuG78"
+                "video": "sKX4pSIuG78",
+                "poster": "lucia"
             },
             {
                 "title": "My goals",
@@ -424,29 +485,34 @@
             },
             {
                 "title": "Where we've been...where we're going",
-                "video": "1njLOKZ0kbU"
+                "video": "1njLOKZ0kbU",
+                "poster": "lucia"
             },
             {
                 "title": "Protecting myself and those I care about",
-                "video": "sjafHsx1x9o"
+                "video": "sjafHsx1x9o",
+                "poster": "lucia"
             },
             {
                 "title": "Stuff I do",
-                "template": "protective-behaviors"
+                "template": "protective-behaviors",
+                "poster": "lucia"
             },
             {
                 "title": "Check out what you learned"
             },
             {
                 "title": "Reducing risks",
-                "video": "dp6Z1b3AYH8"
+                "video": "dp6Z1b3AYH8",
+                "poster": "carol"
             },
             {
                 "title": "Setting goals for me - reducing risks"
             },
             {
                 "title": "Passing it along",
-                "video": "QwBtpUVgfZ0"
+                "video": "QwBtpUVgfZ0",
+                "poster": "lucia"
             },
             {
                 "title": "Message in a bottle",
@@ -454,7 +520,8 @@
             },
             {
                 "title": "You are WORTH it!",
-                "video": "QpLkbU_nKIk"
+                "video": "QpLkbU_nKIk",
+                "poster": "lucia"
             },
             {
                 "title": "I am WORTH it!",
@@ -469,7 +536,8 @@
             },
             {
                 "title": "Congratulations! You completed WORTH!!",
-                "video": "kwLBOrbnbuw"
+                "video": "kwLBOrbnbuw",
+                "poster": "lucia"
             },
             {
                 "title": "Things I am proud of",

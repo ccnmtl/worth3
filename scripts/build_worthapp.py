@@ -88,6 +88,7 @@ def render_page(page, page_num, session_num, session_title, session_length):
     page_out = page_out.replace('{% TITLE %}', page.get('title'))
     page_out = page_out.replace('{% SUBTITLE %}', page.get('subtitle') or '')
     page_out = page_out.replace('{% PARAGRAPH %}', page.get('paragraph') or '')
+    page_out = page_out.replace('{% VIDPOSTER %}', page.get('poster') or '')
 
     if page.get('image'):
         img_tag = '<img class="worth-icon" src="img/{}">'.format(page.get('image'))
