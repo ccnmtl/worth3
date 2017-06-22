@@ -4,9 +4,10 @@
 (function() {
     var updateChoices = function(
         $container,
-        closeness, influence,
+        name, closeness, influence,
         emotionalSupport, practicalSupport
     ) {
+        $container.find('.ssnm-special-person-choice').text(name);
         $container.find('.ssnm-influence-choice').text(influence);
         $container.find('.ssnm-closeness-choice').text(closeness);
 
@@ -27,22 +28,30 @@
         var $container = $('.container.ssnm');
         initActivityPanels($container);
 
+        var name = '';
         var closeness = 'Very Close';
         var influence = 'Positive';
         var emotionalSupport = true;
         var practicalSupport = true;
 
+        $container.find('input[name="ssnm-special-person"]').change(function(e) {
+            name = $.trim(e.target.value);
+            updateChoices(
+                $(this).closest('.container'), name, closeness,
+                influence, emotionalSupport, practicalSupport);
+        });
+
         $container.find('input[name="ssnm-closeness"]').change(function() {
             closeness = $.trim($(this).closest('label').text());
             updateChoices(
-                $(this).closest('.container'), closeness,
+                $(this).closest('.container'), name, closeness,
                 influence, emotionalSupport, practicalSupport);
         });
 
         $container.find('input[name="ssnm-influence"]').change(function() {
             influence = $.trim($(this).closest('label').text());
             updateChoices(
-                $(this).closest('.container'), closeness,
+                $(this).closest('.container'), name, closeness,
                 influence, emotionalSupport, practicalSupport);
         });
 
@@ -50,15 +59,15 @@
             .change(function() {
                 emotionalSupport = this.checked;
                 updateChoices(
-                    $(this).closest('.container'), closeness,
+                    $(this).closest('.container'), name, closeness,
                     influence, emotionalSupport, practicalSupport);
             });
 
         $container.find('input[name="ssnm-practical-support"]')
             .change(function() {
-                emotionalSupport = this.checked;
+                practicalSupport = this.checked;
                 updateChoices(
-                    $(this).closest('.container'), closeness,
+                    $(this).closest('.container'), name, closeness,
                     influence, emotionalSupport, practicalSupport);
             });
     });
