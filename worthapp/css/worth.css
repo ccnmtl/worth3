@@ -180,6 +180,17 @@ ol.toc li li {font-weight: normal;}
     height: auto;
 }
 
+.feelings figure {
+    margin-bottom: 0;
+}
+
+.feelings .feelings-label {
+    margin-bottom: 1rem;
+}
+
+.feelings .feelings-choice {
+    max-width: 300px;
+}
 .ssnm-closeness-container {
     position: relative;
     left: 80px;
