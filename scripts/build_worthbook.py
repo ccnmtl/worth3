@@ -30,7 +30,7 @@ def make_nav(tree):
     """Make the ePub's nav.xhtml based on the tree."""
     ns = 'http://www.w3.org/1999/xhtml'
     ElementTree.register_namespace('', ns)
-    xml_tree = ElementTree.parse('epub_templates/nav.xhtml')
+    xml_tree = ElementTree.parse('../epub_templates/nav.xhtml')
     root = xml_tree.getroot()
 
     # TODO: figure out how to avoid having to specify the
@@ -65,12 +65,12 @@ def render_page(page):
     """
     if page.get('interactive'):
         name = page.get('interactive')
-        page_t = open('epub_templates/{}.xhtml'.format(name)).read()
+        page_t = open('../epub_templates/{}.xhtml'.format(name)).read()
     elif page.get('video'):
-        page_t = open('epub_templates/video.xhtml').read()
+        page_t = open('../epub_templates/video.xhtml').read()
         page_t = page_t.replace('VIDFILE', page.get('video'))
     else:
-        page_t = open('epub_templates/page.xhtml').read()
+        page_t = open('../epub_templates/page.xhtml').read()
 
     return page_t.replace('TITLE', page['title'])
 
@@ -85,7 +85,7 @@ def make_page(s_idx, p_idx, page):
 
 
 def main():
-    tree = json.loads(open('tree.json').read())
+    tree = json.loads(open('../tree.json').read())
 
     print('Creating {} sessions\n   ---'.format(len(tree)))
 
