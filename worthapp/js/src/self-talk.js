@@ -2,8 +2,7 @@
 /* global $, initActivityPanels */
 
 (function() {
-    $(document).ready(function() {
-        var $container = $('.container.self-talk');
+    var initActivity = function($container) {
         initActivityPanels($container);
 
         $container.find('.s2 button[type="submit"]').click(function(e) {
@@ -39,5 +38,10 @@
             var $panel = $(this).closest('.panel');
             $panel.find('.alert').removeClass('hidden');
         });
+    };
+
+    $(document).ready(function() {
+        initActivity($('.container.self-talk-3'));
+        initActivity($('.container.self-talk-4'));
     });
 })();
