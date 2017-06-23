@@ -359,7 +359,8 @@
             },
             {
                 "title": "Sofia's self-talk",
-                "poster": "sofia"
+                "poster": "sofia",
+                "template": "self-talk-4"
             },
             {
                 "title": "Safety first and always...",

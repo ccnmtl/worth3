@@ -23,6 +23,10 @@ p, ol, ul, li {color: #000000; font-family: arial, helvetica, sans-serif!importa
 .safety .row { margin-bottom: 1em; }
 .safety .row .col.definition { text-align: right; }
 
+.embed-responsive {
+    margin-bottom: 1em;
+}
+
 /*
  * Not sure why this is necessary, but bootstrap's .btn-block is
  * displaying buttons wider than the .container. This is a workaround.
