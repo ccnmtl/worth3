@@ -15,7 +15,7 @@ I'll get to.
 This is a central script that compiles the HTML templates together
 into the giant `index.html` that will be used for the single-page
 WORTH js app. As input, this script looks at `tree.json`, and the
-templates in `/templates/`. This script generates the
+templates in `/templates/`. This script generates
 `/worthapp/index.html` as output, which I've been generating and
 committing to git each time I make a change to `tree.json` or anything
 in `/templates/`.
