@@ -71,12 +71,12 @@ def render_page(page, page_num, session_num, session_title, session_length):
     """
     if page.get('template'):
         name = page.get('template')
-        page_t = open('templates/{}.html'.format(name)).read()
+        page_t = open('../templates/{}.html'.format(name)).read()
     elif page.get('video'):
-        page_t = open('templates/video.html').read()
+        page_t = open('../templates/video.html').read()
         page_t = page_t.replace('VIDFILE', page.get('video'))
     else:
-        page_t = open('templates/page.html').read()
+        page_t = open('../templates/page.html').read()
 
     long_session_title = 'Session {}: {}'.format(session_num, session_title)
 
@@ -100,9 +100,9 @@ def render_page(page, page_num, session_num, session_title, session_length):
 
 
 def main():
-    tree = json.loads(open('tree.json').read())
+    tree = json.loads(open('../tree.json').read())
 
-    soup = BeautifulSoup(open('templates/index.html'), 'html.parser')
+    soup = BeautifulSoup(open('../templates/index.html'), 'html.parser')
 
     make_nav(soup, tree)
 
