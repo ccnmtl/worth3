@@ -32,7 +32,7 @@ Look at the `render_page()` function to see my simple-as-possible
 templating solution: I've been adding new template keywords here on an
 as-needed basis.
 
-In `main.py` you can see how I'm opening `/templates/index.html` (the
+In `main()` you can see how I'm opening `/templates/index.html` (the
 base template), and then populating it with a "slide" for each page,
 based on the contents of `tree.json`.
 
