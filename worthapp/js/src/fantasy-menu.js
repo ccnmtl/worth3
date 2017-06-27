@@ -79,7 +79,7 @@
                     'miss the outer ring and enter between the vaginal wall ' +
                     'and the condom. It is also possible for the outer ring ' +
                     'to be pushed, either partially or fully, into the ' +
-                    'vagina</p>');
+                    'vagina.</p>');
         }
         if ($container.find('input.special-4:checked').length > 0) {
             $special.append(
