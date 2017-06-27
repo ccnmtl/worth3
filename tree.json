@@ -55,7 +55,8 @@
                 "poster": "carol"
             },
             {
-                "title": "My commitment to me"
+                "title": "My commitment to me",
+                "template": "my-commitment-to-me"
             },
             {
                 "title": "What did we learn?"
@@ -186,7 +187,8 @@
                 "poster": "carol"
             },
             {
-                "title": "My Commitment to me"
+                "title": "My Commitment to me",
+                "template": "my-commitment-to-me"
             },
             {
                 "title": "What did we learn?"
