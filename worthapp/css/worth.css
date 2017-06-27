@@ -200,3 +200,7 @@ ol.toc li li {font-weight: normal;}
     left: 80px;
     top: -20px;
 }
+
+.fantasy-feedback {
+    font-weight: bold;
+}
