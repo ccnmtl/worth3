@@ -3,7 +3,7 @@
 
 (function() {
     $(document).ready(function() {
-        var $container = $('.container.safety');
+        var $container = $('.container.basic-activity-nav');
         initActivityPanels($container);
     });
 })();
