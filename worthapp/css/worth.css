@@ -201,6 +201,10 @@ ol.toc li li {font-weight: normal;}
     top: -20px;
 }
 
+.nametag .card-header, .nametag .card-footer {background-color: #932951;}
+.nametag .card-block {background-color: #f7ecf0;}
+.nametag .card-header h1 {color: #fff;}
+
 .fantasy-feedback {
     font-weight: bold;
 }
