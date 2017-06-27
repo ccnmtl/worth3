@@ -176,13 +176,16 @@
                 "template": "feelings"
             },
             {
-                "title": "Setting goals for me: reducing risks",
-                "template": "reducing-risks-2",
+                "title": "Reducing risks",
                 "video": "Q3Q-BT_zjwA",
                 "poster": "carol"
             },
+             {
+                "title": "Setting goals for me: reducing risks",
+                "template": "reducing-risks-2"
+            },
             {
-                "title": "Setting goals for me: general goals",
+                "title": "Setting goals for me",
                 "video": "KlVEqmIIbxw",
                 "poster": "carol"
             },
@@ -224,8 +227,8 @@
                 "image": "writing.png"
             },
             {
-                "title": "Where we have been / Where we are going",
-                "video": "8pejHg7PKcc",
+                "title": "Where we have been...where we are going",
+                "video": "GNojoN3dM8Q",
                 "poster": "lucia"
             },
             {
@@ -258,11 +261,12 @@
             },
             {
                 "title": "Strengthening support",
-                "template": "strengthening-support",
+                "video": "y8nTX1BcptA",
                 "poster": "carol"
             },
             {
                 "title": "Setting goals for me: strengthening support"
+                "template": "strengthening-support"
             },
             {
                 "title": "Pulling into the feelings check-in station",
@@ -293,15 +297,16 @@
                 "poster": "carol"
             },
             {
-                "title": "Setting goals for me: reducing risks"
+                "title": "Setting goals for me: reducing risks",
+                "template": "reducing-risks-2"
             },
             {
-                "title": "General goals",
+                "title": "Making a commitment to me",
                 "video": "bYe6yF7YdLk",
                 "poster": "lucia"
             },
             {
-                "title": "Setting goals for me - general goals"
+                "title": "My commitment to me",
             },
             {
                 "title": "You are WORTH it!",
@@ -423,12 +428,12 @@
             },
             {
                 "title": "Strengthening support",
-                "template": "strengthening-support",
                 "video": "yGMKdV6n1MY",
                 "poster": "carol"
             },
             {
-                "title": "Setting goals for me - strengthening support"
+                "title": "Setting goals for me - strengthening support",
+                "template": "strengthening-support"
             },
             {
                 "title": "Reducing risks",
@@ -436,15 +441,16 @@
                 "poster": "carol"
             },
             {
-                "title": "Setting goals for me - reducing risks"
+                "title": "Setting goals for me - reducing risks",
+                "template": "reducing-risks-2"
             },
             {
-                "title": "General goals",
+                "title": "Making a commitment to me",
                 "video": "tv9bz4UDCGs",
                 "poster": "carol"
             },
             {
-                "title": "Setting goals for me - general goals"
+                "title": "My commitment to me",
             },
             {
                 "title": "You are WORTH it!",
@@ -512,7 +518,8 @@
                 "poster": "carol"
             },
             {
-                "title": "Setting goals for me - reducing risks"
+                "title": "Setting goals for me - reducing risks",
+                "template": "reducing-risks-2",
             },
             {
                 "title": "Passing it along",
