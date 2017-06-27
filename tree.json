@@ -266,7 +266,7 @@
             },
             {
                 "title": "Setting goals for me: strengthening support"
-                "template": "strengthening-support",
+                "template": "strengthening-support"
             },
             {
                 "title": "Pulling into the feelings check-in station",
@@ -297,7 +297,8 @@
                 "poster": "carol"
             },
             {
-                "title": "Setting goals for me: reducing risks"
+                "title": "Setting goals for me: reducing risks",
+                "template": "reducing-risks-2"
             },
             {
                 "title": "Making a commitment to me",
