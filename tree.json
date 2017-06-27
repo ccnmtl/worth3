@@ -265,7 +265,7 @@
                 "poster": "carol"
             },
             {
-                "title": "Setting goals for me: strengthening support"
+                "title": "Setting goals for me: strengthening support",
                 "template": "strengthening-support"
             },
             {
@@ -307,6 +307,7 @@
             },
             {
                 "title": "My commitment to me",
+                "template": "my-commitment-to-me"
             },
             {
                 "title": "You are WORTH it!",
@@ -451,6 +452,7 @@
             },
             {
                 "title": "My commitment to me",
+                "template": "my-commitment-to-me"
             },
             {
                 "title": "You are WORTH it!",
@@ -519,7 +521,7 @@
             },
             {
                 "title": "Setting goals for me - reducing risks",
-                "template": "reducing-risks-2",
+                "template": "reducing-risks-2"
             },
             {
                 "title": "Passing it along",
