@@ -35,7 +35,7 @@ var advanceToPanel = function($container, i, total) {
  * container.
  */
 var initActivityPanels = function($container) {
-    var total = $container.find('.panel').length - 1;
+    var total = $container.first().find('.panel').length - 1;
 
     for (let i = 0; i <= total; i++) {
         $container.find('button.s' + i).click(function(e) {
