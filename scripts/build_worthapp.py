@@ -1,4 +1,4 @@
-#!../venv/bin/python
+#!/usr/bin/env python3
 
 """
 This script reads tree.json and builds index.html in the worthapp/
@@ -35,9 +35,11 @@ def make_nav(soup, tree):
         li = soup.new_tag('li')
         li.append('Session {}: {}'.format(s_idx + 1, SESSION_TITLES[s_idx]))
 
+        nav_a = soup.new_tag('a', href=get_page_path(s_idx, 0))
+        nav_a.string = 'Session {}: {}'.format(s_idx + 1, SESSION_TITLES[s_idx])
+
         nav_li = soup.new_tag('li')
-        nav_li.append(
-            'Session {}: {}'.format(s_idx + 1, SESSION_TITLES[s_idx]))
+        nav_li.append(nav_a)
 
         toc.append(li)
         nav_toc.append(nav_li)
