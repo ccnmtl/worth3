@@ -38,6 +38,12 @@
             swiper.slideTo(idx + 1);
         });
 
+        $('#logo').click(function(e) {
+            e.preventDefault();
+            $('.sidenav').width(0);
+            swiper.slideTo(0);
+        });
+
         var showing = false;
 
         $('.toggle-toc-icon>img').click(function() {

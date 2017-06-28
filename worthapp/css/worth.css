@@ -140,7 +140,11 @@ img.half-width { max-width: 50%; }
 li.highlight {  background-color: #932951; }
 li.highlight  a { color: yellow;  font-weight: bold; padding: .5em 0em .5em .5em;}
 
-img#logo {width: 180px; margin-left: 20px;}
+img#logo {
+    cursor: pointer;
+    width: 180px;
+    margin-left: 20px;
+}
 
 .swiper-wrapper {margin-top: 3em; margin-left: 1.5em;}
 
