@@ -17,6 +17,9 @@ body {
 
 h1, h2, h3, h4,h5 {color: #932951; font-family: arial, helvetica, sans-serif!important}
 
+.swiper-slide h1 {font-size: 1.5em;}
+.swiper-slide h2 {font-size: 3em;}
+
 p, ol, ul, li {color: #000000; font-family: arial, helvetica, sans-serif!important}
 
 .hidden { display: none; }
@@ -142,7 +145,7 @@ img#logo {width: 180px; margin-left: 20px;}
 .swiper-wrapper {margin-top: 3em; margin-left: 1.5em;}
 
 .swiper-slide .container {
-    background-color: rgba(247,236,240,0.75);
+    background-color: rgba(247,236,240,1);
     padding: 3em;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -202,9 +205,14 @@ ol.toc li li {font-weight: normal;}
 }
 
 .nametag .card-header, .nametag .card-footer {background-color: #932951;}
-.nametag .card-block {background-color: #f7ecf0;}
+.nametag .card-block {background-color: #fff;}
 .nametag .card-header h1 {color: #fff;}
 
 .fantasy-feedback {
     font-weight: bold;
 }
+
+.progress {background-color: #fafafa; margin-top: 1em;}
+.progress-bar {height: 1.5em; padding: .5em;}
+
+.badge-default {background-color: black;}
