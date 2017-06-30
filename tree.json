@@ -518,7 +518,8 @@
                 "poster": "lucia"
             },
             {
-                "title": "Check Out What You've Learned"
+                "title": "Check Out What You've Learned",
+                "template": "check-out-what-youve-learned"
             },
             {
                 "title": "Reducing Risks",
