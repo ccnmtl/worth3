@@ -11,8 +11,8 @@
             var $panel = $this.closest('.panel');
             var chosen = $panel.find('input:checked').attr('value');
 
-            $this.closest('.panel').find('.alert').addClass('hidden');
-            $this.closest('.panel').find('.alert.' + chosen)
+            $panel.find('.alert').addClass('hidden');
+            $panel.find('.alert.' + chosen)
                 .removeClass('hidden');
         });
     });
