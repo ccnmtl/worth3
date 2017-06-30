@@ -544,7 +544,9 @@
                 "template": "i-am-worth-it"
             },
             {
-                "title": "What Did We Learn?"
+                "title": "What Did We Learn?",
+                "template": "what-did-we-learn-5"
+                
             },
             {
                 "title": "Summing it All Up",
