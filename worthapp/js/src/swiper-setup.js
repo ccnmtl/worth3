@@ -4,7 +4,7 @@
 (function() {
     var highlightTocItem = function($toc, id) {
         $toc.find('li').removeClass('highlight');
-        $toc.find('a[href="#' + id + '"]')
+        $toc.find('li ol li a[href="#' + id + '"]')
             .closest('li')
             .addClass('highlight');
     };
