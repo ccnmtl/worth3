@@ -403,7 +403,9 @@
                 "poster": "lucia"
             },
             {
-                "title": "Practicing negotiation"
+                "title": "Practicing negotiation",
+                "template": "practicing-negotiation-1", 
+                "poster": "practicing-negotiation"
             },
             {
                 "title": "When Negotiating is Not Possible",
