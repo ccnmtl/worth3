@@ -195,7 +195,8 @@
                 "template": "my-commitment-to-me"
             },
             {
-                "title": "What Did We Learn?"
+                "title": "What Did We Learn?",
+                "template": "what-did-we-learn"
             },
             {
                 "title": "Summing It All Up",
