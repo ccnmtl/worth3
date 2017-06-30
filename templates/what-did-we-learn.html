@@ -1,0 +1,316 @@
+<section class="container what-did-we-learn">
+    <span class="badge badge-default float-right">Slide {% PAGENUM %} of {% SESSIONLENGTH %}</span>
+    <h1>{% SESSIONTITLE %}</h1>
+    <h2>{% TITLE %}</h2>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Activity Progess</div>
+    </div>
+
+    <div class="panel s0">
+        <p>
+            What does PrEP stand for?
+        </p>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s0-q1" value="answer-1">
+                Post-Exposure Prophylaxis
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s0-q1" value="answer-2">
+                Prepare Responsibly Every Time Please
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s0-q1" value="answer-3">
+                PrEP does not actually stand for anything
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s0-q1" value="answer-4">
+                Pre-Exposure Prophylaxis
+            </label>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-block get-answers">
+            OK
+        </button>
+
+        <div class="alert alert-danger answer-1 hidden" role="alert">
+            <div class="alert-heading">Incorrect</div>
+            <p>
+                Good guess but PrEP actually stands for "Pre" Exposure Prophylaxis, not "Post"
+                Exposure Prophylaxis. PrEP is an antiretroviral drug that helps to protect
+                HIV-negative people from becoming infected. As a result, taking PrEP on a daily
+                basis prior to exposure to HIV helps to prevent HIV transmission. To be most
+                effective, PrEP should be combined with condom usage.
+            </p>
+            <button type="button" class="btn btn-primary btn-block s1">
+                Continue
+            </button>
+        </div>
+        <div class="alert alert-danger answer-2 hidden" role="alert">
+            <div class="alert-heading">Incorrect</div>
+            <p>
+                While it is always a good idea to prepare responsibly every time please,
+                PrEP actually stands for “Pre” Exposure Prophylaxis. PrEP is an antiretroviral
+                drug that helps to protect HIV-negative people from becoming infected. As a result,
+                taking PrEP on a daily basis prior to exposure to HIV helps to prevent HIV
+                transmission. To be most effective, PrEP should be combined with condom usage.
+            </p>
+            <button type="button" class="btn btn-primary btn-block s1">
+                Continue
+            </button>
+        </div>
+        <div class="alert alert-danger answer-3 hidden" role="alert">
+            <div class="alert-heading">Incorrect</div>
+            <p>
+                PrEP does stand for something. It stands for "Pre" Exposure Prophylaxis. PrEP
+                is an antiretroviral drug that helps to protect HIV-negative people from becoming
+                infected. As a result, taking PrEP on a daily basis prior to exposure to HIV helps
+                to prevent HIV transmission. To be most effective, PrEP should be combined
+                with condom usage.
+            </p>
+            <button type="button" class="btn btn-primary btn-block s1">
+                Continue
+            </button>
+        </div>
+        <div class="alert alert-success answer-4 hidden" role="alert">
+            <div class="alert-heading">Correct!</div>
+            <p>
+                PrEP stands for "Pre" Exposure Prophylaxis. PrEP is an antiretroviral drug that
+                helps to protect HIV-negative people from becoming infected. As a result, taking
+                PrEP on a daily basis prior to exposure to HIV helps to prevent HIV transmission.
+                To be most effective, PrEP should be combined with condom usage.
+            </p>
+            <button type="button" class="btn btn-primary btn-block s1">
+                Continue
+            </button>
+        </div>
+    </div>
+
+    <div class="panel s1 hidden">
+        <p>
+            Is the following statement true or false:<br />
+            "There are no drugs that help to protect you if you think you have been exposed to the HIV virus."
+        </p>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s1-q1" value="answer-4">
+                True
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s1-q1" value="answer-5">
+                False
+            </label>
+        </div>
+        
+        <button type="button" class="btn btn-primary btn-block get-answers">
+            OK
+        </button>
+
+        <div class="alert alert-danger answer-4 hidden" role="alert">
+            <div class="alert-heading">
+                Incorrect
+            </div>
+            <p>
+                PEP, which stands for “Post” Exposure Prophylaxis, is an antiretroviral drug that
+                helps to protect you if you think you have been exposed to the HIV virus. To be most
+                effective, PEP should be combined with condom usage.
+            </p>
+            <button type="button" class="btn btn-primary btn-block s2">
+                Continue
+            </button>
+        </div>
+        <div class="alert alert-success answer-5 hidden" role="alert">
+            <div class="alert-heading">
+                Correct!
+            </div>
+            <p>
+                PEP, which stands for “Post” Exposure Prophylaxis, is an antiretroviral drug
+                that helps to protect you if you think you have been exposed to the HIV virus.
+                To be most effective, PEP should be combined with condom usage.
+            </p>
+            <button type="button" class="btn btn-primary btn-block s2">
+                Continue
+            </button>
+        </div>
+    </div>
+
+    <div class="panel s2 hidden">
+        <p>
+            What are protective behaviors?
+        </p>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s2-q1" value="answer-6">
+                Choices I make that keep me and my sexual partners as safe as possible during sexual activity in which bodily fluids are exchanged.
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s2-q1" value="answer-7">
+                Things I learn in self defense classes like kick boxing and martial arts.
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s2-q1" value="answer-8">
+                There is no such thing as a protective behavior because everyone has a 50:50% chance of contracting HIV.
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s2-q1" value="answer-9">
+                None of the above
+            </label>
+        </div>
+
+        <button type="button" class="btn btn-primary btn-block get-answers">
+            OK
+        </button>
+
+        <div class="alert alert-success answer-6 hidden" role="alert">
+            <div class="alert-heading">
+                Correct!
+            </div>
+            <p>
+                Protective behaviors are choices that we make that keeps us and our sexual partners as safe as
+                possible during sexual activity in which bodily fluids are exchanged.
+            </p>
+            <button type="button" class="btn btn-primary btn-block s3">
+                Continue
+            </button>
+        </div>
+        <div class="alert alert-danger answer-7 hidden" role="alert">
+            <div class="alert-heading">
+                Incorrect
+            </div>
+            <p>
+                Protective behaviors are not self defense moves. Instead, they are choices that we make that
+                keeps us and our sexual partners as safe as possible during sexual activity in which
+                bodily fluids are exchanged. 
+            </p>
+            <button type="button" class="btn btn-primary btn-block s3">
+                Continue
+            </button>
+        </div>
+        <div class="alert alert-danger answer-8 hidden" role="alert">
+            <div class="alert-heading">
+                Incorrect
+            </div>
+            <p>
+                There are indeed things we can do that keeps us and our sexual partners as safe as possible during
+                sexual activity in which bodily fluids are exchanged. They are referred to as "protective behavior"
+                because everyone has a 50:50% chance of contracting HIV.
+            </p>
+            <button type="button" class="btn btn-primary btn-block s3">
+                Continue
+            </button>
+        </div>
+        <div class="alert alert-danger answer-9 hidden" role="alert">
+            <div class="alert-heading">
+                Incorrect
+            </div>
+            <p>
+                "A" was the correct answer to this question. Protective behaviors are choices that we make that
+                keep us and our sexual partners as safe as possible during sexual activity in which bodily
+                fluids are exchanged.
+            </p>
+            <button type="button" class="btn btn-primary btn-block s3">
+                Continue
+            </button>
+        </div>
+    </div>
+
+    <div class="panel s3 hidden">
+        <p>
+            About what percentage of session #2 did you complete (Select the choice that is the closest.)
+        </p>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s3-q1" value="answer-10">
+                all or most of it
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s3-q1" value="answer-11">
+                about half
+            </label>
+        </div>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="s3-q1" value="answer-12">
+                only a few pages
+            </label>
+        </div>
+        <br />
+        <p>
+            Which of the following things did you try since completing session #2. (Select all that apply.)
+        </p>
+
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="s3-q2" value="answer-13">
+                Took an HIV Test
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="s3-q2" value="answer-14">
+                Used condoms more often than before
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="s3-q2" value="answer-15">
+                Worked on the goal(s) I set
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="s3-q2" value="answer-16">
+                Made a doctor's appointment
+            </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="s3-q2" value="answer-17">
+                Started taking medication for HIV or an STI
+            </label>
+        </div>
+        <button type="button" class="btn btn-primary btn-block get-answers">
+            OK
+        </button>
+
+        <div class="alert alert-success answer-10 answer-11 answer-12 answer-13 answer-14 answer-15 answer-16 answer-17 hidden" role="alert">
+            <div class="alert-heading">
+                Good Job!
+            </div>
+            <p>
+                Keep working toward your goals.
+            </p>
+            <p>
+                <i>This activity is complete. Swipe left to continue.</i>
+            </p>
+        </div>
+    </div>
+</section>
