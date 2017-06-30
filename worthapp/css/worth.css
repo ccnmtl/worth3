@@ -222,6 +222,6 @@ ol.toc li li {font-weight: normal;}
 
 .badge-default {background-color: black;}
 
-.alert {background-color: #fafafa;}
+.alert-info {background-color: #fcf8e3; color: #000;}
 .alert p {font-size: 1.5em;}
 
