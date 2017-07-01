@@ -208,6 +208,7 @@ ol.toc li li {font-weight: normal;}
     top: -20px;
 }
 
+.nametag {margin-left: 20%; margin-right: 20%;}
 .nametag .card-header, .nametag .card-footer {background-color: #932951;}
 .nametag .card-block {background-color: #fff;}
 .nametag .card-header h1 {color: #fff;}
@@ -220,3 +221,7 @@ ol.toc li li {font-weight: normal;}
 .progress-bar {height: 1.5em; padding: .5em;}
 
 .badge-default {background-color: black;}
+
+.alert-info {background-color: #fcf8e3; color: #000;}
+.alert p {font-size: 1.5em;}
+
