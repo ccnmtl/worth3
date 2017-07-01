@@ -196,7 +196,7 @@
             },
             {
                 "title": "What Did We Learn?",
-                "template": "what-did-we-learn"
+                "template": "what-did-we-learn-2"
             },
             {
                 "title": "Summing It All Up",
@@ -321,7 +321,8 @@
                 "template": "i-am-worth-it"
             },
             {
-                "title": "What Did We Learn?"
+                "title": "What Did We Learn?",
+                "template": "what-did-we-learn-3"
             },
             {
                 "title": "Summing It All Up",

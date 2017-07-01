@@ -12,8 +12,7 @@
             var chosen = $panel.find('input:checked').attr('value');
 
             $panel.find('.alert').addClass('hidden');
-            $panel.find('.alert.' + chosen)
-                .removeClass('hidden');
+            $panel.find('.alert.' + chosen).removeClass('hidden');
         });
     });
 })();
