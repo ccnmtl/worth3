@@ -1,3 +1,6 @@
 I'm getting the webm's from YouTube like this:
 
     ~/venv/bin/youtube-dl -f webm -o "%(id)s.%(ext)s" <id>
+
+for example:
+    youtube-dl l -f webm -o "%(id)s.%(ext) qQr7B5dqC4M
