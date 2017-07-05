@@ -361,8 +361,9 @@
                 "poster": "carol"
             },
             {
-                "title": "Sofia Practices POP!",
-                "poster": "sofia"
+                "title": "Practicing POP!",
+                "poster": "sofia",
+                "template": "practicing-pop"
             },
             {
                 "title": "The Power of Self-Talk Revisited",
