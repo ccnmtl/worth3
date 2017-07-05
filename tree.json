@@ -196,7 +196,11 @@
             },
             {
                 "title": "What Did We Learn?",
+<<<<<<< HEAD
                 "template": "what-did-we-learn"
+=======
+                "template": "what-did-we-learn-2"
+>>>>>>> 21bb66372f02a08a54b637f1615bd6eb3fd98f7c
             },
             {
                 "title": "Summing It All Up",
@@ -321,7 +325,8 @@
                 "template": "i-am-worth-it"
             },
             {
-                "title": "What Did We Learn?"
+                "title": "What Did We Learn?",
+                "template": "what-did-we-learn-3"
             },
             {
                 "title": "Summing It All Up",
@@ -403,7 +408,9 @@
                 "poster": "lucia"
             },
             {
-                "title": "Practicing negotiation"
+                "title": "Practicing negotiation",
+                "template": "practicing-negotiation-1", 
+                "poster": "practicing-negotiation"
             },
             {
                 "title": "When Negotiating is Not Possible",
@@ -466,7 +473,8 @@
                 "template": "i-am-worth-it"
             },
             {
-                "title": "What Did We Learn?"
+                "title": "What Did We Learn?",
+                "template": "what-did-we-learn-4"
             },
             {
                 "title": "Summing it All Up",
@@ -514,7 +522,8 @@
                 "poster": "lucia"
             },
             {
-                "title": "Check Out What You've Learned"
+                "title": "Check Out What You've Learned",
+                "template": "check-out-what-youve-learned"
             },
             {
                 "title": "Reducing Risks",
@@ -544,7 +553,9 @@
                 "template": "i-am-worth-it"
             },
             {
-                "title": "What Did We Learn?"
+                "title": "What Did We Learn?",
+                "template": "what-did-we-learn-5"
+                
             },
             {
                 "title": "Summing it All Up",

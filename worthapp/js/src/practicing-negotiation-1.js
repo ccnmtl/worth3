@@ -2,7 +2,7 @@
 
 (function() {
     $(document).ready(function() {
-        var $container = $('.container.what-did-we-learn');
+        var $container = $('.container.practicing-negotiation-1');
         initActivityPanels($container);
 
         $container.find('button.get-answers').click(function(e) {
@@ -12,12 +12,8 @@
             var chosen = $panel.find('input:checked').attr('value');
 
             $panel.find('.alert').addClass('hidden');
-<<<<<<< HEAD
             $panel.find('.alert.' + chosen)
                 .removeClass('hidden');
-=======
-            $panel.find('.alert.' + chosen).removeClass('hidden');
->>>>>>> 21bb66372f02a08a54b637f1615bd6eb3fd98f7c
         });
     });
 })();
