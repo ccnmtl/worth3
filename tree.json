@@ -407,7 +407,7 @@
             },
             {
                 "title": "Practicing negotiation",
-                "template": "practicing-negotiation-1", 
+                "template": "practicing-negotiation-1",
                 "poster": "practicing-negotiation"
             },
             {
@@ -539,7 +539,9 @@
             },
             {
                 "title": "Message in a Bottle",
-                "paragraph": "We would also like you to share your experience in WORTH with someone you care about by writing a letter; we call it a \"message in a bottle\". Think about how you felt at the beginning of this journey and then consider what would you tell another person about how to protect herself. Now that you have developed this message, think about who you might share this with and how you might share it with them. If there is someone you know who really needs this information that might be a good place to begin."
+                "paragraph": "We would also like you to share your experience in WORTH with someone you care about by writing a letter; we call it a \"message in a bottle\". Think about how you felt at the beginning of this journey and then consider what would you tell another person about how to protect herself. Now that you have developed this message, think about who you might share this with and how you might share it with them. If there is someone you know who really needs this information that might be a good place to begin.",
+                "image": "writing.png",
+                "image2": "message-in-a-bottle-worksheet.png"
             },
             {
                 "title": "You Are WORTH It!",
@@ -553,7 +555,7 @@
             {
                 "title": "What Did We Learn?",
                 "template": "what-did-we-learn-5"
-                
+
             },
             {
                 "title": "Summing it All Up",

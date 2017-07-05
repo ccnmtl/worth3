@@ -98,6 +98,13 @@ def render_page(page, page_num, session_num, session_title, session_length):
     else:
         page_out = page_out.replace('{% IMG %}', '')
 
+    if page.get('image2'):
+        img_tag = '<img class="worth-icon" src="img/{}">'.format(
+            page.get('image2'))
+        page_out = page_out.replace('{% IMG2 %}', img_tag)
+    else:
+        page_out = page_out.replace('{% IMG2 %}', '')
+
     return BeautifulSoup(page_out, 'html.parser')
 
 
