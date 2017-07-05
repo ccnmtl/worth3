@@ -8,11 +8,14 @@
         $container.find('button.get-answers').click(function(e) {
             e.preventDefault();
             var $this = $(this);
-            var $panel = $this.closest('.panel');
+            var $panel = $this.parents('.panel').first();
             var chosen = $panel.find('input:checked').attr('value');
 
             $panel.find('.alert').addClass('hidden');
             $panel.find('.alert.' + chosen).removeClass('hidden');
+            
+            $this.hide();
+            $this.next().show();
         });
     });
 })();
