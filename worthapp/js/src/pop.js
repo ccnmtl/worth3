@@ -11,8 +11,8 @@
             var $this = $(this);
             var $panel = $this.parents('.panel').first();
             $panel.find('input.show-correct')
-                  .parents('.form-check-label')
-                  .addClass('alert-success');
+                .parents('.form-check-label')
+                .addClass('alert-success');
 
             $panel.find('.alert').removeClass('hidden');
             $this.hide();
