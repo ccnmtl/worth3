@@ -3,7 +3,8 @@
 
 (function() {
     $(document).ready(function() {
-        var $container = $('.container.popping-our-problems');
+        var $container =
+            $('.container.popping-our-problems, .container.practicing-pop');
         initActivityPanels($container);
 
         $container.find('button[type="submit"]').click(function(e) {
