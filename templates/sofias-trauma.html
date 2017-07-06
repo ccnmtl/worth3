@@ -15,9 +15,12 @@
             trauma she experienced.
         </p>
 
-        <button type="button" class="btn btn-primary btn-block s1">
-            OK
-        </button>
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-block s1">Next</button>                                 </div>
+        </div>
     </div>
 
     <div class="panel s1 hidden">
@@ -49,10 +52,6 @@
             </label>
         </div>
 
-        <button type="button" class="btn btn-primary btn-block get-answers">
-            That's my answer
-        </button>
-
         <div class="alert alert-success answer-1 hidden" role="alert">
             <div class="alert-heading">Correct.</div>
             <p>
@@ -61,9 +60,6 @@
                 experiencing this should seek help if they can. It is
                 possible to recover and feel better.
             </p>
-            <button type="button" class="btn btn-primary btn-block s2">
-                OK
-            </button>
         </div>
         <div class="alert alert-danger answer-2 hidden" role="alert">
             <div class="alert-heading">Incorrect.</div>
@@ -74,9 +70,6 @@
                 of PTSD. Someone experiencing this should seek help if
                 they can. It is possible to recover and feel better.
             </p>
-            <button type="button" class="btn btn-primary btn-block s2">
-                OK
-            </button>
         </div>
         <div class="alert alert-danger answer-3 hidden" role="alert">
             <div class="alert-heading">Incorrect.</div>
@@ -87,9 +80,19 @@
                 should seek help if they can. It is possible to
                 recover and feel better.
             </p>
-            <button type="button" class="btn btn-primary btn-block s2">
-                OK
-            </button>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s0">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block get-answers">
+                    That's my answer
+                </button>
+                <button class="btn btn-primary btn-block s2 hidden">Next</button>                          </div>
         </div>
     </div>
 
@@ -127,10 +130,6 @@
                 Having constant memories of what happened
             </label>
         </div>
-
-        <button type="button" class="btn btn-primary btn-block get-answers-2">
-            That's my answer
-        </button>
 
         <div class="alert alert-success answer-1 hidden" role="alert">
             <div class="alert-heading">
@@ -252,5 +251,25 @@
                 traumatic event.
             </p>
         </div>
+                        
+        <div class="alert text-center alert-done hidden" role="alert">
+            <p>
+                <strong>Great job!</strong> Swipe to move on.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s2">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block get-answers-2">
+                    That's my answer
+                </button>
+            </div>
+        </div>
+
     </div>
 </section>
