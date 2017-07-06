@@ -13,7 +13,7 @@
 
             $this.closest('.panel').find('.alert').addClass('hidden');
             $this.closest('.panel').find('.alert.' + chosen)
-                 .removeClass('hidden');
+                .removeClass('hidden');
             $this.hide();
             $this.next().show();
         });
