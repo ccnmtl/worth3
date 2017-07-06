@@ -226,3 +226,8 @@ ol.toc li li {font-weight: normal;}
 .alert-info {background-color: #fcf8e3; color: #000;}
 .alert p {font-size: 1.5em;}
 
+.swipe-to-move-on {
+    text-align: right;
+    margin-right: 0px;
+    margin-top: 6px;
+}
