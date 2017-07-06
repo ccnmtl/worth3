@@ -14,6 +14,8 @@
             $this.closest('.panel').find('.alert').addClass('hidden');
             $this.closest('.panel').find('.alert.' + chosen)
                 .removeClass('hidden');
+            $this.hide();
+            $this.next().show();
         });
 
         $container.find('button.get-answers-2').click(function(e) {
@@ -22,7 +24,7 @@
             var $panel = $this.closest('.panel');
             var numberChosen = $panel.find('input:checked').length;
 
-            $this.closest('.panel').find('.alert').addClass('hidden');
+            $panel.find('.alert').addClass('hidden');
 
             if (numberChosen === 5) {
                 $this.closest('.panel').find('.alert.answer-1')
@@ -34,6 +36,8 @@
                 $this.closest('.panel').find('.alert.answer-3')
                     .removeClass('hidden');
             }
+            $panel.find('.alert-done').show();
+            $this.hide();
         });
     });
 })();
