@@ -11,10 +11,10 @@
             var correct = $container.find('input#optionsRadios3')
                 .is(':checked');
             if (correct) {
-                $panel.find('.alert-info').removeClass('hidden');
+                $panel.find('.alert-success').removeClass('hidden');
                 $panel.find('.alert-danger').addClass('hidden');
             } else {
-                $panel.find('.alert-info').addClass('hidden');
+                $panel.find('.alert-success').addClass('hidden');
                 $panel.find('.alert-danger').removeClass('hidden');
             }
             $(this).hide();
@@ -27,9 +27,7 @@
             $.each($panel.find('label'), function(k, v) {
                 var $v = $(v);
                 if ($v.hasClass('selftalk-correct')) {
-                    $v.addClass('text-success');
-                } else {
-                    $v.addClass('text-danger');
+                    $v.addClass('alert-success');
                 }
             });
             $panel.find('.alert').removeClass('hidden');
@@ -42,6 +40,7 @@
             var $panel = $(this).closest('.panel');
             $panel.find('.alert').removeClass('hidden');
             $(this).hide();
+            $(this).next().show();
         });
     };
 
