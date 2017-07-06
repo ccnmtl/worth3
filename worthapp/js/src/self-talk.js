@@ -17,6 +17,8 @@
                 $panel.find('.alert-info').addClass('hidden');
                 $panel.find('.alert-danger').removeClass('hidden');
             }
+            $(this).hide();
+            $(this).next().show();
         });
 
         $container.find('button.get-answers').click(function(e) {
@@ -31,12 +33,15 @@
                 }
             });
             $panel.find('.alert').removeClass('hidden');
+            $(this).hide();
+            $(this).next().show();
         });
 
         $container.find('button.self-talk-done').click(function(e) {
             e.preventDefault();
             var $panel = $(this).closest('.panel');
             $panel.find('.alert').removeClass('hidden');
+            $(this).hide();
         });
     };
 
