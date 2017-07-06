@@ -158,7 +158,6 @@ img#logo {
 
 .progress {margin-bottom: 3em;}
 .alert {margin-top: 2em;}
-.alert-info {background-color: #f7ecf0;}
 .btn-primary {background-color: #932951; border-color: #932951;}
 .btn-primary:hover,
 .btn-primary:focus,
@@ -223,11 +222,11 @@ ol.toc li li {font-weight: normal;}
 
 .badge-default {background-color: black;}
 
-.alert-info {background-color: #fcf8e3; color: #000;}
 .alert p {font-size: 1.5em;}
 
 .swipe-to-move-on {
     text-align: right;
     margin-right: 0px;
     margin-top: 6px;
+    color: #000000;
 }
