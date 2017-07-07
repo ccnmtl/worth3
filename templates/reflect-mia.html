@@ -2,12 +2,6 @@
     <span class="badge badge-default float-right">{% SESSIONNUM %}.{% PAGENUM %}</span>
     <h1>{% SESSIONTITLE %}</h1>
     <h2>{% TITLE %}</h2>
-
-    <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
-             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
-
     <div class="panel s0">
         <p>
             What Mia shared about her experience might feel similar to
@@ -42,23 +36,26 @@
                 partner that will "set them off."
             </label>
         </div>
-
-        <button type="button" class="btn btn-primary btn-block s1">
-            OK
-        </button>
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-block s1">That's my answer</button>                
+            </div>
+        </div>
     </div>
-
     <div class="panel hidden s1">
         <p>
             Thanks for taking time to reflect. You share these concerns with Mia:
             <ul class="reflection-points"></ul>
         </p>
-
-        <div class="alert text-center" role="alert">
-            <p>
-                <strong>Great Job!</strong> Swipe to move on.
-            </p>
-            <button class="btn btn-primary btn-block s0">I want to try again.</button>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-secondary btn-block s0">Back</button>
+            </div>
+            <div class="col">
+                <h5 class="swipe-to-move-on">Swipe to move on &rarr;</h5>
+            </div>
         </div>
     </div>
 </section>
