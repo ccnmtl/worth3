@@ -31,7 +31,6 @@ def make_nav(soup, tree):
     nav_toc = soup.find_all('ol', class_='nav-toc')[0]
 
     for s_idx, session in enumerate(tree):
-
         li = soup.new_tag('li')
         li.append('Session {}: {}'.format(s_idx + 1, SESSION_TITLES[s_idx]))
 
@@ -51,6 +50,9 @@ def make_nav(soup, tree):
         nav_li.append(nav_session_ol)
 
         for p_idx, page in enumerate(session['pages']):
+            if p_idx == 0:
+                continue
+            
             page_li = soup.new_tag('li')
             session_ol.append(page_li)
             nav_page_li = soup.new_tag('li')

@@ -3,6 +3,11 @@
         "title": "Session 1: Beginning the Journey",
         "pages": [
             {
+                "title": "Session 1",
+                "subtitle": "Session 1: Beginning the Journey",
+                "template": "title-page"
+            },
+            {
                 "title": "Welcome to Session 1!",
                 "video": "nT5K_yKtFL8",
                 "poster": "lucia"
@@ -74,6 +79,11 @@
     {
         "title": "Session 2: Taking in the View",
         "pages": [
+            {
+                "title": "Session 2",
+                "subtitle": "Session 2: Taking in the View",
+                "template": "title-page"
+            },
             {
                 "title": "Welcome to Session 2!",
                 "video": "OLH7XvnUqg4",
@@ -211,6 +221,11 @@
         "title": "Session 3: Planning for Safety",
         "pages": [
             {
+                "title": "Session 3",
+                "subtitle": "Session 3: Planning for Safety",
+                "template": "title-page"
+            },
+            {
                 "title": "Welcome to Session 3!",
                 "video": "wVC5E5_ezek",
                 "poster": "lucia"
@@ -336,6 +351,11 @@
     {
         "title": "Session 4: Staying Strong",
         "pages": [
+            {
+                "title": "Session 4",
+                "subtitle": "Session 4: Staying Strong",
+                "template": "title-page"
+            },
             {
                 "title": "Welcome to Session 4!",
                 "subtitle": "Staying Strong and Focused",
@@ -486,6 +506,11 @@
     {
         "title": "Session 5: Keeping it Going",
         "pages": [
+            {
+                "title": "Session 5",
+                "subtitle": "Session 5: Keeping it Going",
+                "template": "title-page"
+            },
             {
                 "title": "Welcome to Session 5!",
                 "subtitle": "Keeping the Journey Going: I am WORTH it!",
