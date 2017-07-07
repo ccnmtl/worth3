@@ -12,7 +12,7 @@
         <h3>Myth/Fact</h3>
         <p>Let's play the Myth/Fact Quiz game!</p>
         <button type="button" class="btn btn-primary btn-block s1">
-            Got it. Let's go!
+            Begin
         </button>
     </div>
 
@@ -24,23 +24,27 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
-            <div>
-                <strong>False:</strong> You cannot get HIV by kissing someone who has it.
-            </div>
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
+            <div>The answer is <strong>False.</strong> You cannot get
+            HIV by kissing someone who has it. Saliva may contain HIV
+            but not in sufficient quantities to transmit the
+            virus. HIV, the virus that causes AIDS, is spread through
+            unsafe sex and needle or syringe sharing where blood is
+            passed.</div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s2">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>The answer is <strong>False.</strong> You cannot get
+            HIV by kissing someone who has it. Saliva may contain HIV
+            but not in sufficient quantities to transmit the
+            virus. HIV, the virus that causes AIDS, is spread through
+            unsafe sex and needle or syringe sharing where blood is
+            passed.</div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s2">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s2 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s2">
         <h3>HIV and Kissing</h3>
@@ -49,16 +53,8 @@
                 <source src="video/rL-1eqo4ezI.webm" type="video/webm"></source>
             </video>
         </div>
-        <p>
-            You cannot get HIV by kissing someone who has
-            it. Saliva may contain HIV but not in
-            sufficient quantities to transmit the
-            virus. HIV, the virus that causes AIDS, is
-            spread through unsafe sex and needle or
-            syringe sharing where blood is passed.
-        </p>
         <button class="btn btn-primary btn-block s3">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -74,9 +70,23 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>True:</strong> Antiretroviral therapy slows
+                The answer is <strong>True.</strong> Antiretroviral therapy slows
+                down HIV replication in your body and is the most
+                important way to keep yourself and your partners
+                healthy. It is not a cure but can greatly reduce the
+                risk of transmitting the virus to your sexual/drug
+                partners. Even with antiretroviral therapy, it is
+                important to consistently use condoms.
+            </div>
+        </div>
+
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>True.</strong> Antiretroviral therapy slows
                 down HIV replication in your body and is the most
                 important ways to keep yourself and your partners
                 healthy. It is not a cure but can greatly reduce the
@@ -86,17 +96,7 @@
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s4">
-                Here's Why
-            </button>
-        </div>
-
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s4">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s4 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s4">
         <div class="embed-responsive embed-responsive-16by9">
@@ -104,49 +104,43 @@
                 <source src="video/IisyJMxTtu4.webm" type="video/webm"></source>
             </video>
         </div>
-        <p>
-            Antiretroviral therapy slows down HIV replication in your
-            body and is the most important ways to keep yourself and
-            your partners healthy. It is not a cure but can greatly
-            reduce the risk of transmitting the virus to your
-            sexual/drug partners. Even with antiretroviral therapy, it
-            is important to consistently use condoms.
-        </p>
         <button class="btn btn-primary btn-block s5">
-            OK. I got it.
+            Next
         </button>
     </div>
 
     <div class="panel hidden s5">
         <h3>True or False?</h3>
         <p>
-            If you have been recently been exposed to HIV there is no
+            If you have recently been exposed to HIV there is no
             reason to take medication for it.
         </p>
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>False:</strong>
-                This is false since you can reduce the risk of
-                becoming HIV positive by taking medications within 48
-                hours following exposure. This is called post-exposure
-                prophylaxis or PEP.
+                The answer is <strong>False.</strong> You can
+                reduce the risk of becoming HIV positive
+                by taking medications within 48 hours following
+                exposure. This is called post-exposure prophylaxis or
+                PEP.
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s6">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>False.</strong> You can
+                reduce the risk of becoming HIV positive
+                by taking medications within 48 hours following
+                exposure. This is called post-exposure prophylaxis or
+                PEP.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s6">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s6 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s6">
         <div class="embed-responsive embed-responsive-16by9">
@@ -154,14 +148,8 @@
                 <source src="video/ixGsGCmKTQk.webm" type="video/webm"></source>
             </video>
         </div>
-        <p>
-            This is false since you can reduce the risk of becoming
-            HIV positive by taking medications within 48 hours
-            following exposure. This is called post-exposure
-            prophylaxis or PEP.
-        </p>
         <button class="btn btn-primary btn-block s7">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -174,25 +162,25 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>False:</strong>
+                The answer is <strong>False.</strong>
                 Sharing needles and other works when preparing to
                 inject drugs increases risk of HIV infection.
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s8">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>False.</strong>
+                Sharing needles and other works when preparing to
+                inject drugs increases risk of HIV infection.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s8">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s8 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s8">
         <div class="embed-responsive embed-responsive-16by9">
@@ -200,12 +188,8 @@
                 <source src="video/Mdux8l2aIvs.webm" type="video/webm"></source>
             </video>
         </div>
-        <p>
-            Sharing needles and other works when preparing to inject
-            drugs increases risk of HIV infection.
-        </p>
         <button class="btn btn-primary btn-block s9">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -217,9 +201,10 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>False:</strong>
+                The answer is <strong>False.</strong>
                 You may not know that you are infected with chlamydia
                 because you may not notice symptoms. You may be
                 infected and experience no symptoms. In fact, for many
@@ -231,17 +216,22 @@
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s10">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>False.</strong>
+                You may not know that you are infected with chlamydia
+                because you may not notice symptoms. You may be
+                infected and experience no symptoms. In fact, for many
+                STIs, such as chlamydia, most people transmit the
+                infection without experiencing any symptoms. Chlamydia
+                also has lasting effects and can lead to pelvic
+                inflammatory disease, ectopic pregnancy, and
+                infertility among women.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s10">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s10 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s10">
         <div class="embed-responsive embed-responsive-16by9">
@@ -249,18 +239,8 @@
                 <source src="video/XgmfoV9w97A.webm" type="video/webm"></source>
             </video>
         </div>
-        <p>
-            You may not know that you are infected with chlamydia
-            because you may not notice symptoms. You may be
-            infected and experience no symptoms. In fact, for many
-            STIs, such as chlamydia, most people transmit the
-            infection without experiencing any symptoms. Chlamydia
-            also has lasting effects and can lead to pelvic
-            inflammatory disease, ectopic pregnancy, and
-            infertility among women.
-        </p>
         <button class="btn btn-primary btn-block s11">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -273,26 +253,27 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>False:</strong>
+                The answer is <strong>False.</strong>
                 A mother can pass gonorrhea to her unborn
                 child. Gonorrhea can be passed on to the child during
                 birth. It can cause blindness in the newborn.
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s12">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>False.</strong>
+                A mother can pass gonorrhea to her unborn
+                child. Gonorrhea can be passed on to the child during
+                birth. It can cause blindness in the newborn.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s12">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s12 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s12">
         <div class="embed-responsive embed-responsive-16by9">
@@ -300,13 +281,8 @@
                 <source src="video/aOe_qNp75l8.webm" type="video/webm"></source>
             </video>
         </div>
-        <p>
-            A mother can pass gonorrhea to her unborn child. Gonorrhea
-            can be passed on to the child during birth. It can cause
-            blindness in the newborn.
-        </p>
         <button class="btn btn-primary btn-block s13">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -319,9 +295,10 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>False:</strong>
+                The answer is <strong>False.</strong>
                 You do not have to have an outbreak or other symptoms
                 in order to be infectious and pass HSV-2 (genital
                 herpes) to a partner. HSV-2 (genital herpes) shedding
@@ -333,17 +310,22 @@
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s14">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>False.</strong>
+                You do not have to have an outbreak or other symptoms
+                in order to be infectious and pass HSV-2 (genital
+                herpes) to a partner. HSV-2 (genital herpes) shedding
+                is responsible for genital herpes transmission whether
+                these episodes lead to recognized outbreaks or are
+                clinically asymptomatic. In fact, up to 70% of
+                transmissions can be attributed to asymptomatic
+                shedding.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s14">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s14 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s14">
         <div class="embed-responsive embed-responsive-16by9">
@@ -351,18 +333,8 @@
                 <source src="video/w9RYRSnUcYA.webm" type="video/webm"></source>
             </video>
         </div>
-        <p>
-            You do not have to have an outbreak or other symptoms
-            in order to be infectious and pass HSV-2 (genital
-            herpes) to a partner. HSV-2 (genital herpes) shedding
-            is responsible for genital herpes transmission whether
-            these episodes lead to recognized outbreaks or are
-            clinically asymptomatic. In fact, up to 70% of
-            transmissions can be attributed to asymptomatic
-            shedding.
-        </p>
         <button class="btn btn-primary btn-block s15">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -374,34 +346,41 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>True:</strong>
-                    HPV causes cervical cancer. Women should get an
-                    annual exam to receive a pap test to screen for
-                    evidence of HPV (genital warts) infection. HPV is
-                    easily transmissible and the most prevalent STI,
-                    particularly among young women. All boys and girls
-                    ages 11 or 12 years should get vaccinated.
-                    Catch-up vaccines are recommended for males
-                    through age 21 and for females through age 26, if
-                    they did not get vaccinated when they were
-                    younger.
-                </p>
+                The answer is <strong>True.</strong>
+                HPV causes cervical cancer. Women should get an
+                annual exam to receive a pap test to screen for
+                evidence of HPV (genital warts) infection. HPV is
+                easily transmissible and the most prevalent STI,
+                particularly among young women. All boys and girls
+                ages 11 or 12 years should get vaccinated.
+                Catch-up vaccines are recommended for males
+                through age 21 and for females through age 26, if
+                they did not get vaccinated when they were
+                younger.
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s16">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>True.</strong>
+                HPV causes cervical cancer. Women should get an
+                annual exam to receive a pap test to screen for
+                evidence of HPV (genital warts) infection. HPV is
+                easily transmissible and the most prevalent STI,
+                particularly among young women. All boys and girls
+                ages 11 or 12 years should get vaccinated.
+                Catch-up vaccines are recommended for males
+                through age 21 and for females through age 26, if
+                they did not get vaccinated when they were
+                younger.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s16">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s16 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s16">
         <div class="embed-responsive embed-responsive-16by9">
@@ -409,18 +388,8 @@
                 <source src="video/gcCeMjn3Nmo.webm" type="video/webm"></source>
             </video>
         </div>
-            HPV causes cervical cancer. Women should get an
-            annual exam to receive a pap test to screen for
-            evidence of HPV (genital warts) infection. HPV is
-            easily transmissible and the most prevalent STI,
-            particularly among young women. All boys and girls
-            ages 11 or 12 years should get vaccinated.
-             Catch-up vaccines are recommended for males
-            through age 21 and for females through age 26, if
-            they did not get vaccinated when they were
-            younger.
         <button class="btn btn-primary btn-block s17">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -433,9 +402,10 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>True:</strong>
+                The answer is <strong>True.</strong>
                 Having an STI changes the cells lining the vagina,
                 penis, rectum or mouth. This makes it easier for HIV
                 to enter your body. If you already have an STI, you
@@ -445,17 +415,20 @@
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s18">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>True.</strong>
+                Having an STI changes the cells lining the vagina,
+                penis, rectum or mouth. This makes it easier for HIV
+                to enter your body. If you already have an STI, you
+                are MORE likely to get infected with HIV if you have
+                sex with someone who has HIV and you don't use a
+                condom.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s18">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s18 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s18">
         <div class="embed-responsive embed-responsive-16by9">
@@ -463,15 +436,8 @@
                 <source src="video/qPH9ScD1yIA.webm" type="video/webm"></source>
             </video>
         </div>
-        <p>
-            Having an STI changes the cells lining the vagina, penis,
-            rectum or mouth. This makes it easier for HIV to enter
-            your body. If you already have an STI, you are MORE likely
-            to get infected with HIV if you have sex with someone who
-            has HIV and you don't use a condom.
-        </p>
         <button class="btn btn-primary btn-block s19">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -480,28 +446,28 @@
         <p>
             Most viral STIs cannot be cured.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
+        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>False:</strong>
+                The answer is <strong>True.</strong>
                 Once your body is infected with an STI, your body will
                 always carry it.
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s20">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>True.</strong>
+                Once your body is infected with an STI, your body will
+                always carry it.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s20">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s20 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s20">
         <div class="embed-responsive embed-responsive-16by9">
@@ -509,12 +475,8 @@
                 <source src="video/Lvq8bWGoQ9U.webm" type="video/webm"></source>
             </video>
         </div>
-        <p>
-            Once your body is infected with an STI, your body will
-            always carry it.
-        </p>
         <button class="btn btn-primary btn-block s21">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -527,44 +489,34 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>True:</strong>
-                Using non-injected drugs like alcohol, marijuana,
-                crystal meth, or crack cocaine reduces one’s ability
-                to make good decisions about safe sex or using clean
-                needles or works. Being intoxicated or high decreases
-                one’s ability to think about protecting themselves
-                from HIV/STIs. Cocaine tends to increase a person’s
-                sex drive and to a degree sexual inhibitions which can
-                make condom use less likely or and increases the
-                likelihood of engaging in high risk sexual
-                activities. Crystal meth has an effect similar to
-                cocaine and it appears to be leading to increased
-                unprotected sex and to greater HIV/STI transmission.
+                The answer is <strong>True.</strong>
+                Being high or intoxicated increases the risk of HIV/STI
+                infection.
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s22">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>True.</strong>
+                Being high or intoxicated increases the risk of HIV/STI
+                infection.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s22">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s22 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s22">
         <p>
             Using non-injected drugs like alcohol, marijuana, crystal meth, or
             crack cocaine reduces one’s ability to make good decisions about safe
             sex or using clean needles or works. Being intoxicated or high
-            decreases one’s ability to think about protecting themselves from
+            decreases one’s ability to think about protecting oneself from
             HIV/STIs. Cocaine tends to increase a person’s sex drive and to a
-            degree sexual inhibitions which can make condom use less likely or and
+            degree reduces sexual inhibitions which can make condom use less likely and
             increases the likelihood of engaging in high risk sexual
             activities. Crystal meth has an effect similar to cocaine and it
             appears to be leading to increased unprotected sex and to greater
@@ -575,7 +527,7 @@
             <a href="https://www.youtube.com/watch?v=8YjELcteCuA">https://www.youtube.com/watch?v=8YjELcteCuA</a>
         </p>
         <button class="btn btn-primary btn-block s23">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -587,25 +539,21 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>False:</strong>
-                Women now make up about half of all the people living
-                with HIV and new cases of HIV in the world.
+                The answer is <strong>False.</strong>
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s24">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>False.</strong>
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s24">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s24 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s24">
         <p>
@@ -617,7 +565,7 @@
             risks" sheet
         </p>
         <button class="btn btn-primary btn-block s25">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -629,26 +577,21 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>True:</strong>
-                NYC has the highest number of HIV cases in the
-                country. In addition, 1 in 3 people living with HIV in
-                NYC are women, of which 90% are African American.
+                The answer is <strong>True.</strong>
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s26">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>True.</strong>
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s26">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s26 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s26">
         <p>
@@ -660,7 +603,7 @@
             Source: taken from PACT/Connect "Facts about HIV/STI risks" sheet
         </p>
         <button class="btn btn-primary btn-block s27">
-            OK. I got it.
+            Next
         </button>
     </div>
 
@@ -673,29 +616,25 @@
         <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
         <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
 
-        <div class="alert alert-info hidden answer" role="alert">
+        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+            <div><strong>Oops! You missed this one.</strong></div>
             <div>
-                <strong>True:</strong>
-                In 2004, one of every 42 women in prison was diagnosed
-                as HIV positive, compared to 1 of every 59 men. In
-                addition, 12% of men on probation in NYC are reported
-                to be HIV positive. In a study of 306 women on
-                probation in NYC in 2012, 14% were found to be HIV
-                positive.
+                The answer is <strong>True.</strong>
+                More women in prison and on probation are HIV positive
+                than men.
             </div>
         </div>
 
-        <div class="alert alert-danger text-center wrong-answer hidden" role="alert">
-            <p>Oops! You missed this one.</p>
-            <button class="btn btn-primary btn-block s28">
-                Here's Why
-            </button>
+        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+            <div><strong>Well done!</strong></div>
+            <div>
+                The answer is <strong>True.</strong>
+                More women in prison and on probation are HIV positive
+                than men.
+            </div>
         </div>
 
-        <div class="alert alert-success text-center right-answer hidden" role="alert">
-            <p><strong>Well done!</strong> You got it right!</p>
-            <button class="btn btn-primary btn-block s28">Learn More</button>
-        </div>
+        <button class="btn btn-primary btn-block s28 hidden learn-more">Learn More</button>
     </div>
     <div class="panel hidden s28">
         <p>
@@ -713,18 +652,21 @@
             </ul>
         </p>
         <button class="btn btn-primary btn-block s29">
-            OK. I got it.
+            Next
         </button>
     </div>
 
     <div class="panel hidden s29">
         <h3>Good Job!</h3>
         <p>Knowing the facts will help keep you safe.</p>
-        <div class="alert alert-info text-center" role="alert">
-            <p>
-                <strong>You're done!</strong> Swipe to move on.
-            </p>
-            <button class="btn btn-primary btn-block s0">I want to try again.</button>
+
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary btn-block s0">I want to try again</button>
+            </div>
+            <div class="col">
+                <h5 class="swipe-to-move-on">Swipe to move on &rarr;</h5>
+            </div>
         </div>
     </div>
 </section>
