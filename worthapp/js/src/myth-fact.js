@@ -11,6 +11,7 @@
         $container.find('.alert.wrong-answer,.alert.right-answer')
             .addClass('hidden');
         $container.find('.alert.answer').addClass('hidden');
+        $container.find('.learn-more').addClass('hidden');
     };
 
     $(document).ready(function() {
@@ -25,6 +26,7 @@
                 .attr('disabled', true)
                 .addClass('disabled');
             $panel.find('.alert.right-answer').removeClass('hidden');
+            $panel.find('.learn-more').removeClass('hidden');
         });
         $container.find('button.myth-fact-incorrect').click(function(e) {
             e.preventDefault();
@@ -34,6 +36,7 @@
                 .attr('disabled', true)
                 .addClass('disabled');
             $panel.find('.alert.wrong-answer').removeClass('hidden');
+            $panel.find('.learn-more').removeClass('hidden');
         });
 
         $container.find('button.s0').click(function(e) {
