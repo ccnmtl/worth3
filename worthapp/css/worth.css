@@ -218,7 +218,7 @@ ol.toc li li {font-weight: normal;}
 }
 
 .progress {background-color: #fafafa; margin-top: 1em;}
-.progress-bar {height: 1.5em; padding: .5em;}
+.progress-bar {height: 1.5em; padding: .5em 0em;}
 
 .alert p {font-size: 1.5em;}
 
