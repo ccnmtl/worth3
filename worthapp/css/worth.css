@@ -154,6 +154,7 @@ img#logo {
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
+    min-height: 600px;
 }
 
 .progress {margin-bottom: 3em;}
