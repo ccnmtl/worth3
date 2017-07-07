@@ -44,15 +44,22 @@
             swiper.slideTo(0);
         });
 
-        var showing = false;
-
-        $('.toggle-toc-icon>img').click(function() {
+        $('.toggle-toc-icon>img').click(function(e) {
+            e.stopPropagation();
+            var showing = $('.sidenav').width() > 0;
             if (showing) {
                 $('.sidenav').width(0);
             } else {
                 $('.sidenav').width('700px');
             }
-            showing = !showing;
         });
+
+        $('body').click(function(e) {
+            if ($('.sidenav').width() > 0) {
+                e.preventDefault();
+                $('.sidenav').width(0);
+            }
+        });
+
     });
 })();
