@@ -82,7 +82,8 @@ def render_page(page, page_num, session_num, session_title, session_length):
 
     long_session_title = 'Session {}: {}'.format(session_num, session_title)
 
-    page_out = page_t.replace('{% SESSIONTITLE %}', long_session_title)
+    page_out = page_t.replace('{% SESSIONNUM %}', str(session_num))
+    page_out = page_out.replace('{% SESSIONTITLE %}', long_session_title)
     page_out = page_out.replace('{% PAGENUM %}', str(page_num))
     page_out = page_out.replace('{% SESSIONLENGTH %}', str(session_length))
     page_out = page_out.replace('{% TITLE %}', page.get('title'))
