@@ -14,6 +14,9 @@
             $panel.find('.alert').addClass('hidden');
             $panel.find('.alert.' + chosen)
                 .removeClass('hidden');
+
+            $this.hide();
+            $this.next().show();
         });
 
         $container.find('button.get-answers-all-correct').click(function(e) {
@@ -30,6 +33,9 @@
             } else {
                 $panel.find('.alert.answer-2').removeClass('hidden');
             }
+
+            $this.hide();
+            $this.next().show();
         });
 
         $container.find('button.get-answers-checkbox-combination').click(function(e) {
@@ -44,17 +50,15 @@
 
             $.each($panel.find('input[type="checkbox"]'), function(k, v) {
                 if (v.value === 'correct') {
-                    $(v).closest('.form-check')
-                        .addClass('has-success')
-                        .append(' (correct)');
-                } else {
-                    $(v).closest('.form-check')
-                        .addClass('has-danger')
-                        .append(' (incorrect)');
+                    $(v).closest('.form-check-label')
+                        .addClass('alert-success');
                 }
             });
 
             $alert.removeClass('hidden');
+
+            $this.hide();
+            $this.next().show();
         });
     });
 })();
