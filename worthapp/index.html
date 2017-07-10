@@ -6330,6 +6330,9 @@
   <h3>
    Part 1 of 4: Who is this?
   </h3>
+  <p>
+   Think of of a special person in your life. What is their name?
+  </p>
   <div class="card w-50 mx-auto mb-3">
    <div class="card-block">
     <div class="d-flex flex-row">
@@ -6337,9 +6340,9 @@
       <img class="img-fluid" src="img/icon-person.png"/>
      </div>
      <div class="p-2">
-      <div class="form-group row">
-       <label class="col-4 col-form-label text-right" for="ssnm-special-person">
-        Name
+      <div class="row">
+       <label class="col-4" for="ssnm-special-person">
+        Name:
        </label>
        <div class="col-6">
         <input class="form-control" id="ssnm-special-person" name="ssnm-special-person" type="text"/>
@@ -6384,28 +6387,65 @@
    </div>
   </div>
   <hr/>
-  <form>
-   <fieldset class="form-group">
-    <div class="form-check">
-     <label class="form-check-label">
-      <input class="form-check-input" name="ssnm-closeness" type="radio" value="option1"/>
+  <div class="w-50 mx-auto mb-3">
+   <div class="row">
+    <div class="col-md-1">
+     <img class="img-fluid" src="img/icon-veryclose.png"/>
+    </div>
+    <div class="col-md-6">
+     <strong>
       Very Close
-     </label>
+     </strong>
+     Loving, Trustworthy
     </div>
-    <div class="form-check">
-     <label class="form-check-label">
-      <input class="form-check-input" name="ssnm-closeness" type="radio" value="option2"/>
+    <div class="col-md-3">
+     <div class="form-check">
+      <label class="form-check-label">
+       <input class="form-check-input" name="ssnm-closeness" type="radio" value="option1"/>
+       Very Close
+      </label>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-1">
+     <img class="img-fluid" src="img/icon-close.png"/>
+    </div>
+    <div class="col-md-6">
+     <strong>
       Close
-     </label>
+     </strong>
+     Friendly, Reliable
     </div>
-    <div class="form-check">
-     <label class="form-check-label">
-      <input class="form-check-input" name="ssnm-closeness" type="radio" value="option3"/>
+    <div class="col-md-3">
+     <div class="form-check">
+      <label class="form-check-label">
+       <input class="form-check-input" name="ssnm-closeness" type="radio" value="option2"/>
+       Close
+      </label>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-1">
+     <img class="img-fluid" src="img/icon-notclose.png"/>
+    </div>
+    <div class="col-md-6">
+     <strong>
       Not Close
-     </label>
+     </strong>
+     Emotionally Distant, Unreliable
     </div>
-   </fieldset>
-  </form>
+    <div class="col-md-3">
+     <div class="form-check">
+      <label class="form-check-label">
+       <input class="form-check-input" name="ssnm-closeness" type="radio" value="option3"/>
+       Not Close
+      </label>
+     </div>
+    </div>
+   </div>
+  </div>
   <button class="btn btn-primary btn-block s3" type="button">
    OK
   </button>
@@ -6437,41 +6477,44 @@
     </div>
    </div>
   </div>
-  <div class="row">
-   <div class="col-md-3">
-    <img class="img-fluid" src="img/icon-plus.png"/>
-   </div>
-   <div class="col-md-3">
-    <strong>
-     Positive
-    </strong>
-    influence includes things like nurturing and kindness.
-   </div>
-   <div class="col-md-3">
-    <div class="form-check">
-     <label class="form-check-label">
-      <input class="form-check-input" name="ssnm-influence" type="radio" value="option1"/>
+  <hr/>
+  <div class="w-50 mx-auto mb-3">
+   <div class="row">
+    <div class="col-md-1">
+     <img class="img-fluid" src="img/icon-plus.png"/>
+    </div>
+    <div class="col-md-6">
+     <strong>
       Positive
-     </label>
+     </strong>
+     influence includes things like nurturing and kindness.
+    </div>
+    <div class="col-md-3">
+     <div class="form-check">
+      <label class="form-check-label">
+       <input class="form-check-input" name="ssnm-influence" type="radio" value="option1"/>
+       Positive
+      </label>
+     </div>
     </div>
    </div>
-  </div>
-  <div class="row">
-   <div class="col-md-3">
-    <img class="img-fluid" src="img/icon-minus.png"/>
-   </div>
-   <div class="col-md-3">
-    <strong>
-     Negative
-    </strong>
-    influence includes things like abuse and neglect.
-   </div>
-   <div class="col-md-3">
-    <div class="form-check">
-     <label class="form-check-label">
-      <input class="form-check-input" name="ssnm-influence" type="radio" value="option2"/>
+   <div class="row">
+    <div class="col-md-1">
+     <img class="img-fluid" src="img/icon-minus.png"/>
+    </div>
+    <div class="col-md-6">
+     <strong>
       Negative
-     </label>
+     </strong>
+     influence includes things like abuse and neglect.
+    </div>
+    <div class="col-md-3">
+     <div class="form-check">
+      <label class="form-check-label">
+       <input class="form-check-input" name="ssnm-influence" type="radio" value="option2"/>
+       Negative
+      </label>
+     </div>
     </div>
    </div>
   </div>
@@ -6515,44 +6558,47 @@
     </div>
    </div>
   </div>
-  <div class="row">
-   <div class="col-md-3">
-    <img class="img-fluid" src="img/icon-heart.png"/>
-   </div>
-   <div class="col-md-3">
-    <strong>
-     Emotional support
-    </strong>
-    includes things like
+  <hr/>
+  <div class="w-50 mx-auto mb-3">
+   <div class="row">
+    <div class="col-md-1">
+     <img class="img-fluid" src="img/icon-heart.png"/>
+    </div>
+    <div class="col-md-6">
+     <strong>
+      Emotional support
+     </strong>
+     includes things like
                 listening to you and letting you share your feelings.
                 emotional/practical
-   </div>
-   <div class="col-md-3">
-    <div class="form-check">
-     <label class="form-check-label">
-      <input checked="" class="form-check-input" name="ssnm-emotional-support" type="checkbox"/>
-      Emotional Support
-     </label>
+    </div>
+    <div class="col-md-3">
+     <div class="form-check">
+      <label class="form-check-label">
+       <input checked="" class="form-check-input" name="ssnm-emotional-support" type="checkbox"/>
+       Emotional Support
+      </label>
+     </div>
     </div>
    </div>
-  </div>
-  <div class="row">
-   <div class="col-md-3">
-    <img class="img-fluid" src="img/icon-wrench.png"/>
-   </div>
-   <div class="col-md-3">
-    <strong>
-     Practical support
-    </strong>
-    is concrete help such as babysitting,
+   <div class="row">
+    <div class="col-md-1">
+     <img class="img-fluid" src="img/icon-wrench.png"/>
+    </div>
+    <div class="col-md-6">
+     <strong>
+      Practical support
+     </strong>
+     is concrete help such as babysitting,
                 helping you find work, etc.
-   </div>
-   <div class="col-md-3">
-    <div class="form-check">
-     <label class="form-check-label">
-      <input checked="" class="form-check-input" name="ssnm-practical-support" type="checkbox"/>
-      Practical Support
-     </label>
+    </div>
+    <div class="col-md-3">
+     <div class="form-check">
+      <label class="form-check-label">
+       <input checked="" class="form-check-input" name="ssnm-practical-support" type="checkbox"/>
+       Practical Support
+      </label>
+     </div>
     </div>
    </div>
   </div>
@@ -6637,17 +6683,19 @@
   <h3>
    On the Map
   </h3>
-  <p>
-   Now that you've learned the steps for making a map, get
+  <div class="row">
+   <div class="col-md-6">
+    <p>
+     Now that you've learned the steps for making a map, get
             out paper or your map worksheet and create your own.
-  </p>
-  <p>
-   You might have only one or two people on your map right
+    </p>
+    <p>
+     You might have only one or two people on your map right
             now, or you might have lots of people on your map. Either
             way is just fine.
-  </p>
-  <div class="row">
-   <div class="col">
+    </p>
+   </div>
+   <div class="col-md-4">
     <img class="img-fluid" src="img/samplemap.png"/>
    </div>
   </div>
