@@ -1,17 +1,6 @@
-/* global $, updateProgressBar, initActivityPanels */
+/* global $, initActivityPanels */
 
 (function() {
-    var resetActivity = function($container) {
-        updateProgressBar($container, 0);
-        $container.find('div.s0').removeClass('hidden');
-        $container.find('.pb-buttons button').removeClass(
-            'btn-danger btn-warning btn-success');
-        $container.find('.pb-buttons-risk-rating button')
-            .removeClass('btn-danger btn-warning btn-success disabled')
-            .removeAttr('disabled');
-        $container.find('.pb-feedback').addClass('hidden');
-    };
-
     var calculateRiskLevel = function($container) {
         var riskLevel = 0;
         if ($container.find('.btn-danger').length > 0) {
@@ -48,8 +37,8 @@
         $container.find('.risk-level').addClass(
             'alert-' + levels[level]['class']);
         $container.find('.risk-level>.alert-heading').text(
-            levels[level]['title']);
-        $container.find('.risk-level>p').text(levels[level]['text']);
+            'Here\'s your risk level: ' + levels[level]['title']);
+        $container.find('.risk-level>span').text(levels[level]['text']);
     };
 
     $(document).ready(function() {
@@ -77,17 +66,18 @@
             updateRiskLevel($myContainer, riskLevel);
         });
 
-        $container.find('button.s0').click(function(e) {
-            e.preventDefault();
-            var $myContainer = $(this).closest('.container');
-            $(this).closest('div.panel').addClass('hidden');
-            resetActivity($myContainer);
-        });
-
         $container.find('.pb-buttons-risk-rating button').click(function(e) {
             e.preventDefault();
             var $this = $(this);
             var $panel = $this.closest('.panel');
+
+            // remove any existing selections
+            var $button = $panel.find('div.pb-buttons-risk-rating>button');
+            for (var i = 0; i < $button.length; i++) {
+                $($button[i]).removeClass('btn-danger');
+                $($button[i]).removeClass('btn-warning');
+                $($button[i]).removeClass('btn-success');
+            }
 
             if ($this.hasClass('pb-red')) {
                 $this.toggleClass('btn-danger');
@@ -97,11 +87,7 @@
                 $this.toggleClass('btn-success');
             }
 
-            $panel.find('.pb-buttons-risk-rating button')
-                .addClass('disabled')
-                .attr('disabled', 'disabled');
-
-            $panel.find('p.hidden,button.hidden').removeClass('hidden');
+            $panel.find('div.pb-feedback,div.pb-feedback-button').removeClass('hidden');
         });
     });
 })();

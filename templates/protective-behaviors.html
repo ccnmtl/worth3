@@ -15,9 +15,13 @@
             risky. During this activity we'll break down what's risky
             and what's not.
         </p>
-        <button type="button" class="btn btn-primary btn-block s1">
-            Begin
-        </button>
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-block s1">Next</button>
+            </div>
+        </div>
     </div>
 
     <div class="panel s1 hidden">
@@ -63,26 +67,35 @@
                 Sex using a condom while on PrEP/PEP/ART
             </button>
         </div>
-
-        <button type="button" class="btn btn-primary btn-block s2">
-            My Score
-        </button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s0">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block s2">
+                    Next
+                </button>
+            </div>
+        </div>
     </div><!-- end .panel -->
 
     <div class="panel hidden s2">
-        <p>
-            Here's your risk level.
-        </p>
-
         <div class="alert text-center risk-level" role="alert">
             <div class="alert-heading"></div>
-            <p>
-            </p>
+            <span></span>
         </div>
-
-        <button class="btn btn-primary btn-block s3" type="submit">
-            Next
-        </button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s1">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-block s3">Next</button>
+            </div>
+        </div>
     </div>
 
     <div class="panel hidden s3">
@@ -108,9 +121,20 @@
             Thanks! It's a good idea to reflect on your level of risk
             on a regular basis.
         </p>
-        <button class="btn btn-primary btn-block s4 pb-feedback hidden" type="submit">
-            Next
-        </button>
+        <div class="alert-info text-center pb-feedback hidden" role="alert">
+            Thanks! It's a good idea to reflect on your level of risk
+            on a regular basis.
+        </div>
+        <div class="row pb-feedback-button hidden">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s2">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-block s4">Next</button>
+            </div>
+        </div>
     </div>
 
     <div class="panel hidden s4">
@@ -121,12 +145,15 @@
                 <source src="video/f9HQT5Eltjo.webm" type="video/webm"></source>
             </video>
         </div>
-
-        <div class="alert text-center" role="alert">
-            <p>
-                <strong>You're done!</strong> Swipe to move on.
-            </p>
-            <button class="btn btn-primary btn-block s0">I want to try again.</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s3">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <h5 class="swipe-to-move-on">Swipe to move on &rarr;</h5>
+            </div>
         </div>
     </div>
 </section>
