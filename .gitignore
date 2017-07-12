@@ -2,3 +2,4 @@ worthbook.epub
 venv/
 ve/
 .project
+.DS_Store
