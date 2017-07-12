@@ -15,9 +15,13 @@
             First you'll learn how to label each person. Then you'll get out paper or your worksheet and draw your map. 
             When you're finished, your map will look like the one here. [image to be inserted]
         </p>
-        <button type="button" class="btn btn-primary btn-block s1">
-            Begin
-        </button>
+        <div class="row ssnm-button">
+            <div class="col">
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-block s1">Next</button>
+            </div>
+        </div>
     </div>
 
     <div class="panel hidden s1">
@@ -45,11 +49,16 @@
                 </div>
             </div>
         </div>
-        
-        <button type="button" class="btn btn-primary btn-block s2">
-            OK
-        </button>
-        
+        <div class="row ssnm-button">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s0">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-block s2">Next</button>
+            </div>
+        </div>
     </div>
 
     <div class="panel hidden s2">
@@ -84,8 +93,8 @@
         
         <hr />
         
-        <div class="w-50 mx-auto mb-3">
-        <div class="row">
+        <div class="w-75 mx-auto mb-3">
+        <div class="row ssnm-questions">
             <div class="col-md-1">
                 <img class="img-fluid" src="img/icon-veryclose.png">
             </div>
@@ -101,7 +110,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row ssnm-questions">
             <div class="col-md-1">
                 <img class="img-fluid" src="img/icon-close.png">
             </div>
@@ -117,7 +126,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row ssnm-questions">
             <div class="col-md-1">
                 <img class="img-fluid" src="img/icon-notclose.png">
             </div>
@@ -128,17 +137,24 @@
                 <div class="form-check">
                     <label class="form-check-label">
                         <input class="form-check-input" name="ssnm-closeness" value="option3" type="radio">
-                        Not Close
-                    </label>
+                            Not Close
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="row ssnmt-button">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s1">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block s3">
+                    Next
+                </button>
+            </div>
         </div>
-        
-        <button type="button" class="btn btn-primary btn-block s3">
-            OK
-        </button>
-        
     </div>
 
     <div class="panel hidden s3">
@@ -170,8 +186,8 @@
         
         <hr />
         
-        <div class="w-50 mx-auto mb-3">
-        <div class="row">
+        <div class="w-75 mx-auto mb-3">
+        <div class="row ssnm-questions">
             <div class="col-md-1">
                 <img class="img-fluid" src="img/icon-plus.png">
             </div>
@@ -187,7 +203,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row ssnm-questions">
             <div class="col-md-1">
                 <img class="img-fluid" src="img/icon-minus.png">
             </div>
@@ -198,17 +214,25 @@
                 <div class="form-check">
                     <label class="form-check-label">
                         <input class="form-check-input" name="ssnm-influence" value="option2" type="radio">
-                        Negative
-                    </label>
+                            Negative
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
+        
+        <div class="row ssnm-button">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s2">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block s4">
+                    Next
+                </button>
+            </div>
         </div>
-        
-        <button type="button" class="btn btn-primary btn-block s4">
-            OK
-        </button>
-        
     </div>
 
     <div class="panel hidden s4">
@@ -247,8 +271,8 @@
         
         <hr />
         
-        <div class="w-50 mx-auto mb-3">
-        <div class="row">
+        <div class="w-75 mx-auto mb-3">
+        <div class="row ssnm-questions">
             <div class="col-md-1">
                 <img class="img-fluid" src="img/icon-heart.png">
             </div>
@@ -260,13 +284,13 @@
             <div class="col-md-3">
                 <div class="form-check">
                     <label class="form-check-label">
-                        <input class="form-check-input" name="ssnm-emotional-support" checked="" type="checkbox">
+                        <input class="form-check-input" name="ssnm-emotional-support"  type="checkbox">
                         Emotional Support
                     </label>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row ssnm-questions">
             <div class="col-md-1">
                 <img class="img-fluid" src="img/icon-wrench.png">
             </div>
@@ -277,18 +301,26 @@
             <div class="col-md-3">
                 <div class="form-check">
                     <label class="form-check-label">
-                        <input class="form-check-input" name="ssnm-practical-support" checked="" type="checkbox">
-                        Practical Support
-                    </label>
+                        <input class="form-check-input" name="ssnm-practical-support"  type="checkbox">
+                            Practical Support
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
+        
+        <div class="row ssnm-buttom">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s3">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block s5">
+                    Next
+                </button>
+            </div>
         </div>
-        
-        <button type="button" class="btn btn-primary btn-block s5">
-            OK
-        </button>
-        
     </div>
 
     <div class="panel hidden s5">
@@ -342,38 +374,54 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 offset-md-4 text-center">
+            <div class="col-md-4 offset-md-4 text-center ssnm-me">
                 <img class="img-fluid rounded-circle" src="img/icon-person.png">
-                Me
+                <strong>Me</strong>
             </div>
         </div>
 
-        <button type="button" class="btn btn-primary btn-block s6">
-            OK
-        </button>
+        <div class="row ssnm-button">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s4">
+                    Back
+                </button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-block s6">
+                    Next
+                </button>
+            </div>
+        </div>
     </div>
 
     <div class="panel hidden s6">
         <h3>On the Map</h3>
         <div class="row">
             <div class="col-md-6">
-        <p>
-            Now that you've learned the steps for making a map, get
-            out paper or your map worksheet and create your own.
-        </p>
-        <p>
-            You might have only one or two people on your map right
-            now, or you might have lots of people on your map. Either
-            way is just fine.
-        </p>
+                <p>
+                    Now that you've learned the steps for making a map, get
+                    out paper or your map worksheet and create your own.
+                </p>
+                <p>
+                    You might have only one or two people on your map right
+                    now, or you might have lots of people on your map. Either
+                    way is just fine.
+                </p>
             </div>
             <div class="col-md-4">
                 <img class="img-fluid" src="img/samplemap.png">
             </div>
         </div>
-        <button type="button" class="btn btn-primary btn-block s0">
-            I want to try again.
-        </button>
+        <div class="row ssnm-button">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block s0">
+                    I want to try again
+                </button>
+            </div>
+            <div class="col">
+                <h5 class="swipe-to-move-on">Swipe to move on &rarr;</h5>
+            </div>
+        </div>
     </div>
     
 </section>
