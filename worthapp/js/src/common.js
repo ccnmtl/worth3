@@ -30,6 +30,18 @@ var advanceToPanel = function($container, i, total) {
     pauseVideos($container);
 };
 
+var bindActivityButtons = function($container, idx, total) {
+    $container.find('button.s' + idx).click(function(e) {
+        e.preventDefault();
+
+        // Only advance the panel of the activity where this
+        // button was clicked.
+        var $myContainer = $(this).closest('.container');
+
+        advanceToPanel($myContainer, idx, total);
+    });
+};
+
 /**
  * Sets up the panel advancement behavior for the given activity
  * container.
@@ -38,14 +50,6 @@ var initActivityPanels = function($container) {
     var total = $container.first().find('.panel').length - 1;
 
     for (var i = 0; i <= total; i++) {
-        $container.find('button.s' + i).click(function(e) {
-            e.preventDefault();
-
-            // Only advance the panel of the activity where this
-            // button was clicked.
-            var $myContainer = $(this).closest('.container');
-
-            advanceToPanel($myContainer, i, total);
-        });
+        bindActivityButtons($container, i, total);
     }
 };
