@@ -8,26 +8,20 @@
         var feedback = '';
 
         if (score <= 5) {
-            title = 'Not adventurous... yet';
-            feedback = 'You have used one or two items from the WORTH ' +
-                'Fantasy Menu but you haven\'t had a chance to fully ' +
-                'explore many of the items there. Experimentation comes ' +
-                'with time. Remember that sex can be lots of fun, even when ' +
-                'we are working to stay as safe as possible';
+            title = 'A little adventurous';
+            feedback = 'You picked a number of ' +
+                'fun things from the list, you\'re definitely not shy! ' ;
         } else if (score <= 10) {
-            title = 'Not that adventurous';
-            feedback = 'You have tried a few fantasies but aren\'t ' +
-                'thaaaat adventurous. But since you have ticked a number of ' +
-                'fun things from the list, you\'re definitely not shy.';
+            title = 'A little adventurous';
+            feedback = 'You picked a number of ' +
+                'fun things from the list, you\'re definitely not shy!';
         } else if (score <= 20) {
-            title = 'Fairly adventurous';
-            feedback = 'You have experimented a fair amount with your ' +
-                'sexual partner. Some things you\'ve tried; some you ' +
-                'haven\'t. But you are definitely up for fun while taking ' +
+            title = 'Ready for an adventure!';
+            feedback = 'You are definitely up for fun while taking ' +
                 'care of yourself and your body.';
         } else {
             title = 'Next level adventurous';
-            feedback = 'You are the most adventurous, and your sexual ' +
+            feedback = 'Your sexual ' +
                 'playfulness is definitely on another level. You\'re up for '+
                 'trying lots of new things to spice things up and aren\'t ' +
                 'shy when it comes to exploring.';
