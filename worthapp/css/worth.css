@@ -207,7 +207,21 @@ ol.toc li li {font-weight: normal;}
     position: relative;
     left: 80px;
     top: -20px;
+    font-size: 1.75rem;
 }
+
+.ssnm-button {margin-top: 1em;}
+
+.ssnm-questions {margin-bottom: 1.5em;}
+.ssnm-questions:last-of-type {margin-bottom: 1em;}
+.ssnm-questions .col-md-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ssnm-questions .col-md-1 img {max-width: 65%;}
+
+.ssnm-me {font-size: 1.75rem;}
 
 .nametag {margin-top: 2em; margin-bottom: 2em; margin-left: 20%; margin-right: 20%;}
 .nametag .card-header, .nametag .card-footer {background-color: #932951;}
