@@ -1,6 +1,6 @@
 /* global $ */
 /* eslint-env es6 */
-/* exported updateProgressBar, advanceToPanel, initActivityPanels */
+/* exported updateProgressBar, advanceToPanel, initActivityPanels, pauseVideos */
 
 /*
  * Stop playback of any playing videos in the given container.
@@ -37,7 +37,7 @@ var advanceToPanel = function($container, i, total) {
 var initActivityPanels = function($container) {
     var total = $container.first().find('.panel').length - 1;
 
-    for (let i = 0; i <= total; i++) {
+    for (var i = 0; i <= total; i++) {
         $container.find('button.s' + i).click(function(e) {
             e.preventDefault();
 
