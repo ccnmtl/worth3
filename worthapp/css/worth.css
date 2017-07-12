@@ -1,24 +1,23 @@
-@media only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5)
-{
-    body { font-size: 150%; }
-    body button.btn { font-size: 110%; }
-}
-
 body {
     background-color: #932951;
     background-image: url("../img/floral-screen-025.png");
     background-repeat: no-repeat;
     background-position: top right;
     background-attachment: static;
+    font-size: calc((.1em + 1vmin) + (.1em + 1vmax));
 }
 
-h1, h2, h3, h4,h5 {color: #932951; font-family: arial, helvetica, sans-serif!important}
+h1, h2, h3, h4,h5 {
+    color: #932951;
+    font-family: arial, helvetica, sans-serif!important
+}
 
-.swiper-slide h1 {font-size: 1.5em;}
-.swiper-slide h2 {font-size: 3em;}
+.swiper-slide h1 {
+    font-size: 1.5em;
+}
+.swiper-slide h2 {
+    font-size: 3em;
+}
 
 p, ol, ul, li {color: #000000; font-family: arial, helvetica, sans-serif!important}
 
@@ -35,16 +34,14 @@ p, ol, ul, li {color: #000000; font-family: arial, helvetica, sans-serif!importa
  * displaying buttons wider than the .container. This is a workaround.
  */
 
-.btn-block
-{
+.btn-block {
     width: 90%;
     margin: 0 auto;
 }
 
 .container.feeling .row { text-align: center; }
 
-.toggle-toc-icon
-{
+.toggle-toc-icon {
     position: fixed;
     left: 10px;
     top: 50%;
@@ -150,11 +147,10 @@ img#logo {
 
 .swiper-slide .container {
     background-color: rgba(247,236,240,1);
-    padding: 3em;
+    padding: 2em 3em 2em 3em;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    min-height: 600px;
 }
 
 .progress {margin-bottom: 3em;}
@@ -167,6 +163,7 @@ img#logo {
 .open>.dropdown-toggle.btn-primary {
     background-color: #000;
     border-color: #000;
+    font-size: calc((.1em + 1vmin) + (.1em + 1vmax));
 }
 
 .feelings figure img {
