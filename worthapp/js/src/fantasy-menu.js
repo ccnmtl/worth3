@@ -9,7 +9,7 @@
 
         if (score <= 5) {
             title = 'A little adventurous';
-            feedback = 'You picked a number of '
+            feedback = 'You picked a number of ' +
                 'fun things from the list, you\'re definitely not shy! ' ;
         } else if (score <= 10) {
             title = 'A little adventurous';
