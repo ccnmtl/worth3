@@ -63,7 +63,8 @@
                 "template": "my-commitment-to-me"
             },
             {
-                "title": "What Did We Learn?"
+                "title": "What Did We Learn?",
+                "template": "what-did-we-learn-1"
             },
             {
                 "title": "Summing It All Up",
