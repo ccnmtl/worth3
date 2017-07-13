@@ -1,6 +1,7 @@
 /* global $ */
 /* eslint-env es6 */
-/* exported updateProgressBar, advanceToPanel, initActivityPanels, pauseVideos */
+/* exported updateProgressBar, advanceToPanel, initActivityPanels */
+/* exported pauseVideos, isFormComplete, onClickGetAnswers */
 
 /*
  * Stop playback of any playing videos in the given container.
@@ -24,6 +25,7 @@ var updateProgressBar = function($container, percentage) {
 var advanceToPanel = function($container, i, total) {
     $container.find('div.panel:not(.s' + i + ')').addClass('hidden');
     $container.find('div.s' + i).removeClass('hidden');
+    $container.find('.answers-required').hide();
     updateProgressBar($container, (i / total) * 100);
     $(document).scrollTop(0);
 
@@ -47,9 +49,56 @@ var bindActivityButtons = function($container, idx, total) {
  * container.
  */
 var initActivityPanels = function($container) {
-    var total = $container.first().find('.panel').length - 1;
+    $container.each(function() {
+        var $this = $(this);
+        var total = $this.find('.panel').length - 1;
 
-    for (var i = 0; i <= total; i++) {
-        bindActivityButtons($container, i, total);
-    }
+        for (var i = 0; i <= total; i++) {
+            bindActivityButtons($this, i, total);
+        }
+    });
 };
+
+/**
+ * Common Quiz Patterns
+ */
+
+var isFormComplete = function($container) {
+    var valid = true;
+
+    var children = $container.find('input');
+    $.each(children, function() {
+        if (valid) {
+            if (this.type === 'checkbox' || this.type === 'radio') {
+                // one in the group needs to be checked
+                var selector = 'input[name=' + $(this).attr('name') + ']';
+                valid = $(selector).is(':checked');
+            }
+        }
+    });
+
+    return valid;
+};
+
+var onClickGetAnswers = function(e) {
+    e.preventDefault();
+
+    var $this = $(this);
+    var $panel = $this.parents('.panel').first();
+
+    if (!isFormComplete($panel)) {
+        $panel.parent('section').find('.answers-required').show();
+        return;
+    }
+            
+    $panel.parent('section').find('.answers-required').hide();
+    var chosen = $panel.find('input:checked').attr('value');
+    
+    $panel.find('.alert').addClass('hidden');
+    $panel.find('.alert.' + chosen).removeClass('hidden');
+    $panel.find('input').prop('disabled', true);
+    
+    $this.hide();
+    $this.next().show();
+};
+
