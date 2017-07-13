@@ -254,3 +254,7 @@ div.pb-feedback {margin-bottom: 1em;}
 .btn-block+.btn-block {
     margin-top: 0;
 }
+
+ul.proud-of {
+    list-style: none;
+}
