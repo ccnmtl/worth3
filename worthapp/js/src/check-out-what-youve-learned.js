@@ -1,4 +1,4 @@
-/* global $, initActivityPanels, onClickGetAnswers */
+/* global $, initActivityPanels, onClickGetAnswers, isFormComplete */
 
 (function() {
     $(document).ready(function() {
@@ -11,6 +11,13 @@
             e.preventDefault();
             var $this = $(this);
             var $panel = $this.closest('.panel');
+
+            if (!isFormComplete($panel)) {
+                $panel.parent('section').find('.answers-required').show();
+                return;
+            }
+
+            $panel.parent('section').find('.answers-required').hide();
             var allChosen =
                 $panel.find('input[type="checkbox"]:checked').length ===
                 $panel.find('input[type="checkbox"]').length;
@@ -36,6 +43,12 @@
                 return;
             }
 
+            if (!isFormComplete($panel)) {
+                $panel.parent('section').find('.answers-required').show();
+                return;
+            }
+
+            $panel.parent('section').find('.answers-required').hide();
             $.each($panel.find('input[type="checkbox"]'), function(k, v) {
                 if (v.value === 'correct') {
                     $(v).closest('.form-check-label')
