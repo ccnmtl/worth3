@@ -249,3 +249,8 @@ ol.toc li li {font-weight: normal;}
 }
 
 div.pb-feedback {margin-bottom: 1em;}
+
+/* override bootstrap default */
+.btn-block+.btn-block {
+    margin-top: 0;
+}
