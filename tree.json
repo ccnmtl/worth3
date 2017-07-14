@@ -592,6 +592,12 @@
             {
                 "title": "Things I Am Proud Of",
                 "template": "things-i-am-proud-of"
+            },
+            {
+                "title": "Congratulations",
+                "subtitle": "Thank you!<br />You are WORTH it!",
+                "template": "title-page"
+
             }
         ]
     }
