@@ -9,22 +9,20 @@
     </div>
 
     <div class="panel s0">
-        <h3>Myth/Fact</h3>
-        <p>Let's play the Myth/Fact Quiz game!</p>
-        <button type="button" class="btn btn-primary btn-block s1">
-            Begin
-        </button>
-    </div>
-
-    <div class="panel hidden s1">
         <h3>True or False?</h3>
         <p>
             You can get HIV by kissing someone who has it.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>The answer is <strong>False.</strong> You cannot get
             HIV by kissing someone who has it. Saliva may contain HIV
@@ -34,7 +32,7 @@
             passed.</div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>The answer is <strong>False.</strong> You cannot get
             HIV by kissing someone who has it. Saliva may contain HIV
@@ -44,21 +42,20 @@
             passed.</div>
         </div>
 
-        <button class="btn btn-primary btn-block s2 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s1 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s2">
-        <h3>HIV and Kissing</h3>
+    <div class="panel hidden s1">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-hiv.png">
                 <source src="video/rL-1eqo4ezI.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s3">
+        <button class="btn btn-primary btn-block s2">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s3">
+    <div class="panel hidden s2">
         <h3>True or False?</h3>
         <p>
             Medications today can greatly reduce the risk of
@@ -67,10 +64,16 @@
             consistently, you are less likely to pass on the virus
             during sex.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>True.</strong> Antiretroviral therapy slows
@@ -83,7 +86,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>True.</strong> Antiretroviral therapy slows
@@ -96,29 +99,35 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s4 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s3 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s4">
+    <div class="panel hidden s3">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-art-hiv.png">
                 <source src="video/IisyJMxTtu4.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s5">
+        <button class="btn btn-primary btn-block s4">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s5">
+    <div class="panel hidden s4">
         <h3>True or False?</h3>
         <p>
             If you have recently been exposed to HIV there is no
             reason to take medication for it.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>False.</strong> You can
@@ -129,7 +138,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>False.</strong> You can
@@ -140,29 +149,35 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s6 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s5 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s6">
+    <div class="panel hidden s5">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-pep.png">
                 <source src="video/ixGsGCmKTQk.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s7">
+        <button class="btn btn-primary btn-block s6">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s7">
+    <div class="panel hidden s6">
         <h3>True or False?</h3>
         <p>
             As long as they are not injected, it is safe to share
             needles and "works" with others.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+        <div class="row">
+            <div class="col">                
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>False.</strong>
@@ -171,7 +186,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>False.</strong>
@@ -180,28 +195,34 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s8 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s7 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s8">
+    <div class="panel hidden s7">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-drug-hiv.png">
                 <source src="video/Mdux8l2aIvs.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s9">
+        <button class="btn btn-primary btn-block s8">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s9">
+    <div class="panel hidden s8">
         <h3>True or False?</h3>
         <p>
             It is easy to tell that you have chlamydia.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
+            </div>
+            <div class="col">                
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>False.</strong>
@@ -216,7 +237,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>False.</strong>
@@ -231,29 +252,35 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s10 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s9 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s10">
+    <div class="panel hidden s9">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-chlamydia.png">
                 <source src="video/XgmfoV9w97A.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s11">
+        <button class="btn btn-primary btn-block s10">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s11">
+    <div class="panel hidden s10">
         <h3>True or False?</h3>
         <p>
             It is not possible to pass sexually transmitted infections
             to unborn children.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>False.</strong>
@@ -263,7 +290,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>False.</strong>
@@ -273,29 +300,35 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s12 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s11 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s12">
+    <div class="panel hidden s11">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-mothertochild.png">
                 <source src="video/aOe_qNp75l8.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s13">
+        <button class="btn btn-primary btn-block s12">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s13">
+    <div class="panel hidden s12">
         <h3>True or False?</h3>
         <p>
             If you do not have any symptoms, it is not possible to
             pass on HSV-2 (genital herpes) to my partner.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>False.</strong>
@@ -310,7 +343,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>False.</strong>
@@ -325,28 +358,34 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s14 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s13 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s14">
+    <div class="panel hidden s13">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-herpes.png">
                 <source src="video/w9RYRSnUcYA.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s15">
+        <button class="btn btn-primary btn-block s14">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s15">
+    <div class="panel hidden s14">
         <h3>True or False?</h3>
         <p>
             HPV (genital warts) causes cancer.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -363,7 +402,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -380,29 +419,35 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s16 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s15 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s16">
+    <div class="panel hidden s15">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-hpv.png">
                 <source src="video/gcCeMjn3Nmo.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s17">
+        <button class="btn btn-primary btn-block s16">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s17">
+    <div class="panel hidden s16">
         <h3>True or False?</h3>
         <p>
             Having an untreated STI can increase the risk for
             acquiring HIV.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -415,7 +460,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -428,28 +473,34 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s18 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s17 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s18">
+    <div class="panel hidden s17">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-sti-hiv.png">
                 <source src="video/qPH9ScD1yIA.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s19">
+        <button class="btn btn-primary btn-block s18">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s19">
+    <div class="panel hidden s18">
         <h3>True or False?</h3>
         <p>
             Most viral STIs cannot be cured.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -458,7 +509,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -467,29 +518,35 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s20 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s19 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s20">
+    <div class="panel hidden s19">
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls poster="img/myth-fact-poster.png">
+            <video class="embed-responsive-item" controls poster="img/poster-viralstis.png">
                 <source src="video/Lvq8bWGoQ9U.webm" type="video/webm"></source>
             </video>
         </div>
-        <button class="btn btn-primary btn-block s21">
+        <button class="btn btn-primary btn-block s20">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s21">
+    <div class="panel hidden s20">
         <h3>True or False?</h3>
         <p>
             Being high or intoxicated increases the risk of HIV/STI
             infection.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -498,7 +555,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -507,9 +564,10 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s22 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s21 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s22">
+    <div class="panel hidden s21">
+        <h4>Learn More</h4>
         <p>
             Using non-injected drugs like alcohol, marijuana, crystal meth, or
             crack cocaine reduces one’s ability to make good decisions about safe
@@ -523,100 +581,118 @@
             HIV/STI transmission.
         </p>
         <p>
-            Source: UF Behavioral Science and Community Health;
-            <a href="https://www.youtube.com/watch?v=8YjELcteCuA">https://www.youtube.com/watch?v=8YjELcteCuA</a>
+            Source: UF Behavioral Science and Community Health
         </p>
-        <button class="btn btn-primary btn-block s23">
+        <button class="btn btn-primary btn-block s22">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s23">
+    <div class="panel hidden s22">
         <h3>True or False?</h3>
         <p>
             Many more men than women have HIV.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>False.</strong>
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>False.</strong>
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s24 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s23 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s24">
+    <div class="panel hidden s23">
+        <h4>Learn More</h4>
         <p>
             Women now make up about half of all the people living
             with HIV and new cases of HIV in the world.
         </p>
         <p>
-            Source: taken from PACT/Connect "Facts about HIV/STI
-            risks" sheet
+            Source: PACT/Connect "Facts about HIV/STI Risks"
         </p>
-        <button class="btn btn-primary btn-block s25">
+        <button class="btn btn-primary btn-block s24">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s25">
+    <div class="panel hidden s24">
         <h3>True or False?</h3>
         <p>
             New York City has the most HIV cases in the United States.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>True.</strong>
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>True.</strong>
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s26 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s25 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s26">
+    <div class="panel hidden s25">
+        <h4>Learn More</h4>
         <p>
             NYC has the highest number of HIV cases in the country. In
             addition, 1 in 3 people living with HIV in NYC are women,
             of which 90% are African American.
         </p>
         <p>
-            Source: taken from PACT/Connect "Facts about HIV/STI risks" sheet
+            Source: PACT/Connect "Facts about HIV/STI Risks"
         </p>
-        <button class="btn btn-primary btn-block s27">
+        <button class="btn btn-primary btn-block s26">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s27">
+    <div class="panel hidden s26">
         <h3>True or False?</h3>
         <p>
             More women in prison and on probation are HIV positive
             than men.
         </p>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
-        <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-correct">True</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-secondary btn-block myth-fact-incorrect">False</button>
+            </div>
+        </div>
 
-        <div class="alert alert-danger wrong-answer hidden btn-block" role="alert">
+        <div class="alert alert-danger wrong-answer hidden" role="alert">
             <div><strong>Oops! You missed this one.</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -625,7 +701,7 @@
             </div>
         </div>
 
-        <div class="alert alert-success right-answer hidden btn-block" role="alert">
+        <div class="alert alert-success right-answer hidden" role="alert">
             <div><strong>Well done!</strong></div>
             <div>
                 The answer is <strong>True.</strong>
@@ -634,9 +710,10 @@
             </div>
         </div>
 
-        <button class="btn btn-primary btn-block s28 hidden learn-more">Learn More</button>
+        <button class="btn btn-primary btn-block s27 hidden learn-more">Learn More</button>
     </div>
-    <div class="panel hidden s28">
+    <div class="panel hidden s27">
+        <h4>Learn More</h4>
         <p>
             In 2004, one of every 42 women in prison was diagnosed as
             HIV positive, compared to 1 of every 59 men. In addition,
@@ -647,16 +724,16 @@
         <p>
             Sources:
             <ul>
-                <li><a href="http://www.sentencingproject.org/doc/publications/womenincj_total.pdf">http://www.sentencingproject.org/doc/publications/womenincj_total.pdf</li>
+                <li>The Sentencing Project, Women in the Criminal Justice System, May 2007</li>
                 <li>PACT/Connect "Facts about HIV/STI risks" sheet</li>
             </ul>
         </p>
-        <button class="btn btn-primary btn-block s29">
+        <button class="btn btn-primary btn-block s28">
             Next
         </button>
     </div>
 
-    <div class="panel hidden s29">
+    <div class="panel hidden s28">
         <h3>Good Job!</h3>
         <p>Knowing the facts will help keep you safe.</p>
 
