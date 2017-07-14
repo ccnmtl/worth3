@@ -4,10 +4,8 @@
     var resetActivity = function($container) {
         updateProgressBar($container, 0);
         $container.find('div.s0').removeClass('hidden');
-        $container.find('button.s2-true,button.s2-false')
-            .removeClass('disabled');
-        $container.find('button.s2-true,button.s2-false')
-            .removeAttr('disabled');
+        $container.find('button.myth-fact-correct,button.myth-fact-incorrect')
+            .prop('disabled', false);
         $container.find('.alert.wrong-answer,.alert.right-answer')
             .addClass('hidden');
         $container.find('.alert.answer').addClass('hidden');
@@ -23,8 +21,7 @@
             var $panel = $(this).closest('.panel');
             $panel.find('.alert.answer').removeClass('hidden');
             $panel.find('button.myth-fact-correct,button.myth-fact-incorrect')
-                .attr('disabled', true)
-                .addClass('disabled');
+                .prop('disabled', true);
             $panel.find('.alert.right-answer').removeClass('hidden');
             $panel.find('.learn-more').removeClass('hidden');
         });
@@ -33,8 +30,7 @@
             var $panel = $(this).closest('.panel');
             $panel.find('.alert.answer').removeClass('hidden');
             $panel.find('button.myth-fact-correct,button.myth-fact-incorrect')
-                .attr('disabled', true)
-                .addClass('disabled');
+                .attr('disabled', true);
             $panel.find('.alert.wrong-answer').removeClass('hidden');
             $panel.find('.learn-more').removeClass('hidden');
         });
