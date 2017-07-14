@@ -7,6 +7,11 @@
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
              aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
+
+    <div class="alert alert-info answers-required hidden">
+        Please select an answer before continuing.
+    </div>
+
     <div class="panel s0">
         <p>
             Now we'll break down the POP technique, just like we did with Mia's story last week. We'll look at how Sofia worked through the three steps of POP. 
@@ -15,10 +20,8 @@
 
         <div class="row">
             <div class="col">
-            </div>
-            <div class="col">
                 <button type="button" class="btn btn-primary btn-block s1">
-                    Next
+                    Begin
                 </button>
             </div>
         </div>
@@ -82,11 +85,9 @@
             </div>
         </fieldset>
 
-        <div class="alert text-center hidden" role="alert">
-            <p>
-                <strong>Great job!</strong> Correct answers are marked
-                in green.
-            </p>
+        <div class="alert alert-info hidden" role="alert">
+            <strong>Great job!</strong> Correct answers are marked
+            in green.
         </div>
         
         <div class="row">
@@ -174,11 +175,9 @@
             </div>
         </fieldset>
 
-        <div class="alert text-center hidden" role="alert">
-            <p>
-                <strong>Great job!</strong> Correct answers are marked
-                in green.
-            </p>
+        <div class="alert alert-info hidden" role="alert">
+            <strong>Great job!</strong> Correct answers are marked
+            in green.
         </div>
         
         <div class="row">
@@ -247,11 +246,9 @@
                 too.
             </label>
         </div>
-        <div class="alert text-center hidden" role="alert">
-            <p>
-                <strong>Great job!</strong>
-                Correct answers are marked in green. Swipe to move on.
-            </p>
+        <div class="alert alert-info hidden" role="alert">
+            <strong>Great job!</strong>
+            Correct answers are marked in green.
         </div>
 
         <div class="row">
@@ -264,6 +261,7 @@
                 <button type="submit" class="btn btn-primary btn-block get-answers">
                     That's my answer
                 </button>
+                <h5 class="hidden swipe-to-move-on">Swipe to move on &rarr;</h5>
             </div>
         </div>
     </div>
