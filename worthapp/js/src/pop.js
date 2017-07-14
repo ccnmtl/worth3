@@ -1,5 +1,5 @@
 /* eslint-env es6 */
-/* global $, initActivityPanels, isFormComplete */
+/* global $, initActivityPanels, onClickGetAnswers */
 
 (function() {
     $(document).ready(function() {
