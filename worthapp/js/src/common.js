@@ -97,6 +97,10 @@ var onClickGetAnswers = function(e) {
     $panel.find('.alert').addClass('hidden');
     $panel.find('.alert.' + chosen).removeClass('hidden');
     $panel.find('input').prop('disabled', true);
+
+    $panel.find('input.show-correct')
+        .parents('.form-check-label')
+        .addClass('alert-success');
     
     $this.hide();
     $this.next().show();
