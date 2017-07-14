@@ -6133,21 +6133,10 @@
   <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar">
   </div>
  </div>
- <div class="panel s0">
-  <p>
-   In this activity, we're going to learn all about it.
-  </p>
-  <div class="row">
-   <div class="col">
-   </div>
-   <div class="col">
-    <button class="btn btn-primary btn-block s1" type="button">
-     Next
-    </button>
-   </div>
-  </div>
+ <div class="alert alert-info answers-required hidden">
+  Please select an answer before continuing.
  </div>
- <div class="panel hidden s1">
+ <div class="panel s0">
   <div class="embed-responsive embed-responsive-16by9">
    <video class="embed-responsive-item" controls="" poster="img/lucia.jpg">
     <source src="video/D7Sq5eG71Kw.webm" type="video/webm"/>
@@ -6155,18 +6144,13 @@
   </div>
   <div class="row">
    <div class="col">
-    <button class="btn btn-secondary btn-block s0" type="button">
-     Back
-    </button>
-   </div>
-   <div class="col">
-    <button class="btn btn-primary btn-block s2" type="button">
-     Next
+    <button class="btn btn-primary btn-block s1" type="button">
+     Begin
     </button>
    </div>
   </div>
  </div>
- <div class="panel hidden s2">
+ <div class="panel hidden s1">
   <h4>
    Define Self-Talk
   </h4>
@@ -6177,28 +6161,28 @@
   <fieldset class="form-group">
    <div class="form-check">
     <label class="form-check-label">
-     <input class="form-check-input" id="optionsRadios1" name="self-talk-radio" type="radio" value="option1"/>
+     <input class="form-check-input" name="st-s3-p1-q1" type="radio" value="answer-1"/>
      Self-talk is looking in the mirror and talking to
                     yourself
     </label>
    </div>
    <div class="form-check">
     <label class="form-check-label">
-     <input class="form-check-input" id="optionsRadios2" name="self-talk-radio" type="radio" value="option2"/>
+     <input class="form-check-input" name="st-s3-p1-q1" type="radio" value="answer-2"/>
      Self-talk is saying negative things to yourself
                     and trying your best to not feel bad.
     </label>
    </div>
    <div class="form-check">
     <label class="form-check-label">
-     <input class="form-check-input" id="optionsRadios3" name="self-talk-radio" type="radio" value="option3"/>
+     <input class="form-check-input" name="st-s3-p1-q1" type="radio" value="answer-3"/>
      Self-talk is the voice inside you that you talk
                     to throughout the day. This voice is a
                     constant reflection of how you are feeling.
     </label>
    </div>
   </fieldset>
-  <div class="alert alert-success hidden" role="alert">
+  <div class="alert alert-success answer-3 hidden" role="alert">
    <strong>
     Correct!
    </strong>
@@ -6211,7 +6195,7 @@
             self-talk happens when you notice that you did
             something well and congratulate yourself for it.
   </div>
-  <div class="alert alert-danger hidden" role="alert">
+  <div class="alert alert-danger answer-1 answer-2 hidden" role="alert">
    <b>
     Incorrect
    </b>
@@ -6226,21 +6210,21 @@
   </div>
   <div class="row">
    <div class="col">
-    <button class="btn btn-secondary btn-block s1" type="button">
+    <button class="btn btn-secondary btn-block s0" type="button">
      Back
     </button>
    </div>
    <div class="col">
-    <button class="btn btn-primary btn-block" type="submit">
+    <button class="btn btn-primary btn-block get-answers" type="button">
      That's my answer
     </button>
-    <button class="btn btn-primary btn-block s3 hidden">
+    <button class="btn btn-primary btn-block s2 hidden">
      Next
     </button>
    </div>
   </div>
  </div>
- <div class="panel hidden s3">
+ <div class="panel hidden s2">
   <h4>
    Rasheeda's negative self talk
   </h4>
@@ -6257,18 +6241,18 @@
   </p>
   <div class="row">
    <div class="col">
-    <button class="btn btn-secondary btn-block s2" type="button">
+    <button class="btn btn-secondary btn-block s1" type="button">
      Back
     </button>
    </div>
    <div class="col">
-    <button class="btn btn-primary btn-block s4" type="button">
+    <button class="btn btn-primary btn-block s3" type="button">
      Next
     </button>
    </div>
   </div>
  </div>
- <div class="panel hidden s4">
+ <div class="panel hidden s3">
   <h4>
    Rasheeda's negative self talk
   </h4>
@@ -6287,50 +6271,181 @@
   </p>
   <fieldset class="form-group">
    <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p3-q1" type="checkbox" value="st-s3-p3-q1-response"/>
      "I feel stupid."
     </label>
    </div>
    <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p3-q1" type="checkbox" value="st-s3-p3-q1-response"/>
      "I just can’t get anything right."
     </label>
    </div>
    <div class="form-check">
     <label class="form-check-label">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+     <input class="form-check-input" name="st-s3-p3-q1" type="checkbox" value="st-s3-p3-q1-response"/>
      "My aunt thinks I always do everything wrong"
     </label>
    </div>
    <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p3-q1" type="checkbox" value="st-s3-p3-q1-response"/>
      "I should just give in and do whatever I have to
                     do to make ends meet."
     </label>
    </div>
    <div class="form-check">
     <label class="form-check-label">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+     <input class="form-check-input" name="st-s3-p3-q1" type="checkbox" value="st-s3-p3-q1-response"/>
      "This life is hurting my daughter"
     </label>
    </div>
    <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p3-q1" type="checkbox" value="st-s3-p3-q1-response"/>
      "I should just give up."
     </label>
    </div>
   </fieldset>
-  <div class="alert alert-info hidden" role="alert">
+  <div class="alert alert-info hidden st-s3-p3-q1-response" role="alert">
    <strong>
     Great job!
    </strong>
    <br/>
    Correct answers are marked
             in green.
+  </div>
+  <div class="row">
+   <div class="col">
+    <button class="btn btn-secondary btn-block s2" type="button">
+     Back
+    </button>
+   </div>
+   <div class="col">
+    <button class="btn btn-primary btn-block get-answers" type="button">
+     That's my answer
+    </button>
+    <button class="btn btn-primary btn-block s4 hidden">
+     Next
+    </button>
+   </div>
+  </div>
+ </div>
+ <div class="panel hidden s4">
+  <h4>
+   Give Rasheeda some positive self-talk
+  </h4>
+  <p>
+   Rasheeda would feel better and more able to take on the difficult situation she is in if she gave herself more positive messages.
+  </p>
+  <p>
+   Which positive messages would help Rasheeda the most?
+  </p>
+  <fieldset class="form-group">
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "When I think about all I have been through, I know I can get through this too."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "Even though I get knocked down sometimes, it’s not true that I get knocked down every single time."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "It is always worth trying because of Aisha."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "Every time I get back up again, I show myself, and Aisha, that I can survive."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "I will get through this too. I know I can do this."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "I get things right most of the time, no matter how I feel right now."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "Even though I feel trapped, I have options."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "I’m not going to give up. I remember the day I got to prison, I didn’t think I could make it. I was scared and overwhelmed then too."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "Yes I need a job to make ends meet but I got one before and will get one again."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "Even though I feel desperate, I have survived tougher things in my life."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "I’m afraid that I will fail, but I am not stupid at all."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "I’ve been through so much in life but I am determined not to give up. I’ve got stuff to live for."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "I’m going to do whatever I can to stay safe."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "I’ve got to take care of myself so I can be around for my kid."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "Yes, I haven’t always made the best choices but I have made good ones too."
+    </label>
+   </div>
+   <div class="form-check">
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s3-p4-q1" type="checkbox" value="st-s3-p4-q1-response"/>
+     "I am determined not to give up. I’ve got stuff to live for."
+    </label>
+   </div>
+  </fieldset>
+  <div class="alert alert-info hidden st-s3-p4-q1-response" role="alert">
+   <strong>
+    Great job!
+   </strong>
+   <br/>
+   All of these messages would help Rasheeda find her way.
   </div>
   <div class="row">
    <div class="col">
@@ -6350,137 +6465,6 @@
  </div>
  <div class="panel hidden s5">
   <h4>
-   Give Rasheeda some positive self-talk
-  </h4>
-  <p>
-   Rasheeda would feel better and more able to take on the difficult situation she is in if she gave herself more positive messages.
-  </p>
-  <p>
-   Which positive messages would help Rasheeda the most?
-  </p>
-  <fieldset class="form-group">
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "When I think about all I have been through, I know I can get through this too."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "Even though I get knocked down sometimes, it’s not true that I get knocked down every single time."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "It is always worth trying because of Aisha."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "Every time I get back up again, I show myself, and Aisha, that I can survive."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "I will get through this too. I know I can do this."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "I get things right most of the time, no matter how I feel right now."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "Even though I feel trapped, I have options."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "I’m not going to give up. I remember the day I got to prison, I didn’t think I could make it. I was scared and overwhelmed then too."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "Yes I need a job to make ends meet but I got one before and will get one again."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "Even though I feel desperate, I have survived tougher things in my life."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "I’m afraid that I will fail, but I am not stupid at all."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "I’ve been through so much in life but I am determined not to give up. I’ve got stuff to live for."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "I’m going to do whatever I can to stay safe."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "I’ve got to take care of myself so I can be around for my kid."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "Yes, I haven’t always made the best choices but I have made good ones too."
-    </label>
-   </div>
-   <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
-     "I am determined not to give up. I’ve got stuff to live for."
-    </label>
-   </div>
-  </fieldset>
-  <div class="alert alert-info hidden" role="alert">
-   <strong>
-    Great job!
-   </strong>
-   <br/>
-   All of these messages would help Rasheeda find her way.
-  </div>
-  <div class="row">
-   <div class="col">
-    <button class="btn btn-secondary btn-block s3" type="button">
-     Back
-    </button>
-   </div>
-   <div class="col">
-    <button class="btn btn-primary btn-block get-answers" type="button">
-     That's my answer
-    </button>
-    <button class="btn btn-primary btn-block s6 hidden">
-     Next
-    </button>
-   </div>
-  </div>
- </div>
- <div class="panel hidden s6">
-  <h4>
    Rasheeda turns around her negative self talk
   </h4>
   <div class="embed-responsive embed-responsive-16by9">
@@ -6495,13 +6479,13 @@
     </button>
    </div>
    <div class="col">
-    <button class="btn btn-primary btn-block s7" type="button">
+    <button class="btn btn-primary btn-block s6" type="button">
      Next
     </button>
    </div>
   </div>
  </div>
- <div class="panel hidden s7">
+ <div class="panel hidden s6">
   <h4>
    Give yourself some positive self-talk
   </h4>
@@ -6513,90 +6497,90 @@
   </p>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     I get a lot of things right. I can do this too.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     I continue trying because I am worth it.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     I make good choices the vast majority of the time.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     I have changed in other ways and will continue to try
                 to change in this way too.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     I am smart. Although I placed myself at risk, I can
                 recommit to being safe.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     I can't fix yesterday's mistake but I can and will
                 make less risky choices in the future.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     My life is worth protecting.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     People count on me because they believe I am strong.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     I protect myself sexually most of the time and when I
                 protect myself I also protect my partners.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     Yes, I have messed up a few times but I choose to
                 forgive myself now.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     I protect myself because I am WORTH it.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     Although I have made mistakes, I am trying to make
                 better choices.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s3-p6-q1" type="checkbox" value="st-s3-p6-q1-response"/>
     Even though I feel angry right now, this feeling will
                 pass.
    </label>
   </div>
-  <div class="alert alert-info hidden" role="alert">
+  <div class="alert alert-info hidden st-s3-p6-q1-response" role="alert">
    <strong>
     Great job!
    </strong>
@@ -6611,7 +6595,7 @@
     </button>
    </div>
    <div class="col">
-    <button class="btn btn-primary btn-block self-talk-done" type="submit">
+    <button class="btn btn-primary btn-block get-answers" type="button">
      That's my answer
     </button>
     <h5 class="hidden swipe-to-move-on">
@@ -9044,6 +9028,9 @@
   <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar">
   </div>
  </div>
+ <div class="alert alert-info answers-required hidden">
+  Please select an answer before continuing.
+ </div>
  <div class="panel s0">
   <h4>
    Sofia's negative self talk
@@ -9064,32 +9051,29 @@
   </div>
  </div>
  <div class="panel hidden s1">
-  <h4>
-   Sofia's negative self talk
-  </h4>
   <p>
    What negative self-talk messages does Sofia give herself? Select all that apply.
   </p>
   <fieldset class="form-group">
    <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s4-p1-q1" type="checkbox" value="st-s4-p1-q1-response"/>
      My mom was right; it was my fault it happened back
                     then. And I’m so dumb for letting what happened
                     with my Uncle happen again.
     </label>
    </div>
    <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s4-p1-q1" type="checkbox" value="st-s4-p1-q1-response"/>
      What’s the point of talking to anyone? It’s so
                     embarrassing to even think about what happened…I
                     don’t deserve to feel better.
     </label>
    </div>
    <div class="form-check">
-    <label class="form-check-label selftalk-correct">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+    <label class="form-check-label">
+     <input class="form-check-input show-correct" name="st-s4-p1-q1" type="checkbox" value="st-s4-p1-q1-response"/>
      I'm just too weak - I should have been able to
                     shake it off and move on. But no, I end up
                     drinking all the time... popping Xanax. I am such a
@@ -9098,12 +9082,12 @@
    </div>
    <div class="form-check">
     <label class="form-check-label ">
-     <input class="form-check-input" name="self-talk-checkbox-2" type="checkbox" value=""/>
+     <input class="form-check-input" name="st-s4-p1-q1" type="checkbox" value="st-s4-p1-q1-response"/>
      Chloe thinks I'm a bad person
     </label>
    </div>
   </fieldset>
-  <div class="alert alert-info hidden" role="alert">
+  <div class="alert alert-info hidden st-s4-p1-q1-response" role="alert">
    <strong>
     Great Job!
    </strong>
@@ -9129,6 +9113,9 @@
   </div>
  </div>
  <div class="panel hidden s2">
+  <h4>
+   Sofia turns around her negative self talk
+  </h4>
   <div class="embed-responsive embed-responsive-16by9">
    <video class="embed-responsive-item" controls="" poster="img/sofia.jpg">
     <source src="video/vAYGdlYS2nw.webm" type="video/webm"/>
@@ -9157,28 +9144,28 @@
   </p>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s4-p3-q1" type="checkbox" value="st-s4-p3-q1-response"/>
     Even though I feel sad right now, I won't always feel
                 sad.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s4-p3-q1" type="checkbox" value="st-s4-p3-q1-response"/>
     What happened to me when I was a kid was hard but I
                 survived. I am a survivor.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s4-p3-q1" type="checkbox" value="st-s4-p3-q1-response"/>
     The bad memories and dreams are hard but I am getting
                 help for that because I know I am worth it.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s4-p3-q1" type="checkbox" value="st-s4-p3-q1-response"/>
     I am in touch with myself spiritually and pray
                 whenever I have bad thoughts or feel scared; praying
                 always helps me to think positive thoughts.
@@ -9186,7 +9173,7 @@
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s4-p3-q1" type="checkbox" value="st-s4-p3-q1-response"/>
     Getting help from others, like a friend or someone at
                 a local clinic, reminds me that I am not alone and can
                 face anything.
@@ -9194,34 +9181,34 @@
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s4-p3-q1" type="checkbox" value="st-s4-p3-q1-response"/>
     I did not have to join WORTH Transitions but I did
                 because I believe in myself.
    </label>
   </div>
   <div class="form-check">
    <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" value=""/>
+    <input class="form-check-input" name="st-s4-p3-q1" type="checkbox" value="st-s4-p3-q1-response"/>
     I don't always make the best choices but I am learning
                 how to make safer choices.
    </label>
   </div>
-  <div class="alert alert-info hidden" role="alert">
+  <div class="alert alert-info st-s4-p3-q1-response hidden" role="alert">
    <strong>
     Great job!
    </strong>
    This is a good first step to making your self talk
-            into a positive support.
+            a positive support.
    <br/>
   </div>
   <div class="row">
    <div class="col">
-    <button class="btn btn-secondary btn-block s4" type="button">
+    <button class="btn btn-secondary btn-block s2" type="button">
      Back
     </button>
    </div>
    <div class="col">
-    <button class="btn btn-primary btn-block self-talk-done" type="submit">
+    <button class="btn btn-primary btn-block get-answers" type="submit">
      That's my answer
     </button>
     <h5 class="hidden swipe-to-move-on">
