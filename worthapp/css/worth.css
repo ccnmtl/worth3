@@ -201,7 +201,11 @@ ol.toc li li {font-weight: normal;}
 }
 
 .feelings .feelings-choice {
-    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.feelings .feelings-choice img {
+    width: 20%;
 }
 .ssnm-closeness-container {
     position: relative;
