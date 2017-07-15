@@ -159,6 +159,7 @@ img#logo {
 
 .progress {margin-bottom: 3em;}
 .alert {margin-top: 2em;}
+.alert-heading {font-weight: bold;}
 .btn-primary {background-color: #932951; border-color: #932951;}
 .btn-primary:hover,
 .btn-primary:focus,
