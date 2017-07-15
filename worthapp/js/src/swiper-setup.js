@@ -20,7 +20,7 @@
             onSlideChangeEnd: function(s) {
                 highlightTocItem(
                     $('ol.nav-toc'),
-                    utils.idx2id(s.activeIndex - 1, sessionLengths));
+                    utils.idx2id(s.activeIndex, sessionLengths));
             },
             onSlideNextStart: function() {
                 $(document).scrollTop(0);
@@ -35,7 +35,7 @@
             pauseVideos($(swiper.slides[swiper.activeIndex]));
 
             $('.sidenav').width(0);
-            swiper.slideTo(idx + 1);
+            swiper.slideTo(idx);
         });
 
         $('#logo').click(function(e) {
