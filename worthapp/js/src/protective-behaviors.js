@@ -37,7 +37,7 @@
         $container.find('.risk-level').addClass(
             'alert-' + levels[level]['class']);
         $container.find('.risk-level>.alert-heading').text(
-            'Here\'s your risk level: ' + levels[level]['title']);
+            'Your risk level: ' + levels[level]['title']);
         $container.find('.risk-level>span').text(levels[level]['text']);
     };
 
