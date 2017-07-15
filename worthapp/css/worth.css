@@ -240,8 +240,9 @@ ol.toc li li {font-weight: normal;}
 .swipe-to-move-on {
     text-align: right;
     margin-right: 0px;
-    margin-top: 6px;
+    margin-top: 12px;
     color: #000000;
+    font-size: 1.75rem;
 }
 
 .my-commitment-choice {
