@@ -27,7 +27,6 @@ def get_page_path(s_idx, p_idx):
 def make_nav(soup, tree):
     """Make the table of contents + nav table of contents."""
 
-    toc = soup.find_all('ol', class_='toc')[0]
     nav_toc = soup.find_all('ol', class_='nav-toc')[0]
 
     for s_idx, session in enumerate(tree):
@@ -40,7 +39,6 @@ def make_nav(soup, tree):
         nav_li = soup.new_tag('li')
         nav_li.append(nav_a)
 
-        toc.append(li)
         nav_toc.append(nav_li)
 
         session_ol = soup.new_tag('ol')
