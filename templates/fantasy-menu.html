@@ -1,11 +1,13 @@
 <section class="container fantasy-menu">
-    <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
-             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-    </div>
+    <span class="badge badge-default float-right">{% SESSIONNUM %}.{% PAGENUM %}</span>
+    <h1>{% SESSIONTITLE %}</h1>
+    <h2>{% TITLE %}</h2>
 
+    <div class="alert alert-info answers-required hidden">
+        Please select an answer before continuing.
+    </div>
+    
     <div class="panel s0">
-        <h1>{% TITLE %}</h1>
         <p>
             We've learned a lot about what can be risky.
             But did you know that lots of fun and sexy activities are very safe?
@@ -231,13 +233,29 @@
                 </div>
             </div>
         </div>
-        <button type="button" class="btn btn-primary btn-block s1">
-            Done
-        </button>
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <button class="btn btn-primary btn-block s1">That's My Answer</button>
+            </div>
+        </div>
     </div>
     <div class="panel s1 hidden">
-        <h3 class="fantasy-feedback-title"></h3>
+        <p>
+            <strong>You are: </strong> <span class="fantasy-feedback-title"></span>
+        </p>
         <p class="fantasy-feedback"></p>
-        <div class="fantasy-special-feedback"></div>
+        <p class="fantasy-special-feedback"></p>
+        <br />
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-secondary btn-block s0">Back</button>
+            </div>
+            <div class="col">
+                <h5 class="swipe-to-move-on">Swipe to move on &rarr;</h5>
+            </div>
+        </div>
+
     </div>
 </section>
