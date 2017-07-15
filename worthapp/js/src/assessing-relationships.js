@@ -1,9 +1,24 @@
-/* global $, initActivityPanels */
+/* global $, initActivityPanels, isFormComplete */
 
 (function() {
     $(document).ready(function() {
         var $container = $('.container.assessing-relationships');
         initActivityPanels($container);
+
+        $container.find('button.check-answer').click(function(e) {
+            e.preventDefault();
+
+            var $this = $(this);
+            var $panel = $this.parents('.panel').first();
+
+            if (!isFormComplete($panel)) {
+                $panel.parent('section').find('.answers-required').show();
+                return;
+            }
+            
+            $panel.parent('section').find('.answers-required').hide();
+            $this.next().click();
+        });
 
         $container.find('button.get-answers').click(function() {
             var $this = $(this);
