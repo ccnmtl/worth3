@@ -28,6 +28,7 @@
         reflections.forEach(function(v) {
             $c.append('<li>' + v + '</li>');
         });
+        $container.find('.reflection-title').removeClass('hidden');
     };
 
     $(document).ready(function() {
