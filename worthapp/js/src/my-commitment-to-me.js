@@ -10,7 +10,8 @@
             e.preventDefault();
             var choice = $.trim($(e.target).closest('label').text());
             $(this).closest('.container').find('.my-commitment-choice')
-                .text(choice);
+                .text('Your support need is: ' + choice);
+            $(this).closest('.container').find('.set-goal-content').show();
         });
     });
 })();
