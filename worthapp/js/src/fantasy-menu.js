@@ -7,12 +7,13 @@
         var title = '';
         var feedback = '';
 
+
         if (score <= 5) {
-            title = 'A little adventurous';
+            title = 'A little adventurous!';
             feedback = 'You picked a number of ' +
                 'fun things from the list, you\'re definitely not shy! ' ;
         } else if (score <= 10) {
-            title = 'A little adventurous';
+            title = 'A little adventurous!';
             feedback = 'You picked a number of ' +
                 'fun things from the list, you\'re definitely not shy!';
         } else if (score <= 20) {
@@ -20,7 +21,7 @@
             feedback = 'You are definitely up for fun while taking ' +
                 'care of yourself and your body.';
         } else {
-            title = 'Next level adventurous';
+            title = 'Next level adventurous!';
             feedback = 'Your sexual ' +
                 'playfulness is definitely on another level. You\'re up for '+
                 'trying lots of new things to spice things up and aren\'t ' +
