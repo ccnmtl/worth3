@@ -7,11 +7,16 @@
         var title = '';
         var feedback = '';
 
-
-        if (score <= 5) {
+        
+        if (score <= 0) {
+            title = 'learning to be adventurous!';
+            feedback = 'When you\'re ready, you can pick a number of ' +
+                'fun things from the list to spice things up while taking ' +
+                'care of yourself and your body.';
+        } else if (score <= 5) {
             title = 'A little adventurous!';
             feedback = 'You picked a number of ' +
-                'fun things from the list, you\'re definitely not shy! ' ;
+                'fun things from the list, you\'re definitely not shy! ';
         } else if (score <= 10) {
             title = 'A little adventurous!';
             feedback = 'You picked a number of ' +
@@ -46,7 +51,7 @@
                     'foolproof. There\'s still a risk of getting HIV/an STI ' +
                     'or becoming pregnant when using a condom, especially ' +
                     'if it breaks or comes off during sex. In addition, ' +
-                    'When you use a dental dam, be sure to ONLY use one ' +
+                    'when you use a dental dam, be sure to ONLY use one ' +
                     'side. Don\'t flip the dam over for another round ' +
                     'because you will expose yourself to the very fluids ' +
                     'you\'re trying to avoid! And do not re-use a dam on ' +
@@ -78,8 +83,8 @@
         }
         if ($container.find('input.special-4:checked').length > 0) {
             $special.append(
-                '<p>Trace partner\'s body with your tongue can be a very ' +
-                    'erotic and playful way to enjoy your partner. It is ' +
+                '<p>Tracing your partner\'s body with your tongue can be very ' +
+                    'erotic and playful. It is ' +
                     'important however to use dental dams and condoms when ' +
                     'tracing vaginal and anal body parts. It is also ' +
                     'important to avoid any areas from which bodily fluids ' +
