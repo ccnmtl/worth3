@@ -79,27 +79,24 @@ p, ol, ul, li {
 }
 
 /* all list items */
-.sidenav li
-{
+.sidenav li {
     list-style: none;
     margin-top: 1em!important;
-
 }
 
 /* all navigation menu links */
-.sidenav a
-{
+.sidenav a {
     text-decoration: none;
     display: block;
     color: #fff;
+    font-size: 1.25em;
 }
 
 /* when you mouse over all navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus { color: #f7ecf0; text-decoration: underline; }
 
 /* Position and style the close button (top right corner) */
-.sidenav .closebtn
-{
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -107,8 +104,7 @@ p, ol, ul, li {
     margin-left: 50px;
 }
 
-.sidenav ol.nav-toc
-{
+.sidenav ol.nav-toc {
     padding-left: 1.25em;
 }
 
@@ -257,4 +253,8 @@ ul.proud-of {
 
 .myth-fact .learn-more {
     margin-top: 20px;
+}
+
+.form-check {
+    margin-bottom: 1em;
 }
