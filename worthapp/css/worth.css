@@ -1,26 +1,32 @@
-@media only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5)
-{
-    body { font-size: 150%; }
-    body button.btn { font-size: 110%; }
-}
-
 body {
     background-color: #932951;
     background-image: url("../img/floral-screen-025.png");
     background-repeat: no-repeat;
     background-position: top right;
     background-attachment: static;
+    font-family: arial, helvetica, sans-serif !important,
+    font-size: 1em;
 }
 
-h1, h2, h3, h4,h5 {color: #932951; font-family: arial, helvetica, sans-serif!important}
+h1, h2, h3, h4,h5 {
+    color: #932951; 
+}
 
-.swiper-slide h1 {font-size: 1.5em;}
-.swiper-slide h2 {font-size: 3em;}
+p, ol, ul, li {
+    color: #000000;
+}
 
-p, ol, ul, li {color: #000000; font-family: arial, helvetica, sans-serif!important}
+.swiper-slide {
+    font-size: 1.5em;
+}
+
+.swiper-slide h1, .swiper-slide button {
+    font-size: 1em;
+}
+
+.swiper-slide h2 {
+    font-size: 2em;
+}
 
 .hidden { display: none; }
 .safety .row { margin-bottom: 1em; }
@@ -35,8 +41,7 @@ p, ol, ul, li {color: #000000; font-family: arial, helvetica, sans-serif!importa
  * displaying buttons wider than the .container. This is a workaround.
  */
 
-.btn-block
-{
+.btn-block {
     width: 90%;
     margin: 0 auto;
 }
@@ -107,22 +112,13 @@ p, ol, ul, li {color: #000000; font-family: arial, helvetica, sans-serif!importa
     padding-left: 1.25em;
 }
 
-.sidenav ol.nav-toc>li
-{
-    font-weight: bold; font-size: 1.5em; border-top: 1px solid #fff; padding-top: .5em; color: #f7ecf0;
+.sidenav ol.nav-toc>li {
+    border-top: 1px solid #fff; padding-top: .5em; color: #f7ecf0;
 }
 
-.sidenav ol.nav-toc ol
-{
-padding-left: 0em;
+.sidenav ol.nav-toc ol {
+    padding-left: 0em;
 }
-
-.sidenav ol.nav-toc ol li
-{
-    font-weight: normal; font-size: .7em;
-}
-
-
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main { padding: 20px; }
@@ -132,7 +128,6 @@ padding-left: 0em;
 @media screen and (max-height: 450px)
 {
     .sidenav { padding-top: 15px; }
-    .sidenav a { font-size: 18px; }
 }
 
 img.half-width { max-width: 50%; }
@@ -150,7 +145,7 @@ img#logo {
 
 .swiper-slide .container {
     background-color: rgba(247,236,240,1);
-    padding: 3em;
+    padding: 1.25em 2em;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -208,11 +203,12 @@ ol.toc li li {font-weight: normal;}
 .feelings .feelings-choice img {
     width: 20%;
 }
+
 .ssnm-closeness-container {
     position: relative;
     left: 80px;
     top: -20px;
-    font-size: 1.75rem;
+    font-size: 1.25em;
 }
 
 .ssnm-button {margin-top: 1em;}
@@ -226,7 +222,7 @@ ol.toc li li {font-weight: normal;}
 }
 .ssnm-questions .col-md-1 img {max-width: 65%;}
 
-.ssnm-me {font-size: 1.75rem;}
+.ssnm-me {font-size: 1.25em;}
 
 .nametag {margin-top: 2em; margin-bottom: 2em; margin-left: 20%; margin-right: 20%;}
 .nametag .card-header, .nametag .card-footer {background-color: #932951;}
@@ -236,14 +232,12 @@ ol.toc li li {font-weight: normal;}
 .progress {background-color: #fafafa; margin-top: 1em;}
 .progress-bar {height: 1.5em; padding: .5em 0em;}
 
-.alert p {font-size: 1.5em;}
-
 .swipe-to-move-on {
     text-align: right;
     margin-right: 0px;
     margin-top: 12px;
     color: #000000;
-    font-size: 1.75rem;
+    font-size: 1em;
 }
 
 .my-commitment-choice {
