@@ -12,13 +12,17 @@
         $container.find('.ssnm-closeness-choice').text(closeness);
 
         if (emotionalSupport) {
-            $container.find('.ssnm-emotional-choice').text('Emotional');
+            $container.find('.ssnm-emotional-choice').html(
+                '<img class="img-fluid" src="img/icon-heart.png">' +
+                '<span>Emotional Support</span>');
         } else {
             $container.find('.ssnm-emotional-choice').text('');
         }
 
         if (practicalSupport) {
-            $container.find('.ssnm-practical-choice').text('Practical');
+            $container.find('.ssnm-practical-choice').html(
+                '<img class="img-fluid" src="img/icon-wrench.png">' +
+                '<span>Practical Support</span>');
         } else {
             $container.find('.ssnm-practical-choice').text('');
         }
