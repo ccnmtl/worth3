@@ -14,7 +14,7 @@
         if (emotionalSupport) {
             $container.find('.ssnm-emotional-choice').html(
                 '<img class="img-fluid" src="img/icon-heart.png">' +
-                '<span>Emotional Support</span>');
+                '<span>Emotional</span>');
         } else {
             $container.find('.ssnm-emotional-choice').text('');
         }
@@ -22,7 +22,7 @@
         if (practicalSupport) {
             $container.find('.ssnm-practical-choice').html(
                 '<img class="img-fluid" src="img/icon-wrench.png">' +
-                '<span>Practical Support</span>');
+                '<span>Practical</span>');
         } else {
             $container.find('.ssnm-practical-choice').text('');
         }
