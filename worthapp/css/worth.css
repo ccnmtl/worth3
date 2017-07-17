@@ -139,13 +139,14 @@ img#logo {
 
 .swiper-wrapper {margin-top: 3em; margin-left: 1.5em;}
 
-.swiper-slide .container {
+section.container-fluid {
     background-color: rgba(247,236,240,1);
-    padding: 1.25em 2em;
+    padding: 3em;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     min-height: 600px;
+    margin: 0em 6em 0em 6em;
 }
 
 .progress {margin-bottom: 3em;}
