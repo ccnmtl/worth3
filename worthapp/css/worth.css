@@ -46,6 +46,7 @@ p, ol, ul, li {
     margin: 0 auto;
 }
 
+
 .container.feeling .row { text-align: center; }
 
 .toggle-toc-icon
@@ -217,7 +218,8 @@ ol.toc li li {font-weight: normal;}
     align-items: center;
     justify-content: center;
 }
-.ssnm-questions .col-md-1 img {max-width: 65%;}
+
+.ssnm-questions .form-check-input {margin-top: 0.5em;}
 
 .ssnm-me {font-size: 1.25em;}
 

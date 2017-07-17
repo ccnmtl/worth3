@@ -35,8 +35,8 @@
         var name = '';
         var closeness = 'Very Close';
         var influence = 'Positive';
-        var emotionalSupport = true;
-        var practicalSupport = true;
+        var emotionalSupport = false;
+        var practicalSupport = false;
 
         $container.find('input[name="ssnm-special-person"]').change(function(e) {
             name = $.trim(e.target.value);
@@ -46,14 +46,14 @@
         });
 
         $container.find('input[name="ssnm-closeness"]').change(function() {
-            closeness = $.trim($(this).closest('label').text());
+            closeness = $(this).data('label');
             updateChoices(
                 $(this).closest('.container-fluid'), name, closeness,
                 influence, emotionalSupport, practicalSupport);
         });
 
         $container.find('input[name="ssnm-influence"]').change(function() {
-            influence = $.trim($(this).closest('label').text());
+            influence = $(this).data('label');
             updateChoices(
                 $(this).closest('.container-fluid'), name, closeness,
                 influence, emotionalSupport, practicalSupport);
