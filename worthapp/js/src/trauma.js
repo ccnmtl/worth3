@@ -2,7 +2,7 @@
 
 (function() {
     $(document).ready(function() {
-        var $container = $('.container.sofias-trauma');
+        var $container = $('.container-fluid.sofias-trauma');
         initActivityPanels($container);
 
         $container.find('button.get-answers').click(onClickGetAnswers);

@@ -13,7 +13,7 @@
     };
 
     $(document).ready(function() {
-        var $container = $('.container.myth-fact');
+        var $container = $('.container-fluid.myth-fact');
         initActivityPanels($container);
 
         $container.find('button.myth-fact-correct').click(function(e) {

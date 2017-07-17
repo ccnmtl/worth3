@@ -42,7 +42,7 @@
     };
 
     $(document).ready(function() {
-        var $container = $('.container.protective-behaviors');
+        var $container = $('.container-fluid.protective-behaviors');
         initActivityPanels($container);
 
         $container.find('.pb-buttons button').click(function(e) {
@@ -57,7 +57,7 @@
                 $this.toggleClass('btn-success');
             }
 
-            var $myContainer = $this.closest('.container');
+            var $myContainer = $this.closest('.container-fluid');
 
             // Calculate risk level based on the user's answers
             var riskLevel = calculateRiskLevel($myContainer);

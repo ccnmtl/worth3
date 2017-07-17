@@ -2,7 +2,7 @@
 
 (function() {
     $(document).ready(function() {
-        var $container = $('.container.assessing-relationships');
+        var $container = $('.container-fluid.assessing-relationships');
         initActivityPanels($container);
 
         $container.find('button.check-answer').click(function(e) {
@@ -23,7 +23,7 @@
         $container.find('button.get-answers').click(function() {
             var $this = $(this);
 
-            var $container = $this.parents('.container').first();
+            var $container = $this.parents('.container-fluid').first();
             if ($container.find('input[type="radio"][value="answer-1"]')
                 .slice(0,3).is(':checked')) {
                 $container.find('.serious-concerns').show();

@@ -8,11 +8,11 @@
     };
 
     $(document).ready(function() {
-        var $container = $('.container.i-am-worth-it');
+        var $container = $('.container-fluid.i-am-worth-it');
 
         $container.on('click', '.d-flex button', function(e) {
             e.preventDefault();
-            var $myContainer = $(this).closest('.container');
+            var $myContainer = $(this).closest('.container-fluid');
             var attr = $.trim($(this).text()).toLowerCase();
 
             $myContainer.find('.worth-it-attr').text(attr + '.');
@@ -25,7 +25,7 @@
 
         $container.find('button.s0').click(function(e) {
             e.preventDefault();
-            var $myContainer = $(this).closest('.container');
+            var $myContainer = $(this).closest('.container-fluid');
             $(this).closest('div.panel').addClass('hidden');
             resetActivity($myContainer);
         });
