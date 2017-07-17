@@ -18,7 +18,7 @@
     };
 
     $(document).ready(function() {
-        var $container = $('.container.things-i-am-proud-of');
+        var $container = $('.container-fluid.things-i-am-proud-of');
         initActivityPanels($container);
 
         $container.on('click', '.d-flex button', function(e) {
@@ -26,12 +26,12 @@
 
             $(this).toggleClass('active btn-success');
 
-            updateThingsImProudOf($(this).closest('.container'));
+            updateThingsImProudOf($(this).closest('.container-fluid'));
         });
 
         $container.find('button.s0').click(function(e) {
             e.preventDefault();
-            var $myContainer = $(this).closest('.container');
+            var $myContainer = $(this).closest('.container-fluid');
             $(this).closest('div.panel').addClass('hidden');
             resetActivity($myContainer);
         });

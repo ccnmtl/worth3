@@ -25,7 +25,7 @@
     };
 
     $(document).ready(function() {
-        var $container = $('.container.ssnm');
+        var $container = $('.container-fluid.ssnm');
         initActivityPanels($container);
 
         var name = '';
@@ -37,21 +37,21 @@
         $container.find('input[name="ssnm-special-person"]').change(function(e) {
             name = $.trim(e.target.value);
             updateChoices(
-                $(this).closest('.container'), name, closeness,
+                $(this).closest('.container-fluid'), name, closeness,
                 influence, emotionalSupport, practicalSupport);
         });
 
         $container.find('input[name="ssnm-closeness"]').change(function() {
             closeness = $.trim($(this).closest('label').text());
             updateChoices(
-                $(this).closest('.container'), name, closeness,
+                $(this).closest('.container-fluid'), name, closeness,
                 influence, emotionalSupport, practicalSupport);
         });
 
         $container.find('input[name="ssnm-influence"]').change(function() {
             influence = $.trim($(this).closest('label').text());
             updateChoices(
-                $(this).closest('.container'), name, closeness,
+                $(this).closest('.container-fluid'), name, closeness,
                 influence, emotionalSupport, practicalSupport);
         });
 
@@ -59,7 +59,7 @@
             .change(function() {
                 emotionalSupport = this.checked;
                 updateChoices(
-                    $(this).closest('.container'), name, closeness,
+                    $(this).closest('.container-fluid'), name, closeness,
                     influence, emotionalSupport, practicalSupport);
             });
 
@@ -67,7 +67,7 @@
             .change(function() {
                 practicalSupport = this.checked;
                 updateChoices(
-                    $(this).closest('.container'), name, closeness,
+                    $(this).closest('.container-fluid'), name, closeness,
                     influence, emotionalSupport, practicalSupport);
             });
     });

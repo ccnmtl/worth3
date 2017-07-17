@@ -9,7 +9,7 @@
     };
 
     $(document).ready(function() {
-        initActivity($('.container.self-talk-3'));
-        initActivity($('.container.self-talk-4'));
+        initActivity($('.container-fluid.self-talk-3'));
+        initActivity($('.container-fluid.self-talk-4'));
     });
 })();

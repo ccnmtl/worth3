@@ -7,12 +7,12 @@
     };
 
     $(document).ready(function() {
-        var $container = $('.container.feelings');
+        var $container = $('.container-fluid.feelings');
 
         $container.on('click', 'figure', function(e) {
             e.preventDefault();
             var $this = $(this);
-            var $myContainer = $this.closest('.container');
+            var $myContainer = $this.closest('.container-fluid');
             var feeling = $.trim($this.find('img').attr('alt'));
             var src = $.trim($this.find('img').attr('src'));
 
@@ -26,7 +26,7 @@
 
         $container.find('button.s0').click(function(e) {
             e.preventDefault();
-            var $myContainer = $(this).closest('.container');
+            var $myContainer = $(this).closest('.container-fluid');
             $(this).closest('div.panel').addClass('hidden');
             resetActivity($myContainer);
         });

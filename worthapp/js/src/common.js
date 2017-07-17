@@ -38,7 +38,7 @@ var bindActivityButtons = function($container, idx, total) {
 
         // Only advance the panel of the activity where this
         // button was clicked.
-        var $myContainer = $(this).closest('.container');
+        var $myContainer = $(this).closest('.container-fluid');
 
         advanceToPanel($myContainer, idx, total);
     });

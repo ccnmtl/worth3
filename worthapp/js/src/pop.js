@@ -3,8 +3,10 @@
 
 (function() {
     $(document).ready(function() {
-        var $container =
-            $('.container.popping-our-problems, .container.practicing-pop');
+        var selector =
+            '.container-fluid.popping-our-problems, ' +
+            '.container-fluid.practicing-pop';
+        var $container = $(selector);
         initActivityPanels($container);
 
         $container.find('button.get-answers').click(onClickGetAnswers);
