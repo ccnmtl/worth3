@@ -32,13 +32,13 @@
     };
 
     $(document).ready(function() {
-        var $container = $('.container.reflection');
+        var $container = $('.container-fluid.reflection');
         initActivityPanels($container);
         var reflections = [];
 
         $container.find('input[type="checkbox"]').change(function(e) {
             e.preventDefault();
-            var $myContainer = $(this).closest('.container.reflection');
+            var $myContainer = $(this).closest('.container-fluid.reflection');
             reflections = getSelectedReflections($myContainer);
             updateReflectionPoints($myContainer, reflections);
         });

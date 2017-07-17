@@ -2,7 +2,7 @@
 
 (function() {
     $(document).ready(function() {
-        var $container = $('.container.check-out-what-youve-learned');
+        var $container = $('.container-fluid.check-out-what-youve-learned');
         initActivityPanels($container);
 
         $container.find('button.get-answers').click(onClickGetAnswers);

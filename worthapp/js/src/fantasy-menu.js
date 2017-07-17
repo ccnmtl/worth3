@@ -113,12 +113,12 @@
     };
 
     $(document).ready(function() {
-        var $container = $('.container.fantasy-menu');
+        var $container = $('.container-fluid.fantasy-menu');
         initActivityPanels($container);
 
         $container.find('input').change(function(e) {
             e.preventDefault();
-            updateFeedback($(this).closest('.container'));
+            updateFeedback($(this).closest('.container-fluid'));
         });
     });
 })();
