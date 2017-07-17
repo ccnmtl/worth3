@@ -72,7 +72,7 @@ var isFormComplete = function($container) {
             if (this.type === 'checkbox' || this.type === 'radio') {
                 // one in the group needs to be checked
                 var selector = 'input[name=' + $(this).attr('name') + ']';
-                valid = $(selector).is(':checked');
+                valid = $container.find(selector).is(':checked');
             }
         }
     });
