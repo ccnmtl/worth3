@@ -14,8 +14,6 @@
             preloadImages: false,
             onSlideChangeStart: function(s) {
                 pauseVideos($(s.slides[s.activeIndex]));
-                pauseVideos($(s.slides[s.activeIndex - 1]));
-                pauseVideos($(s.slides[s.activeIndex + 1]));
             },
             onSlideChangeEnd: function(s) {
                 highlightTocItem(
