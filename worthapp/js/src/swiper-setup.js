@@ -12,18 +12,18 @@
     $(document).ready(function () {
         var swiper = new Swiper('.swiper-container', {
             preloadImages: false,
-            onSlideChangeStart: function(s) {
-                pauseVideos($(s.slides[s.activeIndex]));
+            onSlideNextStart: function(s) {
+                $(document).scrollTop(0);
                 pauseVideos($(s.slides[s.activeIndex - 1]));
+            },
+            onSlidePrevStart: function(s) {
+                $(document).scrollTop(0);
                 pauseVideos($(s.slides[s.activeIndex + 1]));
             },
             onSlideChangeEnd: function(s) {
                 highlightTocItem(
                     $('ol.nav-toc'),
                     utils.idx2id(s.activeIndex, sessionLengths));
-            },
-            onSlideNextStart: function() {
-                $(document).scrollTop(0);
             }
         });
 
