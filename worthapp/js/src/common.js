@@ -41,7 +41,6 @@ var advanceToPanel = function($container, i, total) {
     $(document).scrollTop(0);
 
     pauseVideos($container);
-    readyVideos($container);
 };
 
 var bindActivityButtons = function($container, idx, total) {
