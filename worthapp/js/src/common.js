@@ -1,21 +1,11 @@
 /* global $ */
 /* eslint-env es6 */
 /* exported updateProgressBar, advanceToPanel, initActivityPanels */
-/* exported pauseVideos, readyVideos, isFormComplete, onClickGetAnswers */
+/* exported pauseVideos, isFormComplete, onClickGetAnswers */
 
 /*
  * Stop playback of any playing videos in the given container.
  */
-
-var readyVideos = function($container) {
-    if ($container) {
-        $.each($container.find('video'), function() {
-            if (this.readyState !== 4) {
-                this.load(); // reload
-            }
-        });
-    }
-};
 
 var pauseVideos = function($container) {
     if ($container) {
