@@ -1,5 +1,5 @@
 /* eslint-env jquery */
-/* globals Swiper, sessionLengths, utils, pauseVideos, readyVideos */
+/* globals Swiper, sessionLengths, utils, pauseVideos */
 
 (function() {
     var highlightTocItem = function($toc, id) {
@@ -15,12 +15,10 @@
             onSlideNextStart: function(s) {
                 $(document).scrollTop(0);
                 pauseVideos($(s.slides[s.activeIndex - 1]));
-                readyVideos($(s.slides[s.activeIndex]));
             },
             onSlidePrevStart: function(s) {
                 $(document).scrollTop(0);
                 pauseVideos($(s.slides[s.activeIndex + 1]));
-                readyVideos($(s.slides[s.activeIndex]));
             },
             onSlideChangeEnd: function(s) {
                 highlightTocItem(
