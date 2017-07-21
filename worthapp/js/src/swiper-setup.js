@@ -1,5 +1,5 @@
 /* eslint-env jquery */
-/* globals Swiper, sessionLengths, utils, pauseVideos */
+/* globals Swiper, sessionLengths, utils, pauseVideos, readyProgressBar */
 
 (function() {
     var highlightTocItem = function($toc, id) {
