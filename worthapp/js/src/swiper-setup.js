@@ -1,5 +1,6 @@
 /* eslint-env jquery */
 /* globals Swiper, sessionLengths, utils, pauseVideos, readyVideos */
+/* globals readyProgressBar */
 
 (function() {
     var highlightTocItem = function($toc, id) {
@@ -26,7 +27,7 @@
                 highlightTocItem(
                     $('ol.nav-toc'),
                     utils.idx2id(s.activeIndex, sessionLengths));
-
+                readyProgressBar($(s.slides[s.activeIndex]));
             }
         });
 
