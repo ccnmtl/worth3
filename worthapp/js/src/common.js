@@ -3,15 +3,15 @@
 /* exported updateProgressBar, advanceToPanel, initActivityPanels */
 /* exported pauseVideos, readyProgressBar, isFormComplete, onClickGetAnswers */
 
-/*
- * Stop playback of any playing videos in the given container.
- */
 
 var readyProgressBar = function($container) {
     var total = $container.find('.panel').length;
     updateProgressBar($container, 0, total);
 };
 
+/*
+ * Stop playback of any playing videos in the given container.
+ */
 var pauseVideos = function($container) {
     if ($container) {
         $.each($container.find('video'), function() {
