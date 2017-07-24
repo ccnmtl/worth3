@@ -1,11 +1,16 @@
 /* global $ */
 /* eslint-env es6 */
 /* exported updateProgressBar, advanceToPanel, initActivityPanels */
-/* exported pauseVideos, isFormComplete, onClickGetAnswers */
+/* exported pauseVideos, readyProgressBar, isFormComplete, onClickGetAnswers */
 
 /*
  * Stop playback of any playing videos in the given container.
  */
+
+var readyProgressBar = function($container) {
+    var total = $container.find('.panel').length;
+    updateProgressBar($container, 0, total);
+};
 
 var pauseVideos = function($container) {
     if ($container) {
@@ -17,17 +22,24 @@ var pauseVideos = function($container) {
     }
 };
 
-var updateProgressBar = function($container, percentage) {
+var updateProgressBar = function($container, i, total) {
+    var idx = i + 1;
+    var percentage = ((idx / total) * 100).toFixed();
+    
     var $bar = $container.find('.progress-bar');
     $bar.css('width', percentage + '%');
     $bar.attr('aria-valuenow', percentage);
+
+    $container.find('span.page-number').html(idx);
+    $container.find('span.page-total').html(total);
+    $container.find('span.progress-primary').html(percentage + '%');
 };
 
 var advanceToPanel = function($container, i, total) {
     $container.find('div.panel:not(.s' + i + ')').addClass('hidden');
     $container.find('div.s' + i).removeClass('hidden');
     $container.find('.answers-required').hide();
-    updateProgressBar($container, (i / total) * 100);
+    updateProgressBar($container, i, total + 1);
     $(document).scrollTop(0);
 
     pauseVideos($container);
