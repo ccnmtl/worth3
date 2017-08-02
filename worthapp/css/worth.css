@@ -142,7 +142,7 @@ img#logo {
 
 section.container-fluid {
     background-color: rgba(247,236,240,1);
-    padding: 3em;
+    padding: 2em 3em 2em 3em;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -150,7 +150,6 @@ section.container-fluid {
     margin: 0em 6em 0em 6em;
 }
 
-.progress {margin-bottom: 3em;}
 .alert {margin-top: 2em;}
 .alert-heading {font-weight: bold;}
 .btn-primary {background-color: #932951; border-color: #932951;}
@@ -240,8 +239,23 @@ ol.toc li li {font-weight: normal;}
 .nametag .card-block {background-color: #fff;}
 .nametag .card-header h1 {color: #fff;}
 
-.progress {background-color: #fafafa; margin-top: 1em;}
-.progress-bar {height: 1.5em; padding: .5em 0em;}
+.progress {
+    margin: 0 auto 3em auto;
+    width: 80%;
+    background-color: #ccc;
+    border-radius: 0;
+}
+
+.progress-text {
+    font-size: .65em;
+    margin: 1.5em auto .5em auto;
+    width: 80%;
+}
+
+.progress-bar {
+    height: 0.4rem;
+    background-color: #29936b !important;
+}
 
 .swipe-to-move-on {
     text-align: right;
