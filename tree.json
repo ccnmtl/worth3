@@ -594,8 +594,8 @@
             },
             {
                 "title": "Congratulations",
-                "subtitle": "Thank you!<br /><br />You are WORTH it!",
-                "template": "title-page"
+                "subtitle": "Congratulations and thank you!",
+                "template": "final-page"
 
             }
         ]
