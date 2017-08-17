@@ -5,7 +5,9 @@
             {
                 "title": "Session 1",
                 "subtitle": "Session 1: Beginning the Journey",
-                "template": "title-page"
+                "template": "title-page",
+                "title-image": "sessions/beginning-the-journey-1.jpeg",
+                "title-image2": "sessions/beginning-the-journey-2.jpeg"
             },
             {
                 "title": "Welcome to Session 1!",
@@ -83,7 +85,9 @@
             {
                 "title": "Session 2",
                 "subtitle": "Session 2: Taking in the View",
-                "template": "title-page"
+                "template": "title-page",
+                "title-image": "sessions/taking-in-the-view-1.jpeg",
+                "title-image2": "sessions/taking-in-the-view-2.jpeg"
             },
             {
                 "title": "Welcome to Session 2!",
@@ -224,7 +228,9 @@
             {
                 "title": "Session 3",
                 "subtitle": "Session 3: Planning for Safety",
-                "template": "title-page"
+                "template": "title-page",
+                "title-image": "sessions/planning-for-safety-1.jpeg",
+                "title-image2": "sessions/planning-for-safety-2.jpeg"
             },
             {
                 "title": "Welcome to Session 3!",
@@ -355,7 +361,9 @@
             {
                 "title": "Session 4",
                 "subtitle": "Session 4: Staying Strong",
-                "template": "title-page"
+                "template": "title-page",
+                "title-image": "sessions/staying-strong-1.jpeg",
+                "title-image2": "sessions/staying-strong-2.jpeg"
             },
             {
                 "title": "Welcome to Session 4!",
@@ -509,7 +517,8 @@
             {
                 "title": "Session 5",
                 "subtitle": "Session 5: Keeping it Going",
-                "template": "title-page"
+                "template": "final-title-page",
+                "title-image": "sessions/keeping-it-going-1.jpeg"
             },
             {
                 "title": "Welcome to Session 5!",

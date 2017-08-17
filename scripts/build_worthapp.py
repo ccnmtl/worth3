@@ -106,6 +106,20 @@ def render_page(page, page_num, session_num, session_title, session_length):
     else:
         page_out = page_out.replace('{% IMG2 %}', '')
 
+    if page.get('title-image'):
+        img_tag = '<img class="img-fluid" src="img/{}">'.format(
+            page.get('title-image'))
+        page_out = page_out.replace('{% TITLEIMG %}', img_tag)
+    else:
+        page_out = page_out.replace('{% TITLEIMG %}', '')
+
+    if page.get('title-image2'):
+        img_tag = '<img class="img-fluid" src="img/{}">'.format(
+            page.get('title-image2'))
+        page_out = page_out.replace('{% TITLEIMG2 %}', img_tag)
+    else:
+        page_out = page_out.replace('{% TITLEIMG2 %}', '')
+
     return BeautifulSoup(page_out, 'html.parser')
 
 
