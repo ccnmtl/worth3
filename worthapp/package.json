@@ -19,6 +19,6 @@
   "homepage": "https://github.com/ccnmtl/worth3#readme",
   "devDependencies": {
     "eslint": "^4.18.2",
-    "mocha": "^3.4.2"
+    "mocha": "^7.1.2"
   }
 }
