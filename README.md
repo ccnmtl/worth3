@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/ccnmtl/worth3/workflows/build-and-test/badge.svg)](https://github.com/ccnmtl/worth3/actions)
+
 # worth3
 WORTH prototypes as an EPUB and offline HTML5 app.
 
