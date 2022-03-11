@@ -8,9 +8,9 @@ jobs:
         node-version: [12.x]
     steps:
       - uses: actions/checkout@v2
-      - name: npm install
-        run: npm install
       - name: Build with Makefile
+        run: make
+      - name: Lint
         run: make eslint
       - name: Test
         run: make jstest
