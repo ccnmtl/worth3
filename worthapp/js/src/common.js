@@ -1,9 +1,11 @@
+// eslint-disable-next-line no-redeclare
 /* global $ */
 /* eslint-env es6 */
 /* exported updateProgressBar, advanceToPanel, initActivityPanels */
 /* exported pauseVideos, readyProgressBar, isFormComplete, onClickGetAnswers */
 
 
+// eslint-disable-next-line no-unused-vars
 var readyProgressBar = function($container) {
     var total = $container.find('.panel').length;
     updateProgressBar($container, 0, total);
@@ -61,6 +63,7 @@ var bindActivityButtons = function($container, idx, total) {
  * Sets up the panel advancement behavior for the given activity
  * container.
  */
+// eslint-disable-next-line no-unused-vars
 var initActivityPanels = function($container) {
     $container.each(function() {
         var $this = $(this);
@@ -93,6 +96,7 @@ var isFormComplete = function($container) {
     return valid;
 };
 
+// eslint-disable-next-line no-unused-vars
 var onClickGetAnswers = function(e) {
     e.preventDefault();
 
