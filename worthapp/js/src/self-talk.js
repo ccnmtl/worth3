@@ -1,4 +1,5 @@
 /* eslint-env es6 */
+// eslint-disable-next-line no-redeclare
 /* global $, initActivityPanels, onClickGetAnswers */
 
 (function() {

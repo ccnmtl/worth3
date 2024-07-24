@@ -1,6 +1,8 @@
 /* eslint-env mocha, node */
 
+// eslint-disable-next-line no-undef
 var assert = require('assert');
+// eslint-disable-next-line no-undef
 var utils = require('../src/utils.js').utils;
 
 var sessionLengths = [10, 5, 15, 10, 20];
