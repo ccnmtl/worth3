@@ -1,4 +1,4 @@
-/* global $, initActivityPanels, onClickGetAnswers */
+/* global initActivityPanels, onClickGetAnswers */
 
 (function() {
     $(document).ready(function() {

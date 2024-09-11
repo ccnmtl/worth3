@@ -1,5 +1,5 @@
 /* eslint-env es6 */
-/* global $, initActivityPanels, onClickGetAnswers */
+/* global initActivityPanels, onClickGetAnswers */
 
 (function() {
     var initActivity = function($container) {

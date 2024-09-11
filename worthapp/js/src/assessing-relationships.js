@@ -1,4 +1,4 @@
-/* global $, initActivityPanels, isFormComplete */
+/* global initActivityPanels, isFormComplete */
 
 (function() {
     $(document).ready(function() {

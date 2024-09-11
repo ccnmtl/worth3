@@ -1,5 +1,5 @@
 /* eslint-env es6 */
-/* global $, initActivityPanels */
+/* global initActivityPanels */
 
 (function() {
     var updateChoices = function(

@@ -15,7 +15,7 @@ $(JS_SENTINAL): $(JS_ROOT)/package.json
 	touch $(JS_SENTINAL)
 
 eslint: $(JS_SENTINAL)
-	$(ESLINT) $(JS_FILES)
+	cd $(JS_ROOT) && npm run eslint
 
 jstest: $(JS_SENTINAL)
 	cd $(JS_ROOT) && npm test
