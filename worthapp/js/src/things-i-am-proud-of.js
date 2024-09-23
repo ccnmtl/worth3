@@ -1,4 +1,4 @@
-/* global $, updateProgressBar, initActivityPanels */
+/* global updateProgressBar, initActivityPanels */
 
 (function() {
     var resetActivity = function($container) {

@@ -1,4 +1,4 @@
-/* global $, initActivityPanels */
+/* global initActivityPanels */
 
 (function() {
     var updateFeedback = function($container) {

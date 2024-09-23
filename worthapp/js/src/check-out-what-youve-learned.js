@@ -1,4 +1,4 @@
-/* global $, initActivityPanels, onClickGetAnswers, isFormComplete */
+/* global initActivityPanels, onClickGetAnswers, isFormComplete */
 
 (function() {
     $(document).ready(function() {

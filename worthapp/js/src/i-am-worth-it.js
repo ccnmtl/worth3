@@ -1,4 +1,4 @@
-/* global $, updateProgressBar */
+/* global updateProgressBar */
 
 (function() {
     var resetActivity = function($container) {
