@@ -1,4 +1,3 @@
-/* eslint-env es6 */
 /*eslint no-unused-vars: "error"*/
 /* exported updateProgressBar, advanceToPanel, initActivityPanels */
 /* exported pauseVideos, readyProgressBar, isFormComplete, onClickGetAnswers */

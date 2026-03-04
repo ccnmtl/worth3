@@ -1,4 +1,3 @@
-/* eslint-env es6 */
 /* global initActivityPanels */
 
 (function() {
