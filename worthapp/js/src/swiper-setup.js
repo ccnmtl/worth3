@@ -1,4 +1,3 @@
-/* eslint-env jquery */
 /* globals Swiper, sessionLengths, utils, pauseVideos, readyProgressBar */
 
 (function() {

@@ -4,7 +4,9 @@
     var updateFeedback = function($container) {
         var score = $container.find('input:checked').length;
 
+        // eslint-disable-next-line no-useless-assignment
         var title = '';
+        // eslint-disable-next-line no-useless-assignment
         var feedback = '';
 
         

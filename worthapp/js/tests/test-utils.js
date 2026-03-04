@@ -1,5 +1,3 @@
-/* eslint-env mocha, node */
-
 var assert = require('assert');
 var utils = require('../src/utils.js').utils;
 

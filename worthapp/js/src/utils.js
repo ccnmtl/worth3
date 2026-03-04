@@ -1,5 +1,3 @@
-/* eslint-env node */
-
 var utils = {};
 
 (function() {
